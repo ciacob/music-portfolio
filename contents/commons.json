@@ -1,10 +1,166 @@
 {
   "site": {
-    "name": "My Site",
-    "description": "A site built with Statico.",
-    "languages": [
-      "en"
-    ],
+    "title": {
+      "en": "Andrei Ciocîrlan",
+      "ro": "Andrei Ciocîrlan"
+    },
+    "tagline": {
+      "en": "Composer",
+      "ro": "Compozitor"
+    },
+    "copyright": {
+      "en": "Andrei Ciocîrlan. All rights reserved.",
+      "ro": "Andrei Ciocîrlan. Toate drepturile rezervate."
+    },
+    "languages": ["en", "ro"],
     "defaultLanguage": "en"
+  },
+
+  "nav": [
+    {
+      "slug": "home",
+      "label": { "en": "Home", "ro": "Acasă" },
+      "path": "home.html"
+    },
+    {
+      "slug": "portfolio",
+      "label": { "en": "Portfolio", "ro": "Portofoliu" },
+      "path": "portfolio/music/directory.html"
+    },
+    {
+      "slug": "contact",
+      "label": { "en": "Contact", "ro": "Contact" },
+      "path": "contact.html"
+    }
+  ],
+
+  "home": {
+    "rider": {
+      "heading": {
+        "en": "Music that listens back",
+        "ro": "Muzică ce ascultă la rândul ei"
+      },
+      "subheading": {
+        "en": "Contemporary classical composition from Bucharest",
+        "ro": "Compoziție clasică contemporană din București"
+      },
+      "picture": "assets/images/rider.jpg",
+      "pictureAlt": {
+        "en": "Andrei Ciocîrlan at the piano",
+        "ro": "Andrei Ciocîrlan la pian"
+      }
+    },
+    "featured": {
+      "heading": { "en": "Featured works", "ro": "Lucrări reprezentative" },
+      "items": [
+        {
+          "slug": "nocturne-op1",
+          "description": {
+            "en": "A meditative exploration of silence and resonance.",
+            "ro": "O explorare meditativă a tăcerii și rezonanței."
+          }
+        },
+        {
+          "slug": "string-quartet-no2",
+          "description": {
+            "en": "Structured around folk modal scales from Oltenia.",
+            "ro": "Structurată pe scări modale folclorice din Oltenia."
+          }
+        },
+        {
+          "slug": "cantata-solis",
+          "description": {
+            "en": "A cantata for soprano, chorus and chamber orchestra.",
+            "ro": "Cantată pentru soprană, cor și orchestră de cameră."
+          }
+        }
+      ]
+    },
+    "bio": {
+      "heading": { "en": "About", "ro": "Despre" },
+      "text": {
+        "en": "<p>Andrei Ciocîrlan is a Bucharest-based composer working at the intersection of contemporary classical music and Romanian folk traditions. He studied composition at the National University of Music Bucharest and has received commissions from ensembles across Europe.</p><p>His music has been performed at festivals including SoNoRo, the George Enescu International Festival, and Europalia. He is currently working on a cycle of pieces for string quartet and electronics.</p>",
+        "ro": "<p>Andrei Ciocîrlan este un compozitor din București care lucrează la intersecția muzicii clasice contemporane cu tradițiile folclorice românești. A studiat compoziția la Universitatea Națională de Muzică București și a primit comenzi de la ansambluri din întreaga Europă.</p><p>Muzica sa a fost interpretată la festivaluri precum SoNoRo, Festivalul Internațional George Enescu și Europalia. În prezent lucrează la un ciclu de piese pentru cvartet de coarde și electronică.</p>"
+      }
+    }
+  },
+
+  "portfolio": {
+    "heading": { "en": "Music Portfolio", "ro": "Portofoliu Muzical" },
+    "subheading": {
+      "en": "A catalogue of completed and ongoing works",
+      "ro": "Un catalog al lucrărilor finalizate și în curs"
+    },
+    "filter": {
+      "labelTags": { "en": "Show works tagged", "ro": "Arată lucrările etichetate" },
+      "labelAll": { "en": "All", "ro": "Toate" },
+      "labelPhrase": { "en": "matching phrase", "ro": "conținând fraza" },
+      "labelIn": { "en": "search in", "ro": "caută în" },
+      "labelTitle": { "en": "title", "ro": "titlu" },
+      "labelSubtitle": { "en": "subtitle", "ro": "subtitlu" },
+      "labelSummary": { "en": "summary", "ro": "rezumat" },
+      "labelNotes": { "en": "program notes", "ro": "note de program" }
+    }
+  },
+
+  "contact": {
+    "heading": { "en": "Get in Touch", "ro": "Luați Legătura" },
+    "subheading": {
+      "en": "For commissions, performances, licensing and general enquiries.",
+      "ro": "Pentru comenzi, interpretări, licențiere și alte solicitări."
+    },
+    "means": [
+      {
+        "id": "email",
+        "icon": "assets/icons/email.svg",
+        "heading": { "en": "Email", "ro": "Email" },
+        "subheading": { "en": "Preferred for all formal enquiries", "ro": "Preferat pentru toate solicitările formale" },
+        "cta": {
+          "label": { "en": "Send a message", "ro": "Trimite un mesaj" },
+          "href": "mailto:andrei@example.com"
+        }
+      },
+      {
+        "id": "soundcloud",
+        "icon": "assets/icons/soundcloud.svg",
+        "heading": { "en": "SoundCloud", "ro": "SoundCloud" },
+        "subheading": { "en": "Stream selected recordings", "ro": "Ascultă înregistrări selectate" },
+        "cta": {
+          "label": { "en": "Visit profile", "ro": "Vizitează profilul" },
+          "href": "https://soundcloud.com/example"
+        }
+      },
+      {
+        "id": "imslp",
+        "icon": "assets/icons/imslp.svg",
+        "heading": { "en": "IMSLP", "ro": "IMSLP" },
+        "subheading": { "en": "Download freely available scores", "ro": "Descarcă partituri disponibile gratuit" },
+        "cta": {
+          "label": { "en": "View scores", "ro": "Vezi partiturile" },
+          "href": "https://imslp.org/example"
+        }
+      }
+    ]
+  },
+
+  "footer": {
+    "sections": [
+      {
+        "heading": { "en": "Works", "ro": "Lucrări" },
+        "headingHref": "portfolio/music/directory.html",
+        "text": {
+          "en": "Browse the full catalogue of compositions, filter by instrumentation or period, and download available scores.",
+          "ro": "Răsfoiți catalogul complet de compoziții, filtrați după instrumentație sau perioadă și descărcați partiturile disponibile."
+        }
+      },
+      {
+        "heading": { "en": "Contact", "ro": "Contact" },
+        "headingHref": "contact.html",
+        "text": {
+          "en": "Commissions, licensing, and performance enquiries are welcome. Response within five working days.",
+          "ro": "Comenzile, licențierea și solicitările de interpretare sunt binevenite. Răspuns în termen de cinci zile lucrătoare."
+        }
+      }
+    ]
   }
 }

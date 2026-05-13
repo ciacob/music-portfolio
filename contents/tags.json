@@ -1,0 +1,12 @@
+[
+  { "value": "piano",       "labels": { "en": "Piano",        "ro": "Pian" } },
+  { "value": "solo",        "labels": { "en": "Solo",         "ro": "Solo" } },
+  { "value": "chamber",     "labels": { "en": "Chamber",      "ro": "Cameră" } },
+  { "value": "orchestral",  "labels": { "en": "Orchestral",   "ro": "Orchestral" } },
+  { "value": "choral",      "labels": { "en": "Choral",       "ro": "Coral" } },
+  { "value": "vocal",       "labels": { "en": "Vocal",        "ro": "Vocal" } },
+  { "value": "folk",        "labels": { "en": "Folk-inspired","ro": "Folcloric" } },
+  { "value": "electronics", "labels": { "en": "Electronics",  "ro": "Electronică" } },
+  { "value": "string",      "labels": { "en": "Strings",      "ro": "Coarde" } },
+  { "value": "wind",        "labels": { "en": "Wind",         "ro": "Suflători" } }
+]
