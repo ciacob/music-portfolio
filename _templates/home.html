@@ -1,0 +1,52 @@
+{{partials.htmlOpen}}
+{{partials.siteHeader}}
+
+<main class="page-content" id="main-content">
+
+  <!-- RIDER -->
+  <aside class="rider" aria-label="{{current.riderLabel}}">
+    <div class="rider__inner">
+
+      <header class="rider__header">
+        <h1 class="rider__heading">{{current.riderHeading}}</h1>
+        <p class="rider__subheading">{{current.riderSubheading}}</p>
+      </header>
+
+      <figure class="rider__figure">
+        <img class="rider__image"
+             src="{{current.rootPath}}{{current.riderPicture}}"
+             alt="{{current.riderPictureAlt}}" />
+      </figure>
+
+      <section class="featured-works" aria-labelledby="featured-heading">
+        <h2 class="featured-works__heading" id="featured-heading">{{current.featuredHeading}}</h2>
+        <ul class="featured-works__list" role="list">
+{{current.featuredItems}}
+        </ul>
+      </section>
+
+    </div>
+  </aside>
+
+  <!-- BIO -->
+  <article class="bio" aria-labelledby="bio-heading">
+    <div class="bio__inner">
+      <h2 class="bio__heading" id="bio-heading">{{current.bioHeading}}</h2>
+      <div class="bio__text">{{current.bioText}}</div>
+    </div>
+  </article>
+
+  <!-- SIDEBAR: RECENT WORKS -->
+  <aside class="sidebar" aria-labelledby="recent-heading">
+    <div class="sidebar__inner">
+      <h2 class="sidebar__heading" id="recent-heading">{{current.recentHeading}}</h2>
+      <p class="sidebar__subheading">{{current.recentSubheading}}</p>
+      <div class="recent-works">
+{{current.recentItems}}
+      </div>
+    </div>
+  </aside>
+
+</main>
+
+{{partials.siteFooter}}

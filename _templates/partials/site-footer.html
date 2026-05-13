@@ -1,0 +1,38 @@
+<footer class="site-footer" role="contentinfo">
+  <div class="site-footer__inner">
+
+    <div class="footer__sections">
+{{current.footerSections}}
+    </div>
+
+    <p class="footer__copyright">
+      © {{current.copyrightName}} —
+      <span class="footer__last-updated">{{current.lastUpdatedLabel}} {{current.buildDate}}</span>
+    </p>
+
+  </div>
+</footer>
+
+<script>
+{{current.langSwitcherScript}}
+</script>
+<script>
+(function () {
+  var btn = document.querySelector('.site-header__hamburger');
+  var nav = document.getElementById('primary-nav');
+  if (!btn || !nav) return;
+  btn.addEventListener('click', function () {
+    var expanded = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', String(!expanded));
+    nav.classList.toggle('site-nav--open', !expanded);
+  });
+  document.addEventListener('click', function (e) {
+    if (!nav.contains(e.target) && !btn.contains(e.target)) {
+      btn.setAttribute('aria-expanded', 'false');
+      nav.classList.remove('site-nav--open');
+    }
+  });
+})();
+</script>
+</body>
+</html>

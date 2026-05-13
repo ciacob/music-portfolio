@@ -1,0 +1,150 @@
+{{partials.htmlOpen}}
+{{partials.siteHeader}}
+
+<main class="page-content" id="main-content">
+
+  <header class="page-header">
+    <h1 class="page-header__heading">{{current.heading}}</h1>
+    <p class="page-header__subheading">{{current.subheading}}</p>
+  </header>
+
+  <!-- FILTER PANEL -->
+  <section class="filter-panel" aria-label="{{current.filterLabel}}">
+    <div class="filter-panel__inner">
+
+      <fieldset class="filter-tags">
+        <legend class="filter-tags__legend">{{current.filterLabelTags}}</legend>
+{{current.tagFilters}}
+      </fieldset>
+
+      <div class="filter-phrase">
+        <label class="filter-phrase__label" for="filter-phrase-input">
+          {{current.filterLabelPhrase}}
+        </label>
+        <input class="filter-phrase__input"
+               id="filter-phrase-input"
+               type="search"
+               placeholder="…"
+               aria-label="{{current.filterLabelPhrase}}" />
+
+        <fieldset class="filter-phrase__fields">
+          <legend class="filter-phrase__fields-legend">{{current.filterLabelIn}}</legend>
+          <label class="filter-phrase__field-label">
+            <input type="checkbox" name="search-field" value="title" checked />
+            <span>{{current.filterLabelTitle}}</span>
+          </label>
+          <label class="filter-phrase__field-label">
+            <input type="checkbox" name="search-field" value="subtitle" />
+            <span>{{current.filterLabelSubtitle}}</span>
+          </label>
+          <label class="filter-phrase__field-label">
+            <input type="checkbox" name="search-field" value="summary" />
+            <span>{{current.filterLabelSummary}}</span>
+          </label>
+          <label class="filter-phrase__field-label">
+            <input type="checkbox" name="search-field" value="notes" />
+            <span>{{current.filterLabelNotes}}</span>
+          </label>
+        </fieldset>
+      </div>
+
+    </div>
+    <p class="filter-panel__count" aria-live="polite" aria-atomic="true">
+      <span id="filter-result-count"></span>
+    </p>
+  </section>
+
+  <!-- PIECE LIST -->
+  <section class="piece-list" aria-label="{{current.heading}}" id="piece-list">
+{{current.directoryItems}}
+  </section>
+
+</main>
+
+{{partials.siteFooter}}
+
+<script>
+(function () {
+  var list    = document.getElementById('piece-list');
+  var cards   = Array.from(list.querySelectorAll('.piece-card'));
+  var countEl = document.getElementById('filter-result-count');
+
+  function getActiveTags() {
+    var checked = Array.from(document.querySelectorAll('.filter-tags__checkbox:checked'));
+    var vals = checked.map(function (c) { return c.value; });
+    return vals.indexOf('__all__') !== -1 ? [] : vals;
+  }
+
+  function getPhrase() {
+    return (document.getElementById('filter-phrase-input').value || '').trim().toLowerCase();
+  }
+
+  function getSearchFields() {
+    return Array.from(document.querySelectorAll('[name="search-field"]:checked'))
+      .map(function (c) { return c.value; });
+  }
+
+  function applyFilters() {
+    var tags   = getActiveTags();
+    var phrase = getPhrase();
+    var fields = getSearchFields();
+    var visible = 0;
+
+    cards.forEach(function (card) {
+      var show = true;
+
+      if (tags.length > 0) {
+        var cardTags = (card.getAttribute('data-tags') || '').split(' ');
+        show = tags.every(function (t) { return cardTags.indexOf(t) !== -1; });
+      }
+
+      if (show && phrase) {
+        var haystack = fields.map(function (f) {
+          return (card.getAttribute('data-' + f) || '').toLowerCase();
+        }).join(' ');
+        show = haystack.indexOf(phrase) !== -1;
+      }
+
+      card.hidden = !show;
+      if (show) visible++;
+    });
+
+    if (countEl) countEl.textContent = visible + ' / ' + cards.length;
+  }
+
+  // Tag checkbox mutual exclusivity
+  document.querySelectorAll('.filter-tags__checkbox').forEach(function (cb) {
+    cb.addEventListener('change', function () {
+      if (cb.value === '__all__') {
+        if (cb.checked) {
+          document.querySelectorAll('.filter-tags__checkbox').forEach(function (other) {
+            if (other.value !== '__all__') other.checked = false;
+          });
+        }
+      } else {
+        if (cb.checked) {
+          var allCb = document.querySelector('.filter-tags__checkbox[value="__all__"]');
+          if (allCb) allCb.checked = false;
+        }
+        var anyChecked = Array.from(
+          document.querySelectorAll('.filter-tags__checkbox:not([value="__all__"]):checked')
+        ).length > 0;
+        if (!anyChecked) {
+          var allCb2 = document.querySelector('.filter-tags__checkbox[value="__all__"]');
+          if (allCb2) allCb2.checked = true;
+        }
+      }
+      applyFilters();
+    });
+  });
+
+  document.getElementById('filter-phrase-input')
+    .addEventListener('input', applyFilters);
+
+  document.querySelectorAll('[name="search-field"]').forEach(function (cb) {
+    cb.addEventListener('change', applyFilters);
+  });
+
+  applyFilters();
+})();
+</script>
