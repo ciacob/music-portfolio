@@ -1,19 +1,117 @@
 {
-  "before": [],
   "buildSteps": [
     {
-      "_comment": "Example: resolve the site's <head> partial into ctx",
-      "type": "resolve",
-      "template": "head.html",
-      "target": "partials.head"
+      "type": "copy",
+      "source": "assets",
+      "target": "assets",
+      "override": true
     },
     {
-      "_comment": "Example: write a resolved page to _out/",
-      "type": "output",
-      "source": "partials.head",
-      "target": "index.html",
-      "override": true
+      "type": "loop",
+      "collection": [{"lang": "en"}, {"lang": "ro"}],
+      "as": "langItem",
+      "parallel": false,
+      "steps": [
+        {
+          "_comment": "Resolve shared partials — these read ctx.commons which is always seeded",
+          "type": "resolve",
+          "template": "partials/prepare-shared.html",
+          "target": "current"
+        },
+        {
+          "type": "resolve",
+          "template": "partials/html-open.html",
+          "target": "partials.htmlOpen"
+        },
+        {
+          "type": "resolve",
+          "template": "partials/site-header.html",
+          "target": "partials.siteHeader"
+        },
+        {
+          "type": "resolve",
+          "template": "partials/site-footer.html",
+          "target": "partials.siteFooter"
+        },
+        {
+          "_comment": "HOME",
+          "type": "resolve",
+          "template": "partials/prepare-home.html",
+          "target": "current"
+        },
+        {
+          "type": "resolve",
+          "template": "home.html",
+          "target": "pages.home"
+        },
+        {
+          "type": "output",
+          "source": "pages.home",
+          "target": "{{fn:utils.pageOutPath(home,{{langItem.lang}})}}",
+          "override": true
+        },
+        {
+          "_comment": "DIRECTORY",
+          "type": "resolve",
+          "template": "partials/prepare-directory.html",
+          "target": "current"
+        },
+        {
+          "type": "resolve",
+          "template": "directory.html",
+          "target": "pages.directory"
+        },
+        {
+          "type": "output",
+          "source": "pages.directory",
+          "target": "{{fn:utils.pageOutPath(portfolio/music/directory,{{langItem.lang}})}}",
+          "override": true
+        },
+        {
+          "_comment": "CONTACT",
+          "type": "resolve",
+          "template": "partials/prepare-contact.html",
+          "target": "current"
+        },
+        {
+          "type": "resolve",
+          "template": "contact.html",
+          "target": "pages.contact"
+        },
+        {
+          "type": "output",
+          "source": "pages.contact",
+          "target": "{{fn:utils.pageOutPath(contact,{{langItem.lang}})}}",
+          "override": true
+        },
+        {
+          "_comment": "PIECE PAGES",
+          "type": "loop",
+          "collection": "{{fn:utils.loadPieces(contents/pieces)}}",
+          "as": "piece",
+          "parallel": false,
+          "steps": [
+            {
+              "type": "resolve",
+              "template": "partials/prepare-piece.html",
+              "target": "current"
+            },
+            {
+              "type": "resolve",
+              "template": "piece.html",
+              "target": "pages.piece"
+            },
+            {
+              "type": "output",
+              "source": "pages.piece",
+              "target": "{{fn:utils.pieceOutPath({{piece.slug}},{{langItem.lang}})}}",
+              "override": true
+            }
+          ]
+        }
+      ]
     }
   ],
+  "before": [],
   "after": []
 }
