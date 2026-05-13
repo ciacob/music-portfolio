@@ -1,0 +1,19 @@
+{
+  "before": [],
+  "buildSteps": [
+    {
+      "_comment": "Example: resolve the site's <head> partial into ctx",
+      "type": "resolve",
+      "template": "head.html",
+      "target": "partials.head"
+    },
+    {
+      "_comment": "Example: write a resolved page to _out/",
+      "type": "output",
+      "source": "partials.head",
+      "target": "index.html",
+      "override": true
+    }
+  ],
+  "after": []
+}
