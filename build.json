@@ -43,6 +43,12 @@
           "target": "current"
         },
         {
+          "_comment": "HOME",
+          "type": "resolve",
+          "template": "partials/prepare-home.html",
+          "target": "current"
+        },
+        {
           "type": "resolve",
           "template": "partials/html-open.html",
           "target": "partials.htmlOpen"
@@ -56,12 +62,6 @@
           "type": "resolve",
           "template": "partials/site-footer.html",
           "target": "partials.siteFooter"
-        },
-        {
-          "_comment": "HOME",
-          "type": "resolve",
-          "template": "partials/prepare-home.html",
-          "target": "current"
         },
         {
           "type": "resolve",
@@ -82,6 +82,21 @@
         },
         {
           "type": "resolve",
+          "template": "partials/html-open.html",
+          "target": "partials.htmlOpen"
+        },
+        {
+          "type": "resolve",
+          "template": "partials/site-header.html",
+          "target": "partials.siteHeader"
+        },
+        {
+          "type": "resolve",
+          "template": "partials/site-footer.html",
+          "target": "partials.siteFooter"
+        },
+        {
+          "type": "resolve",
           "template": "directory.html",
           "target": "pages.directory"
         },
@@ -96,6 +111,21 @@
           "type": "resolve",
           "template": "partials/prepare-contact.html",
           "target": "current"
+        },
+        {
+          "type": "resolve",
+          "template": "partials/html-open.html",
+          "target": "partials.htmlOpen"
+        },
+        {
+          "type": "resolve",
+          "template": "partials/site-header.html",
+          "target": "partials.siteHeader"
+        },
+        {
+          "type": "resolve",
+          "template": "partials/site-footer.html",
+          "target": "partials.siteFooter"
         },
         {
           "type": "resolve",
@@ -119,6 +149,21 @@
               "type": "resolve",
               "template": "partials/prepare-piece.html",
               "target": "current"
+            },
+            {
+              "type": "resolve",
+              "template": "partials/html-open.html",
+              "target": "partials.htmlOpen"
+            },
+            {
+              "type": "resolve",
+              "template": "partials/site-header.html",
+              "target": "partials.siteHeader"
+            },
+            {
+              "type": "resolve",
+              "template": "partials/site-footer.html",
+              "target": "partials.siteFooter"
             },
             {
               "type": "resolve",

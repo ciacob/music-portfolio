@@ -564,7 +564,6 @@ function prepareShared(lang) {
     metaDescription:   t(commons.site.tagline, lang),
     pageTitle:         t(commons.site.title, lang),
     bodyClass:         'default',
-    navItems:          buildNavItems(commons.nav, lang, ''),
     langPickerItems:   buildLangPickerItems(languages, lang),
     menuLabel:         lang === 'ro' ? 'Meniu' : 'Menu',
     langPickerLabel:   lang === 'ro' ? 'Limbă' : 'Language',

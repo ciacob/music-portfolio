@@ -690,7 +690,7 @@ h3 small, h4 small {
 }
 
 .page-header__heading {
-  font-size: var(--text-3xl);
+  font-size: var(--text-2xl);
   margin-bottom: var(--sp-2);
 }
 
