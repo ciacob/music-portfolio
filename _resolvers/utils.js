@@ -57,18 +57,26 @@ function getLangSwitcherScript(languages, defaultLang) {
   function getCookie(n){var m=document.cookie.match(new RegExp('(^| )'+n+'=([^;]+)'));return m?decodeURIComponent(m[2]):null;}
   function setCookie(n,v,days){var d=new Date();d.setTime(d.getTime()+days*864e5);document.cookie=n+'='+v+';expires='+d.toUTCString()+';path=/';}
   var supported=${JSON.stringify(languages)};
-  var seg=window.location.pathname.split('/').filter(Boolean)[0];
+  var segs=window.location.pathname.split('/');
+  // Find the language segment by value, not by position — works on both
+  // file:// (where path starts with /Users/...) and http:// servers.
+  var langIdx=-1;
+  for(var i=0;i<segs.length;i++){if(supported.indexOf(segs[i])!==-1){langIdx=i;break;}}
+  var seg=langIdx!==-1?segs[langIdx]:null;
   var stored=getCookie('lang');
-  if(stored&&supported.indexOf(stored)!==-1&&stored!==seg){
-    window.location.replace('/'+stored+window.location.pathname.replace('/'+seg+'/','/')+'#redirected');
+  if(seg&&stored&&supported.indexOf(stored)!==-1&&stored!==seg){
+    var redir=segs.slice();redir[langIdx]=stored;
+    window.location.replace(redir.join('/')+'#redirected');
   }
   document.querySelectorAll('[data-lang-switch]').forEach(function(el){
     el.addEventListener('click',function(e){
       e.preventDefault();
       var target=el.getAttribute('data-lang-switch');
       setCookie('lang',target,365);
-      var newPath=window.location.pathname.replace('/'+seg+'/','/'+target+'/');
-      window.location.href=newPath;
+      if(langIdx!==-1){
+        var next=segs.slice();next[langIdx]=target;
+        window.location.href=next.join('/');
+      }
     });
   });
 })();`.trim();
@@ -182,7 +190,7 @@ function buildNavItems(navItems, lang, currentSlug) {
     const active = item.slug === currentSlug ? ' aria-current="page"' : '';
     const label  = t(item.label, lang);
     return `    <li class="nav__item">
-      <a class="nav__link${item.slug === currentSlug ? ' nav__link--active' : ''}" href="${item.path}"${active}>${label}</a>
+      <a class="nav__link${item.slug === currentSlug ? ' nav__link--active' : ''}" href="/${lang}/${item.path}"${active}>${label}</a>
     </li>`;
   }).join('\n');
 }
@@ -216,7 +224,7 @@ function buildLangPickerItems(languages, currentLang) {
 function buildFooterSections(sections, lang) {
   return sections.map(s => `  <section class="footer__section">
     <h3 class="footer__section-heading">
-      <a class="footer__section-link" href="${s.headingHref}">${t(s.heading, lang)}</a>
+      <a class="footer__section-link" href="/${lang}/${s.headingHref}">${t(s.heading, lang)}</a>
     </h3>
     <div class="footer__section-text">${t(s.text, lang)}</div>
   </section>`).join('\n');
@@ -235,7 +243,7 @@ function buildContactMeans(means, lang) {
       ? `\n      <a class="contact-mean__cta" href="${m.cta.href}">${t(m.cta.label, lang)}</a>`
       : '';
     return `  <article class="contact-mean" id="contact-${m.id}">
-    <img class="contact-mean__icon" src="${m.icon}" alt="" aria-hidden="true" />
+    <img class="contact-mean__icon" src="/${m.icon}" alt="" aria-hidden="true" />
     <div class="contact-mean__body">
       <h3 class="contact-mean__heading">${t(m.heading, lang)}</h3>
       <p class="contact-mean__subheading">${t(m.subheading, lang)}</p>${ctaHtml}
@@ -272,8 +280,8 @@ function buildDirectoryItems(pieces, lang, allTags) {
     data-subtitle="${subtitleText.replace(/"/g, '&quot;')}"
     data-summary="${summaryText.replace(/"/g, '&quot;')}"
     data-notes="${notesPlain.replace(/"/g, '&quot;')}">
-    <a class="piece-card__link" href="${p.slug}.html">
-      <img class="piece-card__image" src="../../${p.picture}" alt="${t(p.pictureAlt, lang)}" loading="lazy" />
+    <a class="piece-card__link" href="/${lang}/portfolio/music/${p.slug}.html">
+      <img class="piece-card__image" src="/${p.picture}" alt="${t(p.pictureAlt, lang)}" loading="lazy" />
       <div class="piece-card__body">
         <h3 class="piece-card__title">${titleText}</h3>
         <p class="piece-card__subtitle">${subtitleText}</p>
@@ -318,8 +326,8 @@ function buildRecentItems(pieces, lang) {
   return pieces.map(p => {
     const completedLabel = p.imprint.completedOn || '';
     return `  <article class="recent-work">
-    <a class="recent-work__link" href="portfolio/music/${p.slug}.html">
-      <img class="recent-work__image" src="${p.picture}" alt="${t(p.pictureAlt, lang)}" loading="lazy" />
+    <a class="recent-work__link" href="/${lang}/portfolio/music/${p.slug}.html">
+      <img class="recent-work__image" src="/${p.picture}" alt="${t(p.pictureAlt, lang)}" loading="lazy" />
       <div class="recent-work__body">
         <h4 class="recent-work__title">${t(p.title, lang)}</h4>
         <p class="recent-work__date">${completedLabel}</p>
@@ -343,7 +351,7 @@ function buildFeaturedItems(featuredItems, pieces, lang) {
     const title = piece ? t(piece.title, lang) : fi.slug;
     const desc  = t(fi.description, lang);
     return `    <li class="featured-works__item">
-      <a class="featured-works__link" href="portfolio/music/${fi.slug}.html">
+      <a class="featured-works__link" href="/${lang}/portfolio/music/${fi.slug}.html">
         <h4 class="featured-works__title">${title}</h4>
       </a>
       <p class="featured-works__description">${desc}</p>
@@ -487,19 +495,6 @@ module.exports = {
 // ---------------------------------------------------------------------------
 
 /**
- * Root path prefix given how deep the page is.
- * home.html and contact.html are at en/home.html → rootPath = "../../"
- * directory.html is at en/portfolio/music/directory.html → rootPath = "../../../../"
- * piece pages are same depth as directory.
- *
- * @param {string} depth  "shallow" (home/contact) | "deep" (portfolio/piece)
- * @returns {string}
- */
-function rootPath(depth) {
-  return depth === 'deep' ? '../../../../' : '../../';
-}
-
-/**
  * Load tags.json from a path and return the parsed array.
  * @param {string} tagsPath  e.g. "contents/tags.json"
  * @returns {object[]}
@@ -551,7 +546,6 @@ function prepareShared(lang) {
     metaDescription:   t(commons.site.tagline, lang),
     pageTitle:         t(commons.site.title, lang),
     bodyClass:         'default',
-    rootPath:          '../../',
     navItems:          buildNavItems(commons.nav, lang, ''),
     langPickerItems:   buildLangPickerItems(languages, lang),
     menuLabel:         lang === 'ro' ? 'Meniu' : 'Menu',
@@ -616,7 +610,6 @@ function prepareDirectory(lang) {
 
   return Object.assign({}, shared, {
     bodyClass:          'directory',
-    rootPath:           '../../../../',
     pageTitle:          t(p.heading, lang),
     metaDescription:    t(p.subheading, lang),
     navCurrentSlug:     'portfolio',
@@ -696,7 +689,6 @@ function preparePiece(slug, lang) {
 
   return Object.assign({}, shared, {
     bodyClass:             'piece',
-    rootPath:              '../../../../',
     pageTitle:             t(piece.title, lang),
     metaDescription:       t(piece.summary, lang),
     navCurrentSlug:        'portfolio',

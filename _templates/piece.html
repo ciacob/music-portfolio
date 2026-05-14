@@ -14,7 +14,7 @@
     <!-- PICTURE -->
     <figure class="piece__figure">
       <img class="piece__image"
-           src="{{current.rootPath}}{{current.piecePicture}}"
+           src="/{{current.piecePicture}}"
            alt="{{current.piecePictureAlt}}"
            loading="lazy" />
     </figure>
@@ -53,10 +53,10 @@
     <section class="piece__score" aria-labelledby="score-heading">
       <h2 class="piece__section-heading" id="score-heading">{{current.scoreLabel}}</h2>
       <a class="piece__download-link piece__download-link--score"
-         href="{{current.rootPath}}{{current.pieceScore}}"
+         href="/{{current.pieceScore}}"
          download>
         <img class="piece__download-icon"
-             src="{{current.rootPath}}assets/icons/pdf.svg"
+             src="/assets/icons/pdf.svg"
              alt="" aria-hidden="true" />
         {{current.scoreDownloadLabel}}
       </a>
@@ -69,14 +69,14 @@
              controls
              preload="none"
              aria-label="{{current.pieceTitle}}">
-        <source src="{{current.rootPath}}{{current.pieceRecording}}" type="audio/mpeg" />
+        <source src="/{{current.pieceRecording}}" type="audio/mpeg" />
         {{current.audioFallback}}
       </audio>
       <a class="piece__download-link piece__download-link--audio"
-         href="{{current.rootPath}}{{current.pieceRecording}}"
+         href="/{{current.pieceRecording}}"
          download>
         <img class="piece__download-icon"
-             src="{{current.rootPath}}assets/icons/download.svg"
+             src="/assets/icons/download.svg"
              alt="" aria-hidden="true" />
         {{current.recordingDownloadLabel}}
       </a>
