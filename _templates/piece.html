@@ -5,23 +5,81 @@
 
   <article class="piece" aria-labelledby="piece-heading">
 
-    <header class="piece__header">
-      <h1 class="piece__title" id="piece-heading">{{current.pieceTitle}}</h1>
-      <p class="piece__subtitle">{{current.pieceSubtitle}}</p>
-    </header>
+    <!-- ROW 1: three columns on desktop -->
+    <div class="piece__row1">
 
-    <figure class="piece__figure">
-      <img class="piece__image"
-           src="/{{current.piecePicture}}"
-           alt="{{current.piecePictureAlt}}"
-           loading="lazy" />
-    </figure>
+      <!-- C1: header, image, download links -->
+      <div class="piece__col1">
+        <header class="piece__header">
+          <h1 class="piece__title" id="piece-heading">{{current.pieceTitle}}</h1>
+          <p class="piece__subtitle">{{current.pieceSubtitle}}</p>
+        </header>
 
-    <section class="piece__summary" aria-labelledby="summary-heading">
-      <h2 class="piece__section-heading" id="summary-heading">{{current.summaryLabel}}</h2>
-      <p class="piece__summary-text">{{current.pieceSummary}}</p>
-    </section>
+        <figure class="piece__figure">
+          <img class="piece__image"
+               src="/{{current.piecePicture}}"
+               alt="{{current.piecePictureAlt}}"
+               loading="lazy" />
+        </figure>
 
+        <section class="piece__score" aria-labelledby="score-heading">
+          <h2 class="piece__section-heading" id="score-heading">{{current.scoreLabel}}</h2>
+          <a class="piece__download-link piece__download-link--score"
+             href="/{{current.pieceScore}}"
+             download>
+            <img class="piece__download-icon"
+                 src="/assets/icons/pdf.svg"
+                 alt="" aria-hidden="true" />
+            {{current.scoreDownloadLabel}}
+          </a>
+        </section>
+
+        <section class="piece__recording-download" aria-label="{{current.recordingLabel}}">
+          <a class="piece__download-link piece__download-link--audio"
+             href="/{{current.pieceRecording}}"
+             download>
+            <img class="piece__download-icon"
+                 src="/assets/icons/download.svg"
+                 alt="" aria-hidden="true" />
+            {{current.recordingDownloadLabel}}
+          </a>
+        </section>
+      </div>
+
+      <!-- C2: audio player, summary -->
+      <div class="piece__col2">
+        <section class="piece__recording" aria-labelledby="recording-heading">
+          <h2 class="piece__section-heading" id="recording-heading">{{current.recordingLabel}}</h2>
+          <audio class="piece__audio-player"
+                 controls
+                 preload="none"
+                 aria-label="{{current.pieceTitle}}">
+            <source src="/{{current.pieceRecording}}" type="audio/mpeg" />
+            {{current.audioFallback}}
+          </audio>
+        </section>
+
+        <section class="piece__summary" aria-labelledby="summary-heading">
+          <h2 class="piece__section-heading" id="summary-heading">{{current.summaryLabel}}</h2>
+          <p class="piece__summary-text">{{current.pieceSummary}}</p>
+        </section>
+      </div>
+
+      <!-- C3: imprint table -->
+      <div class="piece__col3">
+        <section class="piece__imprint" aria-labelledby="imprint-heading">
+          <h2 class="piece__section-heading" id="imprint-heading">{{current.imprintLabel}}</h2>
+          <table class="imprint">
+            <tbody>
+{{current.imprintRows}}
+            </tbody>
+          </table>
+        </section>
+      </div>
+
+    </div>
+
+    <!-- ROW 2: program notes + tags -->
     <section class="piece__notes" aria-labelledby="notes-heading">
       <h2 class="piece__section-heading" id="notes-heading">{{current.notesLabel}}</h2>
       <div class="piece__notes-text">{{current.pieceNotes}}</div>
@@ -32,46 +90,6 @@
       <div class="piece__tags-list">
 {{current.pieceTags}}
       </div>
-    </section>
-
-    <section class="piece__imprint" aria-labelledby="imprint-heading">
-      <h2 class="piece__section-heading" id="imprint-heading">{{current.imprintLabel}}</h2>
-      <table class="imprint">
-        <tbody>
-{{current.imprintRows}}
-        </tbody>
-      </table>
-    </section>
-
-    <section class="piece__score" aria-labelledby="score-heading">
-      <h2 class="piece__section-heading" id="score-heading">{{current.scoreLabel}}</h2>
-      <a class="piece__download-link piece__download-link--score"
-         href="/{{current.pieceScore}}"
-         download>
-        <img class="piece__download-icon"
-             src="/assets/icons/pdf.svg"
-             alt="" aria-hidden="true" />
-        {{current.scoreDownloadLabel}}
-      </a>
-    </section>
-
-    <section class="piece__recording" aria-labelledby="recording-heading">
-      <h2 class="piece__section-heading" id="recording-heading">{{current.recordingLabel}}</h2>
-      <audio class="piece__audio-player"
-             controls
-             preload="none"
-             aria-label="{{current.pieceTitle}}">
-        <source src="/{{current.pieceRecording}}" type="audio/mpeg" />
-        {{current.audioFallback}}
-      </audio>
-      <a class="piece__download-link piece__download-link--audio"
-         href="/{{current.pieceRecording}}"
-         download>
-        <img class="piece__download-icon"
-             src="/assets/icons/download.svg"
-             alt="" aria-hidden="true" />
-        {{current.recordingDownloadLabel}}
-      </a>
     </section>
 
   </article>
