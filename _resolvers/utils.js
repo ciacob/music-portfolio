@@ -215,7 +215,7 @@ function buildLangPickerItems(languages, currentLang) {
 function buildFooterSections(sections, lang) {
   return sections.map(s => `  <section class="footer__section">
     <h3 class="footer__section-heading">
-      <a class="footer__section-link" href="/${lang}/${s.headingHref}">${t(s.heading, lang)}</a>
+      <a class="footer__section-link" href="/${lang}/${s.headingHref}">${t(s.heading, lang)}<small>↗</small></a>
     </h3>
     <div class="footer__section-text">${t(s.text, lang)}</div>
   </section>`).join('\n');
@@ -320,7 +320,7 @@ function buildRecentItems(pieces, lang) {
     <a class="recent-work__link" href="/${lang}/portfolio/music/${p.slug}.html">
       <img class="recent-work__image" src="/${p.picture}" alt="${t(p.pictureAlt, lang)}" loading="lazy" />
       <div class="recent-work__body">
-        <h4 class="recent-work__title">${t(p.title, lang)}</h4>
+        <h4 class="recent-work__title">${t(p.title, lang)}<small>↗</small></h4>
         <p class="recent-work__date">${completedLabel}</p>
       </div>
     </a>
@@ -343,7 +343,7 @@ function buildFeaturedItems(featuredItems, pieces, lang) {
     const desc  = t(fi.description, lang);
     return `    <li class="featured-works__item">
       <a class="featured-works__link" href="/${lang}/portfolio/music/${fi.slug}.html">
-        <h4 class="featured-works__title">${title}</h4>
+        <h4 class="featured-works__title">${title}<small>↗</small></h4>
       </a>
       <p class="featured-works__description">${desc}</p>
     </li>`;
