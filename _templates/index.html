@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{current.siteTitle}}</title>
+  <meta http-equiv="refresh" content="3;url=/{{current.defaultLang}}/home.html" />
+</head>
+<body>
+  <script>
+  (function () {
+    var supported = {{current.supportedLangs}};
+    var defaultLang = '{{current.defaultLang}}';
+
+    function getCookie(n) {
+      var m = document.cookie.match(new RegExp('(^| )' + n + '=([^;]+)'));
+      return m ? decodeURIComponent(m[2]) : null;
+    }
+
+    function getBrowserLang() {
+      var raw = (navigator.language || navigator.userLanguage || '').toLowerCase();
+      // Try exact match first (e.g. "ro"), then prefix (e.g. "ro-RO" → "ro")
+      for (var i = 0; i < supported.length; i++) {
+        if (raw === supported[i]) return supported[i];
+      }
+      for (var j = 0; j < supported.length; j++) {
+        if (raw.indexOf(supported[j]) === 0) return supported[j];
+      }
+      return null;
+    }
+
+    var lang = getCookie('lang');
+    if (!lang || supported.indexOf(lang) === -1) {
+      lang = getBrowserLang() || defaultLang;
+    }
+
+    window.location.replace('/' + lang + '/home.html');
+  })();
+  </script>
+
+  <noscript>
+    <p>{{current.noScriptMessage}}</p>
+    <ul>
+{{current.noScriptLinks}}
+    </ul>
+  </noscript>
+</body>
+</html>

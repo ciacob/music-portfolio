@@ -7,13 +7,37 @@
       "override": true
     },
     {
+      "_comment": "ROOT INDEX \u2014 language detection redirect, generated once",
+      "type": "resolve",
+      "template": "partials/prepare-index.html",
+      "target": "current"
+    },
+    {
+      "type": "resolve",
+      "template": "index.html",
+      "target": "pages.index"
+    },
+    {
+      "type": "output",
+      "source": "pages.index",
+      "target": "index.html",
+      "override": true
+    },
+    {
       "type": "loop",
-      "collection": [{"lang": "en"}, {"lang": "ro"}],
+      "collection": [
+        {
+          "lang": "en"
+        },
+        {
+          "lang": "ro"
+        }
+      ],
       "as": "langItem",
       "parallel": false,
       "steps": [
         {
-          "_comment": "Resolve shared partials — these read ctx.commons which is always seeded",
+          "_comment": "Resolve shared partials \u2014 these read ctx.commons which is always seeded",
           "type": "resolve",
           "template": "partials/prepare-shared.html",
           "target": "current"

@@ -52,22 +52,13 @@ function t(field, lang) {
  * @param {string}   defaultLang
  * @returns {string}
  */
-function getLangSwitcherScript(languages, defaultLang) {
+function getLangSwitcherScript(languages) {
   return `(function(){
-  function getCookie(n){var m=document.cookie.match(new RegExp('(^| )'+n+'=([^;]+)'));return m?decodeURIComponent(m[2]):null;}
   function setCookie(n,v,days){var d=new Date();d.setTime(d.getTime()+days*864e5);document.cookie=n+'='+v+';expires='+d.toUTCString()+';path=/';}
   var supported=${JSON.stringify(languages)};
   var segs=window.location.pathname.split('/');
-  // Find the language segment by value, not by position — works on both
-  // file:// (where path starts with /Users/...) and http:// servers.
   var langIdx=-1;
   for(var i=0;i<segs.length;i++){if(supported.indexOf(segs[i])!==-1){langIdx=i;break;}}
-  var seg=langIdx!==-1?segs[langIdx]:null;
-  var stored=getCookie('lang');
-  if(seg&&stored&&supported.indexOf(stored)!==-1&&stored!==seg){
-    var redir=segs.slice();redir[langIdx]=stored;
-    window.location.replace(redir.join('/')+'#redirected');
-  }
   document.querySelectorAll('[data-lang-switch]').forEach(function(el){
     el.addEventListener('click',function(e){
       e.preventDefault();
@@ -462,6 +453,33 @@ function pieceCtxKey(slug, lang) {
   return `pages.${lang}.pieces.${slug.replace(/-/g, '_')}`;
 }
 
+/**
+ * Entry-point index page data — language detection redirect.
+ * No lang argument needed: this page is language-neutral.
+ *
+ * @returns {object}
+ */
+function prepareIndex() {
+  const commons   = JSON.parse(fs.readFileSync('contents/commons.json', 'utf8'));
+  const languages = commons.site.languages;
+  const defaultLang = commons.site.defaultLanguage;
+
+  const noScriptLinks = languages.map(lang => {
+    const label = lang === 'ro'
+      ? 'Versiunea în limba română'
+      : 'English version';
+    return `      <li><a href="/${lang}/home.html">${label}</a></li>`;
+  }).join('\n');
+
+  return {
+    siteTitle:       t(commons.site.title, defaultLang),
+    supportedLangs:  JSON.stringify(languages),
+    defaultLang,
+    noScriptMessage: 'Please choose your language:',
+    noScriptLinks,
+  };
+}
+
 module.exports = {
   utils: {
     t,
@@ -554,7 +572,7 @@ function prepareShared(lang) {
     copyrightName:     t(commons.site.copyright, lang),
     lastUpdatedLabel:  lang === 'ro' ? 'Actualizat' : 'Last updated',
     buildDate:         buildDate(lang),
-    langSwitcherScript: getLangSwitcherScript(languages, commons.site.defaultLanguage),
+    langSwitcherScript: getLangSwitcherScript(languages),
   };
 }
 
@@ -738,4 +756,5 @@ Object.assign(module.exports.utils, {
   pageOutPath,
   loadTags,
   loadPieceBySlug,
+  prepareIndex,
 });
