@@ -433,15 +433,15 @@ audio {
 
 .footer__section-text {
   font-size: var(--text-sm);
-  color: var(--ink-faint);
+  color: rgba(247, 244, 239, 0.6);
   line-height: 1.7;
 }
 
 .footer__copyright {
   font-size: var(--text-xs);
-  color: var(--ink-faint);
+  color: rgba(247, 244, 239, 0.4);
   letter-spacing: 0.06em;
-  border-top: 1px solid #333;
+  border-top: 1px solid rgba(247,244,239,0.15);
   padding-top: var(--sp-6);
 }
 
@@ -488,9 +488,9 @@ audio {
 }
 
 .rider__subheading {
-  font-size: var(--text-sm);
-  color: var(--ink-faint);
-  letter-spacing: 0.06em;
+  font-size: var(--text-base);
+  color: var(--ink-soft);
+  letter-spacing: 0.04em;
 }
 
 .rider__figure {
@@ -539,7 +539,7 @@ audio {
 
 .featured-works__description {
   font-size: var(--text-sm);
-  color: var(--ink-faint);
+  color: var(--ink-soft);
   line-height: 1.6;
 }
 
@@ -578,9 +578,9 @@ audio {
 }
 
 .sidebar__subheading {
-  font-size: var(--text-xs);
-  color: var(--ink-faint);
-  letter-spacing: 0.06em;
+  font-size: var(--text-sm);
+  color: var(--ink-soft);
+  letter-spacing: 0.04em;
   margin-bottom: var(--sp-6);
 }
 
@@ -622,7 +622,7 @@ audio {
 
 .recent-work__date {
   font-size: var(--text-xs);
-  color: var(--ink-faint);
+  color: var(--ink-soft);
   letter-spacing: 0.04em;
 }
 
@@ -659,7 +659,7 @@ audio {
 }
 
 .page-header__subheading {
-  color: var(--ink-faint);
+  color: var(--ink-soft);
   font-size: var(--text-md);
 }
 
@@ -817,7 +817,7 @@ audio {
 
 .piece-card__subtitle {
   font-size: var(--text-sm);
-  color: var(--ink-faint);
+  color: var(--ink-soft);
   font-style: italic;
   margin-bottom: var(--sp-3);
 }
@@ -903,7 +903,7 @@ audio {
 
 .contact-mean__subheading {
   font-size: var(--text-sm);
-  color: var(--ink-faint);
+  color: var(--ink-soft);
   margin-bottom: var(--sp-3);
 }
 
@@ -1014,7 +1014,7 @@ audio {
 .piece__subtitle {
   font-size: var(--text-md);
   font-style: italic;
-  color: var(--ink-faint);
+  color: var(--ink-soft);
 }
 
 /* Piece image — square, cover */
@@ -1051,15 +1051,16 @@ audio {
 /* Program notes — CSS columns on wide screens */
 .piece__notes-text {
   font-family: var(--font-display);
-  font-size: var(--text-md);
-  line-height: 1.85;
-  color: var(--ink-soft);
+  font-size: 1.2rem;
+  line-height: 1.9;
+  color: var(--ink);
 }
 
 .piece__notes-text p {
-  margin-bottom: var(--sp-4);
+  margin-bottom: var(--sp-5);
   font-family: var(--font-display);
-  font-size: var(--text-md);
+  font-size: 1.2rem;
+  color: var(--ink);
 }
 
 .piece__notes-text p:last-child {
@@ -1069,7 +1070,7 @@ audio {
 @media (min-width: 1024px) {
   .piece__notes-text {
     column-count: 3;
-    column-gap: var(--sp-10);
+    column-gap: var(--sp-16);
   }
 }
 
