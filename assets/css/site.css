@@ -76,7 +76,7 @@ input, textarea, select {
 :root {
   /* Palette */
   --ink:          #1a1814;        /* near-black, warm */
-  --ink-soft:     #4a4640;        /* secondary text */
+  --ink-soft:     #3c280a;        /* secondary text */
   --ink-faint:    #8a8480;        /* tertiary, borders */
   --paper:        #f7f4ef;        /* warm off-white background */
   --paper-dark:   #ede9e2;        /* slightly deeper for alternating areas */
@@ -88,15 +88,15 @@ input, textarea, select {
   --font-display: 'Cormorant Garamond', Georgia, serif;
   --font-ui:      'Jost', 'Helvetica Neue', sans-serif;
 
-  --text-xs:    0.75rem;    /* 12px */
-  --text-sm:    0.875rem;   /* 14px */
-  --text-base:  1rem;       /* 16px */
-  --text-md:    1.125rem;   /* 18px */
-  --text-lg:    1.375rem;   /* 22px */
-  --text-xl:    1.75rem;    /* 28px */
-  --text-2xl:   2.25rem;    /* 36px */
-  --text-3xl:   3rem;       /* 48px */
-  --text-4xl:   4rem;       /* 64px */
+  --text-xs:    0.75rem;
+  --text-sm:    0.9rem;
+  --text-msm:   0.95rem;
+  --text-base:  1.08rem;
+  --text-md:    1.15rem;
+  --text-lg:    1.375rem;
+  --text-xl:    1.75rem;
+  --text-2xl:   2.25rem;
+  --text-3xl:   3rem;
 
   /* Spacing */
   --sp-1:   0.25rem;
@@ -111,6 +111,12 @@ input, textarea, select {
   --sp-16:  4rem;
   --sp-20:  5rem;
   --sp-24:  6rem;
+
+  /* Border radius */
+  --round-1: 0.3rem;
+  --round-2: 0.6rem;
+  --round-3: 1rem;
+  --round-4: 2rem;
 
   /* Layout */
   --max-width:        1440px;
@@ -176,6 +182,19 @@ audio {
   width: 100%;
 }
 
+button, .piece__download-link, .piece-tag, .piece-card__tag {
+  border-radius: var(--round-4);
+}
+
+.piece-card, .filter-panel, .rider, .sidebar, .rider__image, 
+.recent-work__image, .piece__image, .piece-card__image {
+  border-radius: var(--round-1);
+}
+
+.piece-card__image {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
 
 /* --------------------------------------------------------------------------
    5. LAYOUT — page shell
@@ -433,7 +452,7 @@ audio {
 
 .footer__section-text {
   font-size: var(--text-sm);
-  color: rgba(247, 244, 239, 0.6);
+  color: var(--paper);
   line-height: 1.7;
 }
 
@@ -485,11 +504,12 @@ audio {
   font-style: italic;
   line-height: 1.3;
   margin-bottom: var(--sp-2);
+  color: var(--ink);
 }
 
 .rider__subheading {
-  font-size: var(--text-base);
-  color: var(--ink-soft);
+  font-size: var(--text-msm);
+  color: var(--ink);
   letter-spacing: 0.04em;
 }
 
@@ -503,15 +523,22 @@ audio {
   object-fit: cover;
 }
 
-.featured-works__heading {
-  font-size: var(--text-md);
+.featured-works__heading,
+.sidebar__heading {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   font-family: var(--font-ui);
-  font-weight: 400;
-  color: var(--ink-faint);
-  margin-bottom: var(--sp-4);
+  font-weight: 500;
+  color: var(--ink-soft);
   font-size: var(--text-xs);
+}
+
+.featured-works__heading {
+  margin-bottom: var(--sp-4);
+}
+
+.sidebar__heading {
+  margin-bottom: var(--sp-1);
 }
 
 .featured-works__list {
@@ -525,11 +552,13 @@ audio {
   border-top: var(--border-soft);
 }
 
-.featured-works__title {
+.featured-works__title,
+.recent-work__title {
   font-family: var(--font-display);
-  font-size: var(--text-md);
+  font-size: var(--text-lg);
   font-weight: 400;
   margin-bottom: var(--sp-1);
+  color: var(--ink);
   transition: color var(--transition);
 }
 
@@ -539,7 +568,7 @@ audio {
 
 .featured-works__description {
   font-size: var(--text-sm);
-  color: var(--ink-soft);
+  color: var(--ink);
   line-height: 1.6;
 }
 
@@ -557,7 +586,7 @@ audio {
 
 .bio__text p {
   margin-bottom: var(--sp-4);
-  font-size: var(--text-md);
+  font-size: var(--text-base);
   line-height: 1.8;
 }
 
@@ -572,14 +601,9 @@ audio {
   padding: var(--sp-8);
 }
 
-.sidebar__heading {
-  font-size: var(--text-lg);
-  margin-bottom: var(--sp-1);
-}
-
 .sidebar__subheading {
   font-size: var(--text-sm);
-  color: var(--ink-soft);
+  color: var(--ink);
   letter-spacing: 0.04em;
   margin-bottom: var(--sp-6);
 }
@@ -593,7 +617,8 @@ audio {
 .recent-work__link {
   display: flex;
   gap: var(--sp-3);
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
   transition: opacity var(--transition);
 }
 
@@ -613,10 +638,6 @@ audio {
 }
 
 .recent-work__title {
-  font-family: var(--font-display);
-  font-size: var(--text-base);
-  font-weight: 400;
-  line-height: 1.3;
   margin-bottom: var(--sp-1);
 }
 
@@ -624,6 +645,10 @@ audio {
   font-size: var(--text-xs);
   color: var(--ink-soft);
   letter-spacing: 0.04em;
+}
+
+.rider, .sidebar {
+  text-align:center;
 }
 
 
@@ -660,7 +685,7 @@ audio {
 
 .page-header__subheading {
   color: var(--ink-soft);
-  font-size: var(--text-md);
+  font-size: var(--text-base);
 }
 
 /* Filter panel */
@@ -681,9 +706,10 @@ audio {
   font-size: var(--text-xs);
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--ink-faint);
+  color: var(--ink-soft);
   margin-bottom: var(--sp-3);
   font-family: var(--font-ui);
+  font-weight: 500;
 }
 
 .filter-tags__label {
@@ -693,7 +719,7 @@ audio {
   font-size: var(--text-sm);
   cursor: pointer;
   padding: var(--sp-1) 0;
-  color: var(--ink-soft);
+  color: var(--ink);
   transition: color var(--transition);
 }
 
@@ -719,8 +745,9 @@ audio {
   font-size: var(--text-xs);
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--ink-faint);
+  color: var(--ink-soft);
   margin-bottom: var(--sp-3);
+  font-weight: 500;
 }
 
 .filter-phrase__input {
@@ -747,8 +774,9 @@ audio {
   font-size: var(--text-xs);
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--ink-faint);
+  color: var(--ink-soft);
   margin-bottom: var(--sp-2);
+  font-weight: 500;
 }
 
 .filter-phrase__field-label {
@@ -758,7 +786,7 @@ audio {
   font-size: var(--text-sm);
   cursor: pointer;
   padding: var(--sp-1) 0;
-  color: var(--ink-soft);
+  color: var(--ink);
 }
 
 .filter-panel__count {
@@ -779,6 +807,7 @@ audio {
 }
 
 .piece-card {
+  text-align: center;
   border: var(--border);
   background-color: var(--white);
   transition: box-shadow var(--transition), transform var(--transition);
@@ -810,20 +839,20 @@ audio {
 
 .piece-card__title {
   font-family: var(--font-display);
-  font-size: var(--text-lg);
+  font-size: var(--text-xl);
   font-weight: 400;
   margin-bottom: var(--sp-1);
 }
 
 .piece-card__subtitle {
-  font-size: var(--text-sm);
+  font-size: var(--text-msm);
   color: var(--ink-soft);
   font-style: italic;
   margin-bottom: var(--sp-3);
 }
 
 .piece-card__summary {
-  font-size: var(--text-sm);
+  font-size: var(--text-msm);
   color: var(--ink-soft);
   line-height: 1.6;
   flex: 1;
@@ -939,7 +968,7 @@ audio {
 .piece__row1 {
   display: flex;
   flex-direction: column;
-  gap: var(--sp-8);
+  gap: var(--sp-10);
 }
 
 @media (min-width: 1024px) {
@@ -1012,8 +1041,7 @@ audio {
 }
 
 .piece__subtitle {
-  font-size: var(--text-md);
-  font-style: italic;
+  font-size: var(--text-base);
   color: var(--ink-soft);
 }
 
@@ -1035,7 +1063,7 @@ audio {
   font-weight: 500;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--ink-faint);
+  color: var(--ink-soft);
   margin-bottom: var(--sp-3);
   padding-bottom: var(--sp-2);
   border-bottom: var(--border-soft);
@@ -1045,22 +1073,18 @@ audio {
 .piece__summary-text {
   font-size: var(--text-md);
   line-height: 1.75;
-  color: var(--ink-soft);
+  color: var(--ink);
 }
 
 /* Program notes — CSS columns on wide screens */
 .piece__notes-text {
-  font-family: var(--font-display);
-  font-size: 1.2rem;
-  line-height: 1.9;
+  font-family: var(--font-ui);
+  font-size: var(--text-base);
   color: var(--ink);
 }
 
 .piece__notes-text p {
   margin-bottom: var(--sp-5);
-  font-family: var(--font-display);
-  font-size: 1.2rem;
-  color: var(--ink);
 }
 
 .piece__notes-text p:last-child {
