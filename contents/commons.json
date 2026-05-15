@@ -102,7 +102,7 @@
     },
     "filter": {
       "labelTags": { "en": "Show works tagged", "ro": "Arată lucrările etichetate" },
-      "labelAll": { "en": "All", "ro": "Toate" },
+      "labelAll": { "en": "All", "ro": "Toate etichetele" },
       "labelPhrase": { "en": "matching phrase", "ro": "conținând fraza" },
       "labelIn": { "en": "search in", "ro": "caută în" },
       "labelTitle": { "en": "title", "ro": "titlu" },
