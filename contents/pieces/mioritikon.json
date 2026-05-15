@@ -5,15 +5,15 @@
     "ro": "Mioritikon"
   },
   "subtitle": {
-    "en": "The piece is questioning whether there will be a place for such thing as a “Romanian ethos”.",
-    "ro": "O meditație sonoră pe tema aneantizării specificității românești"
+    "en": "A sonic meditation on the erasure of Romanian cultural specificity.",
+    "ro": "O meditație sonoră pe tema aneantizării specificității românești"
   },
   "summary": {
-    "en": "The funny name sprouted from a peculiar crossbreeding between the Ancient Greek “ikon” (eikṓn, “likeness, image, portrait”) and the name of an old Romanian pastoral ballad, regarded by many as being most specific to Romanian folklore and spirituality — Miorița (“The Little Ewe”). The piece is, thus, questioning whether there will be a place for such thing as a “Romanian ethos” in the world of globalised arts and culture we are facing today. The work draws upon Marțian Negrea’s widely acclaimed masterpiece, Păstorița (“The Shepherdess”) whose bucolic world is ruthlessly assaulted by industrial sounds and dodecaphonic music. The track gives no account of an aftermath, but consensus seems hardly an option.",
-    "ro": "TBD"
+    "en": "<p><em>Mioritikon</em> reflects on the possible erasure of a distinctly Romanian ethos under the pressure of technological modernity and cultural globalization. Drawing on Marțian Negrea’s <em>Păstorița</em>, the piece sets an archaic pastoral world against industrial sonorities and dodecaphonic tensions, tracing an image of loss, disintegration, and estrangement.</p>",
+    "ro": "<p><em>Mioritikon</em> este o reflecție asupra unei posibile aneantizări a așa numitului \"ethos românesc\", sub presiunea hiper-tehnologizării și a globalizării culturale. Pornind de la <em>Păstorița</em> lui Marțian Negrea, piesa pune în opoziție un imaginar bucolic — mioritic și arhaic — cu sonorități industriale și dodecafonice, schițând astfel o imagine a pierderii, dezagregării și rătăcirii.</p>"
   },
   "programNotes": {
-    "en": "<p>TBD</p>",
+    "en": "<p><strong>Mioritikon</strong> is a sonic meditation on the erasure of Romanian specificity in the contemporary world. It offers an acoustic embodiment of the void, with direct reference to this early twenty-first century, hyper-technologized, consumerist, and globalizing age. In the irresistible rush toward the leveling of cultural particularities, what chance does that <em>eternity</em> — which, in Lucian Blaga’s famous phrase, was born in the village — still have of finding a place?</p>\n<p>The music unfolds a contradictory discourse starting from <em>Păstorița</em> by the Romanian composer Marțian Negrea, a masterpiece of Romanian choral music and, at the same time, an apodictic symbol of an archaic time and of the so-called “Mioritic space,” both so strikingly picturesque. The electronic sonorities added to it, distributed across two opposing planes, one of confirmation and one of resistance, jointly sketch an image of disintegration, loss, and wandering. The truncated and reinterpreted lines from Coșbuc’s poem cast a cataclysmic light over the whole process („și murind […] soarele” /  “and [...] the sun, dying”) and bitterly ironize the nation’s indifference and inertia in the face of self-loss („obosit și blând popor / noapte bună, noapte bună” / “weary and gentle people / good night, good night”).</p>\n<p>The piece was composed in August 2018 in response to the electronic music composition competition organized by the fifth edition of the <em>InnerSound</em> International Festival of contemporary art music, where it was nominated among the ten finalist works.</p>",
     "ro": "<p><strong>Mioritikon</strong> este o meditație sonoră pe tema aneantizării specificității românești în contemporaneitate. Este o materializare acustică a vidului, cu trimitere directă la acest început de secol XXI, hiper-tehnologizat, consumerist și globalizator. În irezistibilul iureș al nivelării particularităților culturale, ce șanse mai are „veșnicia (care) s-a născut la sat” (Lucian Blaga) să-și găsească un loc?</p>\n<p>Muzica antamează un discurs contradictoriu pornind de la piesa „Păstorița” a compozitorului român Marțian Negrea, capodoperă a muzicii corale românești, și totodată simbol apodictic al unui timp arhaic și „spațiu mioritic”, ambele atât de pitorești. Sonoritățile electronice care i se alătură, segregate pe două planuri adverse, de confirmare și opoziție, creionează împreună o imagine a dezintegrării, a pierderii și a rătăcirii. Versurile poemului coșbucian, trunchiate și reinterpretate, aruncă o lumină cataclismică asupra întregului proces („și murind […] soarele”) și ironizează amar indiferența și inerția națiunii în fața pierderii de sine („obosit și blând popor / noapte bună, noapte bună”).</p>\n<p>Piesa a fost realizată în august 2018, ca răspuns la concursul de creații muzicale electronice organizat de Festivalul Internațional de muzică contemporană cultă „Innersound”, ediția a cincea, și a fost nominalizată printre cele zece lucrări finaliste.</p>"
   },
   "picture": "assets/images/pieces/mioritikon.png",
@@ -23,11 +23,11 @@
   },
   "imprint": {
     "orchestration": {
-      "en": "Synthesizers and Musique concrète /",
+      "en": "Synthesizers and Musique concrète",
       "ro": "Sintetizatoare și Muzică concretă"
     },
     "lyrics": {
-      "en": "George Coșbuc,  (The Shepherdess)  — 1893",
+      "en": "George Coșbuc,  (The Shepherdess) — 1893",
       "ro": "Păstorița"
     },
     "length": "5:00′",
@@ -36,8 +36,8 @@
     "premieredOn": "2018",
     "premieredBy": null,
     "honors": {
-      "en": "Nominated among the finalists of the Electronic Music Composition Contest held by the “InnerSound” New Arts Festival, 5th edition /",
-      "ro": "Nominalizată între lucrările finaliste la concursul de creații muzicale electronice organizat de Festivalul Internațional de muzică contemporană cultă „Innersound”, ediția a V-aAchiziționat de UCMR (2019)"
+      "en": "Nominated among the finalists of the Electronic Music Composition Contest held by the “InnerSound” New Arts Festival, 5th edition <br> Acquired by UCMR (2019)",
+      "ro": "Nominalizată între lucrările finaliste la concursul de creații muzicale electronice organizat de Festivalul Internațional de muzică contemporană cultă „Innersound”, ediția a V-a <br> Achiziționat de UCMR (2019)"
     },
     "copyright": {
       "en": "Claudius Iacob",
