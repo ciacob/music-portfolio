@@ -736,7 +736,7 @@ function preparePiece(slug, lang) {
     notesLabel:            lang === 'ro' ? 'Note de program'  : 'Program notes',
     tagsLabel:             lang === 'ro' ? 'Etichete'         : 'Tags',
     imprintLabel:          lang === 'ro' ? 'Fișă tehnică'     : 'Imprint',
-    scoreLabel:            lang === 'ro' ? 'Partitură'        : 'Score',
+    scoreLabel:            lang === 'ro' ? 'Partituri și înregistrări'        : 'Scores & Recordings',
     recordingLabel:        lang === 'ro' ? 'Înregistrare'     : 'Recording',
     scoreDownloadLabel:    lang === 'ro' ? 'Descarcă partitura (PDF)' : 'Download score (PDF)',
     recordingDownloadLabel:lang === 'ro' ? 'Descarcă înregistrarea (MP3)' : 'Download recording (MP3)',
