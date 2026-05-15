@@ -1,0 +1,51 @@
+{
+  "slug": "deafs-music-muzica-surzilor",
+  "title": {
+    "en": "Deafs’ Music",
+    "ro": "Muzica surzilor"
+  },
+  "subtitle": {
+    "en": "I did not have access to a piano while composing the music, thus the title.",
+    "ro": "Muzica surzilor își datorează existența (și titlul bizar) unui experiment."
+  },
+  "summary": {
+    "en": "This is a contemporary style piano composition I wrote in the late autumn of 2012. There are three sections, each scored in a different part of a public garden in Bucharest. I did not have access to a piano while composing the music, thus the strange title.\n\nThe experiment, because this is what it was, attempted to determine to what degree can syntax stand in for semantics when it comes to composing music. The setup was relevant since, unlike other composers, I am only able to truly experience music aurally. Thus, not being able to hear what I was writing did prevent me from adding actual musical meaning to the piece, and forced me, in a way, to fake it, by carefully designing structure and development.\n\nThe results were rather disruptive, because the output is (when listened to) far from being musical nonsense, and even appears to be transmitting emotions, none of which were sought after while composing. Apparently, a good deal of what we call artistic message relies in the observer (or in this case, in the listener).",
+    "ro": "TBD"
+  },
+  "programNotes": {
+    "en": "<p>TBD</p>",
+    "ro": "<p><em><strong>Muzica surzilor</strong>&nbsp;își datorează existența (și titlul bizar) unui experiment – experiment pentru mine, uzanță pentru mulți compozitori: mi-am propus să compun muzică fără acces la un instrument muzical, și am făcut-o la modul cel mai responsabil.</em></p>\n<p><em>Pentru acei câțiva binecuvântați, capabili să audă fără greș o partitură, în întreaga ei complexitate, doar la o privire asupra notelor, un asemenea demers este lipsit de revelații. Pentru mine însă, cele câteva după-amiezi de scris muzică într-un parc bucureștean au fost pline de descoperiri.</em></p>\n<p><em>Privat de contactul empiric cu înălțimile, și separat de cel mai competent judecător de muzică, auzul, am fost nevoit să acord o atenție capitală acelor elemente <strong>meta-muzicale</strong>, a căror bună gestiune înlesnește de obicei percepția unei opere muzicale ca atare: <strong>forma</strong> (construcția arhitecturală a piesei), <strong>tectonica</strong> (alternanța, ritmul și raporturile dintre <strong>văile</strong>&nbsp;și <strong>crestele</strong>&nbsp;unei melodii), <strong>sintaxa</strong> (exprimarea muzicii ca monodie, omofonie, polifonie), și evoluția de <strong>dinamică</strong>, <strong>tempo</strong> și <strong>tensiuni armonice</strong> (unde, în lipsa pianului, ierarhizarea teoretică făcută de Hindemith a fost de mare ajutor). Într-o nouă lumină am fost nevoit să văd și spinoasa chestiune a dezvoltării materialului muzical, forțat fiind să mă descurc cu procedee mecanice, operabile și controlabile exclusiv vizual: augmentări / diminuări de intervale și durate muzicale, adăugiri, eliziuni, transpoziții, și mai ales repetiții.</em></p>\n<p><em>Ultimul procedeu, mai ales, stă la baza primei piese.&nbsp;<strong>Labirint</strong>&nbsp;este un ghem îmbârligat de motive, ce-și creează pregnanța și raporturile de antecedență / consecvență aproape exclusiv prin repetiții. Tenta umoristică este asigurată de sistemul stufos de bare de repetiții imbricate, garant al multor interpretări total diferite ale aceleiași muzici.</em></p>\n<p><em><strong>Opriri&nbsp;</strong>este o muzică seacă în material tematic, dar care devine plauzibilă mulțumită tempo-ului rapid (și șuvoiului implicit de sunete) și unui contrast radical de stări, obținut prin numeroasele fermate, marcate foarte explicit și sonor.</em></p>\n<p><em><strong>Coral</strong>&nbsp;este chiar ceea ce declară în titlu: cu un discurs armonic organizat tripartit, și secțiunea mediană oferind unele rudimente de polifonie. Muzica se justifică printr-un ritm armonic ostentativ, o formă foarte clar articulată, și trăiește dintr-o austeritate frustă, pe care o expune consecvent și fără menajamente.</em></p>"
+  },
+  "picture": "assets/images/pieces/deafs-music-muzica-surzilor.jpg",
+  "pictureAlt": {
+    "en": "Fall in public park",
+    "ro": "Cascadă în parc"
+  },
+  "imprint": {
+    "orchestration": {
+      "en": "Piano /",
+      "ro": "Pian"
+    },
+    "lyrics": null,
+    "length": "5′",
+    "state": "finished",
+    "completedOn": "2012",
+    "premieredOn": null,
+    "premieredBy": null,
+    "honors": null,
+    "copyright": {
+      "en": "Claudius Iacob",
+      "ro": "Claudius Iacob"
+    }
+  },
+  "tags": [
+    "completed",
+    "contemporary",
+    "piano",
+    "strong-dissonance",
+    "with-audio",
+    "with-score"
+  ],
+  "score": "assets/scores/deafs-music-muzica-surzilor.pdf",
+  "recording": "assets/audio/deafs-music-muzica-surzilor.mp3"
+}

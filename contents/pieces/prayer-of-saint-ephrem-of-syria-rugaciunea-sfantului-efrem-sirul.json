@@ -1,0 +1,58 @@
+{
+  "slug": "prayer-of-saint-ephrem-of-syria-rugaciunea-sfantului-efrem-sirul",
+  "title": {
+    "en": "The Prayer of Saint Ephrem the Syrian",
+    "ro": "Rugăciunea Sfântului Efrem Sirul"
+  },
+  "subtitle": {
+    "en": "The music combines Byzantine modes with classical western forms.",
+    "ro": "Scrisă într-un stil predominant polifonic, folosind material tematic bizantin."
+  },
+  "summary": {
+    "en": "This is a polyphonic piece for male choir I wrote against the text of the The Prayer of Saint Ephrem the Syrian, a capital Orthodox Christian prayer used with emphasis during the Great Lent. The music combines Byzantine modes with classical Western forms, such as the fugue or the ciaccona, and employs incidental harmony resulting from over-imposing Byzantine monodies. Ideally, a bass reciter (which is notated in the score, but not featured in the recording) should pronounce the prayer over, or in-between the sung sections. The current version of the score only features Romanian lyrics.",
+    "ro": "TBD"
+  },
+  "programNotes": {
+    "en": "<p>TBD</p>",
+    "ro": "<p>Atribuită <a href=\"https://ro.orthodoxwiki.org/Efrem_Sirul\"><strong>Sfântului Efrem Sirul</strong></a> și utilizată cu precădere în timpul <a href=\"https://ro.orthodoxwiki.org/Triod\">Triodului</a>, această rugăciune este considerată a fi cea mai succintă exprimare a specificităţii <a href=\"https://ro.orthodoxwiki.org/Postul_mare\">Postu</a><a href=\"https://ro.orthodoxwiki.org/Postul_mare\">lui</a><a href=\"https://ro.orthodoxwiki.org/Postul_mare\"> Mare</a>, şi este, de aceea, rugăciunea <strong>prin excelenţă</strong> a postitorului în <a href=\"https://ro.orthodoxwiki.org/Introducere_%C3%AEn_Cre%C8%99tinismul_Ortodox\">Creștini</a><a href=\"https://ro.orthodoxwiki.org/Introducere_%C3%AEn_Cre%C8%99tinismul_Ortodox\">smul</a><a href=\"https://ro.orthodoxwiki.org/Introducere_%C3%AEn_Cre%C8%99tinismul_Ortodox\"> Ortodox</a>. Este rostită la toate slujbele de zi cu zi din timpul Postului, la <a href=\"https://ro.orthodoxwiki.org/Liturghia_Darurilor_mai_%C3%AEnainte_sfin%C8%9Bite\">Liturghia darurilor mai înainte sfinţinte</a>, şi de mult mai multe ori în particular.</p>\n<p>Piesa, pe care am finalizat-o în 2011, este scrisă într-un stil predominant polifonic, folosind material tematic bizantin, şi armonii derivate din scările <strong>ehurilor</strong> bizantine, oarecum urmărind linia trasată de <strong>Paul Constantinescu</strong>. Este menită să fie cântată atât pe scenă cât şi la <strong>concertul</strong> din cadrul <a href=\"https://ro.orthodoxwiki.org/Sf%C3%A2nta_Liturghie\">S</a><a href=\"https://ro.orthodoxwiki.org/Sf%C3%A2nta_Liturghie\">f.</a><a href=\"https://ro.orthodoxwiki.org/Sf%C3%A2nta_Liturghie\"> Liturghii</a>, când se <a href=\"https://ro.orthodoxwiki.org/Euharistie\">împărtăşesc</a> preoţii în <a href=\"https://ro.orthodoxwiki.org/Altar\">Sf</a><a href=\"https://ro.orthodoxwiki.org/Altar\">.</a><a href=\"https://ro.orthodoxwiki.org/Altar\"> Altar</a>. Formula versiunii de faţă este cor bărbătesc cu recitator bass (recitatorul poate fi un actor).</p>\n<p>Lucrarea se structurează în trei secţiuni plus o codă, dintre care două sunt tributare, cel puţin în principiu, unor structuri formale din muzica cultă occidentală: un contrapunct liber (măs. 1-27), o <strong>fugă</strong> (măs. 28-71), o <strong>ciacconă</strong> (măs. 72-119) şi un recitativ (măs. 120-122).</p>\n<p>În interpretarea piesei este recomandabil un <strong>timbru acoperit</strong>, cald, catifelat, capabil să dea naştere unui sunet cu relativ puţine armonice, care să favorizeze poziţiile strânse ale acordurilor de care piesa face uz.</p>"
+  },
+  "picture": "assets/images/pieces/prayer-of-saint-ephrem-of-syria-rugaciunea-sfantului-efrem-sirul.png",
+  "pictureAlt": {
+    "en": "Mosaic of Saint Ephrem of Syria",
+    "ro": "Sfântul Efrem Sirul, mozaic"
+  },
+  "imprint": {
+    "orchestration": {
+      "en": "Choir /",
+      "ro": "Cor"
+    },
+    "lyrics": {
+      "en": "Liturgical Text /",
+      "ro": "Text liturgic"
+    },
+    "length": "8′",
+    "state": "finished",
+    "completedOn": "2011",
+    "premieredOn": null,
+    "premieredBy": null,
+    "honors": {
+      "en": "Acquired by  (2016) /",
+      "ro": "Achiziționat de UCMR (2016)"
+    },
+    "copyright": {
+      "en": "Claudius Iacob",
+      "ro": "Claudius Iacob"
+    }
+  },
+  "tags": [
+    "choir",
+    "classical",
+    "completed",
+    "mild-dissonance",
+    "with-audio",
+    "with-honors",
+    "with-score"
+  ],
+  "score": "assets/scores/prayer-of-saint-ephrem-of-syria-rugaciunea-sfantului-efrem-sirul.pdf",
+  "recording": "assets/audio/prayer-of-saint-ephrem-of-syria-rugaciunea-sfantului-efrem-sirul.mp3"
+}

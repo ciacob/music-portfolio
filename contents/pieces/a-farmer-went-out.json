@@ -1,0 +1,60 @@
+{
+  "slug": "a-farmer-went-out",
+  "title": {
+    "en": "A farmer went out",
+    "ro": "Ieșit-a semănătorul"
+  },
+  "subtitle": {
+    "en": "[…] Essentially an eclectic work.",
+    "ro": "[…] O lucrare principial eclectică."
+  },
+  "summary": {
+    "en": "Ieșit-a semănătorul (A farmer went out…) is essentially an eclectic work, as it combines a significant number of music writing idioms, music scales, and music syntaxes. In it, I experiment with my very own version of a Byzantine melodic vibe, which I harmonically pair with a texture of polytonality and polymodality.\n\nMoreover, by leveraging the dual nature of the chosen libretto — the sacred text of The Parable of the Sower from Mk.4:3-8, which is both mystical and dramaturgical — I also add a cinematic touch into the mix, something I have been playing with before, most notably in Ici Bas (2017).\n\nThe result is a rather peculiar, yet captivating, blend of a scholastic musical discourse (mind the short and assertive phrases, the chant-inspired melodies, chorales, etc.) and an idiomatic writing for a psychological thriller or an adventure film.",
+    "ro": "TBD"
+  },
+  "programNotes": {
+    "en": "<p>TBD</p>",
+    "ro": "<p><strong>Ieșit-a semănătorul</strong>&nbsp;este o lucrare principial eclectică, combinând în mod responsabil și asumat un număr semnificativ de idiomuri de scriitură, moduri de organizare a înălțimilor, și sintaxe muzicale.</p>\n<p>Profitând de combinația unică de <em>sacru</em> și <em>dramaturgic</em> pe care o oferă textul scripturistic ales ca suport (<a href=\"http://www.bibliaortodoxa.ro/carte.php?id=53&amp;cap=4\" target=\"_blank\" rel=\"noopener\">Parabola Semănătorului</a>, versiunea evanghelistului Marcu – Mc.4:3-8), piesa mea experimentează cu o versiune proprie a unui idiom melodic bizantin, înveșmântat armonic într-un melanj de politonalitate și polimodalism. Pe acesta îl combină inedit cu un suflu cinematografic (încercat și în alte piese, în speță <a href=\"https://music.claudius-iacob.eu/project/ici-bas-here-below/\" target=\"_blank\" rel=\"noopener\"><em>Ici Bas</em></a>, 2017). Astfel se face că partitura oscilează (fără a-și pierde însă echilibrul) între un discurs scolastic, alcătuit din fraze scurte, articulate explicit, sentențios și asertoric, și o scriitură idiomatică de thriller psihologic sau film de aventură.</p>\n<p>Muzica este deci construită eterogen, alternând momentele de discurs fragmentat, discontinuu, cu suprafețe omogene de travaliu tematic, și alternând eterofonia densă pe care o reclamă materialul modal de sorginte bizantină cu omofonia lejeră specifică figurațiilor orchestrale proprii coloanelor sonore.</p>\n<p>Armonia se bazează pe un mix de sisteme de organizare a înălțimilor, ce pornește de la polimodalism și politonalism – care este preponderent, și este utilizat ostentativ în multe locuri, până acolo încât mai multe centre gravitonice diferite sunt alocate explicit și simultan la două sau mai multe familii/grupuri de instrumente – până la atonalism liber și serialism dodecafonic (vezi în acest sens fuga din secțiunea secundă).</p>\n<p>Substanța melodică (acolo unde nu este gestuală, într-un spirit retoric, baroc) este ireductibil derivată din doua moduri bizantine plagale – eh-ul V, diatonic, ales pentru formulistica sa specifică în jurul treptei sale mobile (a șasea) – și ehul VI, cromatic, ales pentru culoare, și pentru cadența frigică pe care o oferă la nivelul <em>ambelor</em> tetracorduri simetrice ale sale.</p>\n<p>Ritmul variază într-un spectru foarte larg, de la monoritm (vezi marșul din deschidere și din secțiunea penultimă) până la invenția ritmică perpetuă (în fapt, o specie de aritmie, vezi eterofoniile de la suflători din ultima secțiune).</p>\n<p>Formal, piesa este caleidoscopică, dezvelindu-se ascultătorului în mici prize de conținut, cu caracter autonom, puternic individualizate prin culoarea orchestrală aleasă și prin scriitură. Orchestrația este, deci, bazată pe tratarea izolată a familiilor și grupurilor de instrumente, momentele de melanj fiind cu totul rare.</p>\n<p>Nu în ultimul rând, trebuie menționat că textul muzical susține, în fapt, un text literar „in absentia”, mai exact, versetele 14-20 ale aceluiași capitol, în care Iisus le interpretează parabola, în particular, ucenicilor Săi. Privit din această perspectivă, dramatismul și caracterul apodictic al secțiunilor mediane capătă un cu totul alt sens, la fel ca și bogatul aparat retoric din spatele gesturilor muzicale prezente din belșug în melodica piesei. Însă nu voi elabora pe această temă, lăsând o atare (eventuală) analiză în seama muzicologului pasionat de formulistică și <a href=\"https://en.wikipedia.org/wiki/Doctrine_of_the_affections\" target=\"_blank\" rel=\"noopener\"><em>Affektenlehre</em></a>.</p>\n<p>&nbsp;</p>"
+  },
+  "picture": "assets/images/pieces/a-farmer-went-out.jpg",
+  "pictureAlt": {
+    "en": "Pieter Bruegel, 1557, Parable of the Sower",
+    "ro": "Parabola Semănătorului"
+  },
+  "imprint": {
+    "orchestration": {
+      "en": "orchestra, amplified baritone voice and small organ / orchestră, voce de bariton amplificată și orgă mică",
+      "ro": "orchestra, amplified baritone voice and small organ / orchestră, voce de bariton amplificată și orgă mică"
+    },
+    "lyrics": {
+      "en": "sacred text, Marc 4:3-9 / Text sacru, Marcu 4:3-9",
+      "ro": "sacred text, Marc 4:3-9 / Text sacru, Marcu 4:3-9"
+    },
+    "length": "19:07′",
+    "state": "finished",
+    "completedOn": "2022",
+    "premieredOn": null,
+    "premieredBy": null,
+    "honors": {
+      "en": "Acquired by UCMR in the November 2022 session / Achiziționată de  in sesiunea nov. 2022",
+      "ro": "Acquired by UCMR in the November 2022 session / Achiziționată de  in sesiunea nov. 2022"
+    },
+    "copyright": {
+      "en": "Claudius Iacob",
+      "ro": "Claudius Iacob"
+    }
+  },
+  "tags": [
+    "classical",
+    "completed",
+    "contemporary",
+    "mild-dissonance",
+    "orchestra",
+    "soloists",
+    "with-audio",
+    "with-honors",
+    "with-score"
+  ],
+  "score": "assets/scores/a-farmer-went-out.pdf",
+  "recording": "assets/audio/a-farmer-went-out.mp3"
+}

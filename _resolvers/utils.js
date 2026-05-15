@@ -276,7 +276,6 @@ function buildDirectoryItems(pieces, lang, allTags) {
       <div class="piece-card__body">
         <h3 class="piece-card__title">${titleText}</h3>
         <p class="piece-card__subtitle">${subtitleText}</p>
-        <p class="piece-card__summary">${summaryText}</p>
         <div class="piece-card__tags" aria-label="Tags">${tagChips}</div>
       </div>
     </a>

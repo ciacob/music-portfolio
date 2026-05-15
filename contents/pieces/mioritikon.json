@@ -1,0 +1,57 @@
+{
+  "slug": "mioritikon",
+  "title": {
+    "en": "Mioritikon",
+    "ro": "Mioritikon"
+  },
+  "subtitle": {
+    "en": "The piece is questioning whether there will be a place for such thing as a “Romanian ethos”.",
+    "ro": "O meditație sonoră pe tema aneantizării specificității românești"
+  },
+  "summary": {
+    "en": "The funny name sprouted from a peculiar crossbreeding between the Ancient Greek “ikon” (eikṓn, “likeness, image, portrait”) and the name of an old Romanian pastoral ballad, regarded by many as being most specific to Romanian folklore and spirituality — Miorița (“The Little Ewe”). The piece is, thus, questioning whether there will be a place for such thing as a “Romanian ethos” in the world of globalised arts and culture we are facing today. The work draws upon Marțian Negrea’s widely acclaimed masterpiece, Păstorița (“The Shepherdess”) whose bucolic world is ruthlessly assaulted by industrial sounds and dodecaphonic music. The track gives no account of an aftermath, but consensus seems hardly an option.",
+    "ro": "TBD"
+  },
+  "programNotes": {
+    "en": "<p>TBD</p>",
+    "ro": "<p><strong>Mioritikon</strong> este o meditație sonoră pe tema aneantizării specificității românești în contemporaneitate. Este o materializare acustică a vidului, cu trimitere directă la acest început de secol XXI, hiper-tehnologizat, consumerist și globalizator. În irezistibilul iureș al nivelării particularităților culturale, ce șanse mai are „veșnicia (care) s-a născut la sat” (Lucian Blaga) să-și găsească un loc?</p>\n<p>Muzica antamează un discurs contradictoriu pornind de la piesa „Păstorița” a compozitorului român Marțian Negrea, capodoperă a muzicii corale românești, și totodată simbol apodictic al unui timp arhaic și „spațiu mioritic”, ambele atât de pitorești. Sonoritățile electronice care i se alătură, segregate pe două planuri adverse, de confirmare și opoziție, creionează împreună o imagine a dezintegrării, a pierderii și a rătăcirii. Versurile poemului coșbucian, trunchiate și reinterpretate, aruncă o lumină cataclismică asupra întregului proces („și murind […] soarele”) și ironizează amar indiferența și inerția națiunii în fața pierderii de sine („obosit și blând popor / noapte bună, noapte bună”).</p>\n<p>Piesa a fost realizată în august 2018, ca răspuns la concursul de creații muzicale electronice organizat de Festivalul Internațional de muzică contemporană cultă „Innersound”, ediția a cincea, și a fost nominalizată printre cele zece lucrări finaliste.</p>"
+  },
+  "picture": "assets/images/pieces/mioritikon.png",
+  "pictureAlt": {
+    "en": "\"Shepherdess\" by Nicolae Grigorescu",
+    "ro": "„Păstoriţă” de Nicolae Grigorescu"
+  },
+  "imprint": {
+    "orchestration": {
+      "en": "Synthesizers and Musique concrète /",
+      "ro": "Sintetizatoare și Muzică concretă"
+    },
+    "lyrics": {
+      "en": "George Coșbuc,  (The Shepherdess)  — 1893",
+      "ro": "Păstorița"
+    },
+    "length": "5:00′",
+    "state": "finished",
+    "completedOn": "2018",
+    "premieredOn": "2018",
+    "premieredBy": null,
+    "honors": {
+      "en": "Nominated among the finalists of the Electronic Music Composition Contest held by the “InnerSound” New Arts Festival, 5th edition /",
+      "ro": "Nominalizată între lucrările finaliste la concursul de creații muzicale electronice organizat de Festivalul Internațional de muzică contemporană cultă „Innersound”, ediția a V-aAchiziționat de UCMR (2019)"
+    },
+    "copyright": {
+      "en": "Claudius Iacob",
+      "ro": "Claudius Iacob"
+    }
+  },
+  "tags": [
+    "completed",
+    "contemporary",
+    "electronics",
+    "mild-dissonance",
+    "with-audio",
+    "with-honors"
+  ],
+  "score": null,
+  "recording": "assets/audio/mioritikon.mp3"
+}

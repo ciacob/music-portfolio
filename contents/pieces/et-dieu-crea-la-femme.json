@@ -1,0 +1,54 @@
+{
+  "slug": "et-dieu-crea-la-femme",
+  "title": {
+    "en": "Et Dieu créa la femme (And God Created Woman)",
+    "ro": "Et Dieu créa la femme (Și a făcut Dumnezeu femeie)"
+  },
+  "subtitle": {
+    "en": "The piece was inspired by the 1956 homonymous film with Brigitte Bardot,",
+    "ro": "Mobilul piesei l-a constituit […] filmul omonim din 1956, cu Brigitte Bardot"
+  },
+  "summary": {
+    "en": "The piece was inspired by the 1956 homonymous film with Brigitte Bardot, in which Roger Vadim explores a sophisticated and incomprehensible female archetype.\n\nHowever, my score follows the erotic development of a male character instead – a man in love, as he progresses from childhood through adolescence and adulthood: “Little Childhood Love”, “The girl, as dreamed”, “Nuptial Song”, “Sad postlude”.\n\nThe music gallivants with minimalism, noise music, Bartokian fierceness, some late Germanic romantic sparkle and a little twentieth century Russian harshness.",
+    "ro": "TBD"
+  },
+  "programNotes": {
+    "en": "<p>TBD</p>",
+    "ro": "<p>Această partitură inedită și greu de consumat reprezintă o privire nu tocmai măgulitoare asupra „miracolului feminin”, din perspectiva erotică a <em>bărbatului</em>.</p>\n<p>Mobilul piesei l-a constituit nu atât textul sacru (<a href=\"http://www.bibliaortodoxa.ro/carte.php?id=25&amp;cap=2#verset22\" target=\"_blank\" rel=\"noopener\">Geneză, 2:22</a>) cât filmul omonim din 1956, cu Brigitte Bardot în rol principal, în care Roger Vadim explorează fără menajamente un arhetip psihologic feminin bazat pe concupiscență, hiper-sexualitate, capriciu, instabilitate, impredictibilitate, ireverență, orgoliu, egoism, sadism — un personaj sofisticat și incomprehensibil, dar care este capabil, împotriva oricăror așteptări, să dea dovadă de dragoste autentică și pasiune totală. Peste Ocean, producția franceză a fost considerată într-atât de șocantă, încât responsabilii americani cu promovarea filmului au simțit nevoia să augmenteze (pe afișe) titlul — „And God created woman” — cu un spiritual „but the devil invented Brigitte Bardot”, care va fi fost, în egală măsură, <em>teaser</em>&nbsp;și <em>disclaimer</em>.</p>\n<p>Totuși, piesa mea nu urmărește personajul lui R. Vadim. Într-o manieră complementară, ea aproximează un periplu imaginar (și non-exhaustiv) prin stările încercate de <em>bărbatul</em>&nbsp;îndrăgostit. De la nevinovatele jocuri ale copilăriei („Amourette d’enfance”) — în care senzualitatea este cu totul discutabilă, și oricum covârșită de aspectul ludic —, trecând prin tumultul reprimat al adolescenței („Une fille, un reve”) — perioadă în care elementul oniric deformează, și în bună măsură suplinește experiența erotică —, <em>îndrăgostitul</em>&nbsp;din textul meu muzical ajunge eventual la consumarea împreunării trupești mult râvnite („Chant d’Amour”) și la trezirea brutală dintr-un vis opiaceu de a cărui substanțialitate nu se îndoise niciodată („Postlude triste”).</p>\n<p>Muzica acestor secțiuni cochetează, respectiv, cu minimalismul american, bruitismul italian și cu o „reîncarnare” instrumentală a <em>muzicii concrete</em>&nbsp;a lui Pierre Schaeffer; apoi, cu furia bartokiană și cu un filon germanic de romantism târziu; în fine, cu lirismul neverosimil al lui Olivier Messiaen (în special sonoritățile din „Jardin du sommeil d’amour”). Nu în ultimul rând, muzica de închidere (o posibilă <em>furtună domestică</em>, deși nu am conceput compoziția cu intenții programatice) aduce un parfum aspru de tundră siberiană, prin trimiterile ei voalate către virulența lui Stravinsky sau disonanțele lui Shostakovich.</p>\n<p>Nu sunt pe deplin convins nici de forma, nici de conținutul actual al acestui „eseu pentru coarde” scris în 2003. O reajustare, reasamblare sau de-a dreptul recompoziție a materialului muzical, deși nu sunt iminente, sunt perfect posibile.</p>"
+  },
+  "picture": "assets/images/pieces/et-dieu-crea-la-femme.png",
+  "pictureAlt": {
+    "en": "Et Dieu créa la femme — Detail of a Film Poster",
+    "ro": "Detaliu dintr-un afiș al filmului"
+  },
+  "imprint": {
+    "orchestration": {
+      "en": "String Quartet /",
+      "ro": "Cvartet de coarde"
+    },
+    "lyrics": null,
+    "length": "18′",
+    "state": "refining",
+    "completedOn": "2013",
+    "premieredOn": null,
+    "premieredBy": null,
+    "honors": null,
+    "copyright": {
+      "en": "Claudius Iacob",
+      "ro": "Claudius Iacob"
+    }
+  },
+  "tags": [
+    "cello",
+    "contemporary",
+    "refining",
+    "strings",
+    "strong-dissonance",
+    "viola",
+    "violin",
+    "with-audio",
+    "with-score"
+  ],
+  "score": "assets/scores/et-dieu-crea-la-femme.pdf",
+  "recording": "assets/audio/et-dieu-crea-la-femme.mp3"
+}

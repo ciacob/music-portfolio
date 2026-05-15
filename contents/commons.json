@@ -1,16 +1,16 @@
 {
   "site": {
     "title": {
-      "en": "Andrei Ciocîrlan",
-      "ro": "Andrei Ciocîrlan"
+      "en": "",
+      "ro": ""
     },
     "tagline": {
-      "en": "Composer",
-      "ro": "Compozitor"
+      "en": "",
+      "ro": ""
     },
     "copyright": {
-      "en": "Andrei Ciocîrlan. All rights reserved.",
-      "ro": "Andrei Ciocîrlan. Toate drepturile rezervate."
+      "en": "Claudius Iacob. All rights reserved.",
+      "ro": "Claudius Iacob. Toate drepturile rezervate."
     },
     "languages": ["en", "ro"],
     "defaultLanguage": "en"
@@ -37,50 +37,59 @@
   "home": {
     "rider": {
       "heading": {
-        "en": "Music that listens back",
-        "ro": "Muzică ce ascultă la rândul ei"
+        "en": "Claudius Tiberiu Iacob, <a href=\"https://music.claudius-iacob.eu/download.php?file=DOCS%2Fclaudius-iacob--doctorat.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PhD</a>",
+        "ro": "<a href=\"https://music.claudius-iacob.eu/download.php?file=DOCS%2Fclaudius-iacob--doctorat.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Dr.</a> Claudius Tiberiu Iacob"
       },
       "subheading": {
-        "en": "Contemporary classical composition from Bucharest",
-        "ro": "Compoziție clasică contemporană din București"
+        "en": "Romanian contemporary composer of mostly art music",
+        "ro": "Compozitor român contemporan, preponderent de muzică cultă"
       },
-      "picture": "assets/images/rider.jpg",
+      "picture": "assets/images/rider.svg",
       "pictureAlt": {
-        "en": "Andrei Ciocîrlan at the piano",
-        "ro": "Andrei Ciocîrlan la pian"
+        "en": "Claudius Iacob stylized portrait",
+        "ro": "Claudius Iacob — portret stilizat"
       }
     },
     "featured": {
-      "heading": { "en": "Featured works", "ro": "Lucrări reprezentative" },
+      "heading": { "en": "Featured Music", "ro": "Piese recomandate" },
       "items": [
         {
-          "slug": "nocturne-op1",
+          "slug": "ici-bas-here-below",
           "description": {
-            "en": "A meditative exploration of silence and resonance.",
-            "ro": "O explorare meditativă a tăcerii și rezonanței."
+            "en": "Inspired by Benjamin Britten’s War Requiem (1962), Ici-bas is a non-liturgical musical work built on religious thematic.",
+            "ro": "Inspirată de Recviemul de război (1962) al lui Benjamin Britten, lucrarea Ici-bas este de asemenea o lucrare muzicală non-liturgică, dar cu tematică religioasă."
           }
         },
         {
-          "slug": "string-quartet-no2",
+          "slug": "due-miniature-futili-two-futile-miniatures",
           "description": {
-            "en": "Structured around folk modal scales from Oltenia.",
-            "ro": "Structurată pe scări modale folclorice din Oltenia."
+            "en": "The music obstinately draws upon Erik Satie’s carefully sought futility and reductionism.",
+            "ro": "O audiție incomodă în spiritul reducționist-futil „marca” Erik Satie."
           }
         },
         {
-          "slug": "cantata-solis",
+          "slug": "oblivion-uitare",
           "description": {
-            "en": "A cantata for soprano, chorus and chamber orchestra.",
-            "ro": "Cantată pentru soprană, cor și orchestră de cameră."
+            "en": "The music relies on the concept of oblivion, a certain state of mental blankness or unconsciousness.",
+            "ro": "O muzică a rătăcirii, rătăcind ea însăși într-un univers confuz și dezrădăcinat."
+          }
+        },
+        {
+          "slug": "chants-from-the-valley-of-sighs-cantari-din-valea-plangerii",
+          "description": {
+            "en": "Builds upon the Christian concept of regarding life as a mere preparation for a better one to come.",
+            "ro": "În spațiul spiritualității creștine, Valea Plângerii este numele lumii pământești, trecătoare, înșelătoare și plină de suferință."
           }
         }
       ]
     },
     "bio": {
-      "heading": { "en": "About", "ro": "Despre" },
+      "heading": { "en": "Short Bio", "ro": "Scurtă biografie" },
       "text": {
-        "en": "<p>Andrei Ciocîrlan is a Bucharest-based composer working at the intersection of contemporary classical music and Romanian folk traditions. He studied composition at the National University of Music Bucharest and has received commissions from ensembles across Europe.</p><p>His music has been performed at festivals including SoNoRo, the George Enescu International Festival, and Europalia. He is currently working on a cycle of pieces for string quartet and electronics.</p>",
-        "ro": "<p>Andrei Ciocîrlan este un compozitor din București care lucrează la intersecția muzicii clasice contemporane cu tradițiile folclorice românești. A studiat compoziția la Universitatea Națională de Muzică București și a primit comenzi de la ansambluri din întreaga Europă.</p><p>Muzica sa a fost interpretată la festivaluri precum SoNoRo, Festivalul Internațional George Enescu și Europalia. În prezent lucrează la un ciclu de piese pentru cvartet de coarde și electronică.</p>"
+        "en": "<p>Claudius Tiberiu Iacob is a Romanian composer whose work focuses on contemporary art music. Born in the fiery generation of the 1980s, he managed to combine humanities (theology and classical studies at the Orthodox Seminary of Bucharest, and traditional western composition at the National Music University of Bucharest) with innate engineering skills, which enabled him to successfully tackle artistic projects that were a mix of music and IT. Victor Frangulea, Dan Dediu, Doina Rotaru, Ştefan Niculescu, Teodor Ţuțuianu, Nicolae Coman, Mihaela Vosganian and Liviu Dănceanu are some of the prevalent teachers who shaped his compositional taste and artistic personality.</p><p>Despite focusing on more than one area, he consistently carries on his musical concerns, both academically (he has a <a href=\"https://music.claudius-iacob.eu/download.php?file=DOCS%2Fclaudius-iacob--doctorat.pdf\" target=\"_blank\" rel=\"noopener\">PhD in Musicology</a> at the aforementioned University) and creatively: there are, among his works, titles that received honors in composition competitions, both in Romania and abroad, and pieces that were acquired by the Society of Composers and Musicologists from Romania. Claudius also built and maintained for 12 years <strong><a href=\"https://github.com/ciacob/maidens\" target=\"_blank\" rel=\"noopener\">MAIDENS</a></strong>, a computer aided algorithmic composition software.</p><p>Claudius speaks on his music as being “unwonted and spontaneous, with peaks of humor, grotesque, reverie and meditation.” Not containing himself to art music, Claudius also tackles stage, film, gaming and commercial music, at times with notable success.</p>",
+
+
+        "ro": "<p>Claudius Tiberiu Iacob este un compozitor român, a cărui creație se axează pe muzica cultă contemporană. Face parte din ferventa generație a anilor ’80 și a îmbinat cu succes studiile umaniste (teologie și limbi clasice la Seminarul Ortodox din București, compoziție clasică la Universitatea Națională de Muzică din București) cu aptitudinile inginerești înnăscute, fapt care i-a permis să atace cu succes proiecte artistice aflate la granița dintre muzică și IT. Printre profesorii care i-au conturat personalitatea componistică se numără Victor Frangulea, Dan Dediu, Doina Rotaru, Ștefan Niculescu, Teodor Țuțuianu, Nicolae Coman, Mihaela Vosganian și Liviu Dănceanu.</p><p>În ciuda preocupărilor multidisciplinare, Claudius a manifestat consecvență în activitatea sa muzicală, atât în plan academic (deține un titlu de <a href=\"https://music.claudius-iacob.eu/download.php?file=DOCS%2Fclaudius-iacob--doctorat.pdf\" target=\"_blank\" rel=\"noopener\">Doctor în Muzicologie</a>, obținut la Universitatea sus-amintită) cât și creator, printre piesele sale numărându-se titluri distinse la concursuri de compoziție, interne și internaționale, și lucrări achiziționate de Uniunea Compozitorilor și Muzicologilor din România. De asemenea, Claudius a creat și îmbunătățit, timp de 12 ani, programul <strong><a href=\"https://github.com/ciacob/maidens\" target=\"_blank\" rel=\"noopener\">MAIDENS</a></strong>, un soft de compoziție muzicală algoritmică asistată de calculator.</p><p>Claudius își consideră muzica „insolită și spontană, cu accente de umor, grotesc, reverie și meditație.” Fără a se limita la creația cultă, Claudius abordează — uneori cu succes notabil — zone precum muzica pentru teatru, film/jocuri video, dar și producții comerciale.</p>"
       }
     }
   },

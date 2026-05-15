@@ -1,0 +1,50 @@
+{
+  "slug": "funeral-chant-cantec-de-trecere",
+  "title": {
+    "en": "Funeral chant",
+    "ro": "Cântec de trecere"
+  },
+  "subtitle": {
+    "en": "Rather austere music, trimmed down to its very substance, sober and severe.",
+    "ro": "Muzica trăieşte din însăşi propria austeritate."
+  },
+  "summary": {
+    "en": "I recently wrote a Bb clarinets trio, and did my best with some accompanying video art too. This is a rather austere music, trimmed down to its very substance, sober and severe, as was the sad fact that inspired me to write it. The four sections of the piece illustrate, respectively, birth, youth, maturity and death, as does the video, which obstinately reiterates the idea of passing, or crossing, going over — actually, the Romanian name of the piece literally means Song for Going Over.",
+    "ro": "TBD"
+  },
+  "programNotes": {
+    "en": "<p>TBD</p>",
+    "ro": "<p><em>Am încheiat recent (30 iunie 2013) o nouă piesă, “Cântec de trecere”, pentru un trio de clarinete în Sib, piesă pe care în sfârşit am acum şansa să o şi public. A fost prilejuită de o întâmplare tristă, asupra căreia, însă, nu voi stărui.</em></p>\n<p><em>Am conceput Cântecul de trecere ca pe un exerciţiu de claritate şi auto-disciplină. Discursul muzical este epurat de orice elemente superflue; muzica trăieşte din însăşi propria austeritate, şi din revenirea cu obstinaţie la elementul generativ.</em></p>\n<p><em>Cele patru secţiuni recuperează în plan simbolic patru stadii ontologice: <strong>naşterea</strong> (ca sosire), creionată monodic prin insinuarea materialului tematic unic; <strong>tinereţea</strong> (ca joc), stilizată într-o idee de dans, în care cele trei instrumente se împerechează, aparent aleatoriu; <strong>maturitatea</strong> (ca reflecţie), capabilă să decanteze şi să sedimenteze valori, echivalată muzical cu un coral izomorf; şi, în fine, <strong>moartea</strong> (ca plecare), relatată printr-o rememorare a materialului sonor iniţial, îmbrăcat în crâmpeie din toate sintaxele muzicale cu care a cochetat pe parcurs.</em></p>"
+  },
+  "picture": "assets/images/pieces/funeral-chant-cantec-de-trecere.jpg",
+  "pictureAlt": {
+    "en": "Blossom Catalpa Tree Over Lake in Rain",
+    "ro": "Arbore catalpa înflorit deasupra unui lac, în ploaie"
+  },
+  "imprint": {
+    "orchestration": {
+      "en": "Trio for Clarinets /",
+      "ro": "Trio de clarinete"
+    },
+    "lyrics": null,
+    "length": "4:30′",
+    "state": "finished",
+    "completedOn": "2013",
+    "premieredOn": null,
+    "premieredBy": null,
+    "honors": null,
+    "copyright": {
+      "en": "Claudius Iacob",
+      "ro": "Claudius Iacob"
+    }
+  },
+  "tags": [
+    "clarinet",
+    "contemporary",
+    "strong-dissonance",
+    "with-audio",
+    "with-score"
+  ],
+  "score": "assets/scores/funeral-chant-cantec-de-trecere.pdf",
+  "recording": "assets/audio/funeral-chant-cantec-de-trecere.mp3"
+}

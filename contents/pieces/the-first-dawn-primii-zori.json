@@ -1,0 +1,55 @@
+{
+  "slug": "the-first-dawn-primii-zori",
+  "title": {
+    "en": "The First Dawn",
+    "ro": "Primii zori"
+  },
+  "subtitle": {
+    "en": "A […] foray into the […] genesis of a consciousness.",
+    "ro": "O incursiune […] în geneza […] unei conștiințe."
+  },
+  "summary": {
+    "en": "The First Dawn, an electronic poem, is a metaphorical and supra-musical foray into the ineffable genesis of a consciousness.\n\nThe soundscape’s subtext embraces the Judeo-Christian cosmology, and traces — from inside out — the “coming into existence” of a first Adam: enlivened, sensitive and rational, and able to perceive himself, his surrounding Universe, and his Creator.",
+    "ro": "TBD"
+  },
+  "programNotes": {
+    "en": "<p>TBD</p>",
+    "ro": "<p><strong>Poemul electronic </strong><strong><em>The First Dawn</em></strong><strong> („Primii zori”) se dorește o incursiune metaforică și supra-muzicală în geneza inefabilă a unei conștiințe.</strong> Îmbrățișând (în subtext) cosmologia iudeo-creștină, alcătuirea sonoră urmărește – cumva „din interior” – <em>ființarea</em>, „venirea la existență” a unui prim <em>Adam</em>, însuflețit, sensibil, rațional, capabil să perceapă universul înconjurător, să se perceapă pe sine, și pe Creator.</p>\n<p>Ideația de mai sus fundamentează o muzică profund interiorizată, și de o densitate extremă (ceea ce nu o face însă, în mod necesar, criptică sau ermetică); o muzică ce evoluează lent, non-linear, și pe o mulțime de paliere, și parcurge un drum sinuos, de la denotații aurale ale <em>abisului</em> și <em>întunericului</em> (un fel clocot haotic primordial, redat de o „magmă” eterofonă în continuă mișcare și de varii densități) până la formulări sonore iradiante (expresii ale <em>luminii</em>, în variile sale reprezentări: de la fulgurantă, explozivă și orbitoare, până la senină, clară și diafană – vehiculul tehnic constituindu-se aici dintr-o succesiune de pedale armonice spectrale și scurte coraluri microtonale ce vor converge, ultimamente, către unison). În același spirit, materialul intonațional al piesei evoluează pe nesimțite dinspre grav către extremul acut – substanța muzicală sfârșind prin a „sublima”, intonațional și timbral; la fel, microritmia face treptat loc organizărilor ritmice mai consistente și/sau mai decelabile, agitația contenește progresiv, iar timbrul se „purifică”, se organizează și se „subțiază”. Complementar, într-un plan sau univers secund, masei sonore brute descrise mai sus i se opun structuri acordice rafinate, principial diatonice, armonii „solare” cvasi-trisonice decorate discret cu disonanțe non-funcționale. Acestea străpung în puncte cheie materia (sonoră) întunecată, și o ghidează în drumul ei (altfel haotic) spre organizare și devenire. Și parcursul acestui coral fragmentar (<em>poli</em>– și <em>micro</em>-tonal în egală măsură) urmărește, în esență, același principiu generator, structurile sale finale fiind mai acute și mai prelungi decât cele inițiale.</p>\n<p>Din punct de vedere tehnic, piesa este construită folosind anvelope sonore programate în sintetizatorul <a href=\"https://community.native-instruments.com/discussion/6034/end-of-sale-for-absynth-5-official-statement-faq\" target=\"_blank\" rel=\"noopener\"><em>Absynth 5</em></a>, în combinație cu proceduri clasice de conversie digitală a formelor de undă (supra-eșantionare, modificare selectivă a ratei de eșantionare, filtrare FFT, etc). Ca <em>semnătură componistică proprie</em> aș nota utilizarea neconvențională a reverberației de convoluție, anume prin selecționarea, ca material modulant (sau „impuls”), a unor <em>surse audio inedite</em>. În vreme ce, în mod normal, impulsurile sunt mostre scurte de „ecou” ale unei încăperi, eu am folosit în schimb înregistrări extinse făcute în rezervații naturale. Rezultatul a fost o colorare subtilă a anvelopelor sonore (sintetice, abstracte) cu timbruri de păsări (reale, concrete). În acest fel, am preluat în această piesă cu substrat mistic viziunea lui <a href=\"https://en.wikipedia.org/wiki/Olivier_Messiaen\" target=\"_blank\" rel=\"noopener\">Olivier Messiaen</a> – aducându-i și un omagiu pe această cale –, care privea toate făpturile înaripate ca pe niște emisari ai divinității.</p>"
+  },
+  "picture": "assets/images/pieces/the-first-dawn-primii-zori.jpg",
+  "pictureAlt": {
+    "en": "The Garden of Eden",
+    "ro": "Grădina Edenului — Thomas Cole, 1828"
+  },
+  "imprint": {
+    "orchestration": {
+      "en": "Synthesizers and Musique concrète / Sintetizatoare și Muzică concretă",
+      "ro": "Synthesizers and Musique concrète / Sintetizatoare și Muzică concretă"
+    },
+    "lyrics": null,
+    "length": "16:26′",
+    "state": "finished",
+    "completedOn": "2022",
+    "premieredOn": null,
+    "premieredBy": null,
+    "honors": {
+      "en": "Acquired by UCMR in the May 2022 session / Achiziționată de  in sesiunea mai 2022",
+      "ro": "Acquired by UCMR in the May 2022 session / Achiziționată de  in sesiunea mai 2022"
+    },
+    "copyright": {
+      "en": "Claudius Iacob",
+      "ro": "Claudius Iacob"
+    }
+  },
+  "tags": [
+    "completed",
+    "contemporary",
+    "electronics",
+    "strong-dissonance",
+    "with-audio",
+    "with-honors",
+    "with-score"
+  ],
+  "score": "assets/scores/the-first-dawn-primii-zori.pdf",
+  "recording": "assets/audio/the-first-dawn-primii-zori.mp3"
+}

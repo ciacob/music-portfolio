@@ -1,0 +1,56 @@
+{
+  "slug": "cancer-frog-pike-racul-broasca-si-stiuca",
+  "title": {
+    "en": "Cancer, Frog & Pike",
+    "ro": "Racul, broasca și știuca"
+  },
+  "subtitle": {
+    "en": "Gives a vigorously humorous treat to each character, picking the most representative feature of each one.",
+    "ro": "Mă concentrez asupra fiecăruia, încercând să le surprind cu umor și simpatie cele mai caracteristice trăsături."
+  },
+  "summary": {
+    "en": "Cancer, Frog and Pike is a piano solo suite inspired by a fable written in the nineteen century by the Romanian poet Alecu Donici. Unfaithful to the plot, or narrative of the fable, my music gives a vigorously humorous treat to each character, picking the most representative feature of each one: the cancer would rather go backward, the frog is jumpy, and the pike – the ultimate predator. A promenade theme, à la Musorgsky’s Pictures in an Exhibition ties up and pads the three main sections, giving a total of seven parts — or six with a coda: the pond is what actually keeps together the tree living creatures, which otherwise have little thing to share. I completed the piece in late September of 2013, and I consider it (at the time of writing these lines) the most funny and cheerful music I wrote lately.",
+    "ro": "TBD"
+  },
+  "programNotes": {
+    "en": "<p>TBD</p>",
+    "ro": "<p>Deși nu îmi amintesc cum mi-a venit ideea de a scrie muzică vis-à-vis de versurile lui Alecu Donici (1806 – 1865), îmi amintesc în schimb că acest lucru s-a întâmplat în toamna lui 2012, de când datează și primele note – începutul din <strong>Broasca</strong>. Piesa a fost finalizată abia un an mai târziu.</p>\n<p>Alecu Donici s-a folosit de aceste trei viețuitoare, ce nu au în comun decât mediul de viață, pentru a șfichiui societatea contemporană, incapabilă de a trece peste orgolii personale în slujba binelui comun. În fabula omonimă, nevinovatele animăluțe iau pe umeri neverosimila (și absurda) sarcină de a muta un sac cu grâu în iazul reședință, lucru pe care eu nu li-l cer să-l facă. În schimb, mă concentrez asupra fiecăruia, încercând să le surprind cu umor și simpatie cele mai caracteristice trăsături.</p>\n<p><strong>Racul</strong> este puțin mai mult decât o pereche de clești (care se pot auzi <strong>lovindu-se</strong> amenințător în acut). Altfel, o vietate paradoxală și caraghioasă în futilitatea sa: foarte mulți <strong>pași</strong>&nbsp;pe care-i face înainte, după îndelungi planificări și tatonări, sunt anulați de două mișcări viguroase din coadă, care îl întorc pe domnul rac de unde a plecat. Un traseu melodic nesigur și sinuos <strong>cucerește din greu</strong> un ambitus ceva mai mare de o octavă, în aproape o frază muzicală întreagă, doar pentru ca în următorii doi timpi să se prăbușească în grav, de unde a pornit.</p>\n<p><strong>Broscuța</strong> sare, și o face cu grație și vioiciune, atunci când nu înoată alene, plutește în derivă, sau stă nemișcată la concurență cu frunzele sau alte lucruri neînsuflețite din baltă. Un traseu melodico-armonic prin salturi, bine conturat, alternează cu polifonii difuze, ce evoluează lent în registrul mediu-grav. Goană și <strong>relâche</strong> de pe-o frunză pe alta.</p>\n<p><strong>Știuca</strong> este prădătorul numărul unu, stând nemișcat la adăpostul unei uscături, și atacând feroce la momentul oportun. De multe ori prada nu luptă, sau o face pentru scurt timp, și fără sorți de izbândă. Un ostinato amenințător în grav evoluează într-un demers omofonic acaparator, și se îndreaptă implacabil spre un cluster strident și dureros în acut.</p>\n<p>Deși lipsă din poezia lui Donici, în muzica mea este prezent un al patrulea personaj: <strong>iazul</strong>, în care viețuiesc toți cei trei, este și el parțial personificat, și evoluează episodic, pe parcursul unei introduceri, a două <strong>intermezzi</strong>, și a unei concluzii. Formula ciclică din bas, care caracterizează acest personaj îmbie la contemplarea unor unde imaginare, ce se deplasează molcom, și fac cale-ntoarsă odată ajunse la maluri. Tema din discant – un posibil <strong>peștișor</strong> într-o plimbare de după-amiază printre brusturi, cu care stimata doamnă știucă știe ce are de făcut.</p>"
+  },
+  "picture": "assets/images/pieces/cancer-frog-pike-racul-broasca-si-stiuca.jpg",
+  "pictureAlt": {
+    "en": "Pond with Burdocks",
+    "ro": "Iaz cu brusturi"
+  },
+  "imprint": {
+    "orchestration": {
+      "en": "Piano /",
+      "ro": "Pian"
+    },
+    "lyrics": null,
+    "length": "9:35′",
+    "state": "finished",
+    "completedOn": "2013",
+    "premieredOn": null,
+    "premieredBy": null,
+    "honors": {
+      "en": "Second Prize at the  held by  in 2014 /",
+      "ro": "Premiul doi la Concursul de compoziție Festivalul Internațional de interpretare pianistică și compoziție Sabin Păuța organizat de Societatea pentru cultură Metarsis in 2014"
+    },
+    "copyright": {
+      "en": "Claudius Iacob",
+      "ro": "Claudius Iacob"
+    }
+  },
+  "tags": [
+    "classical",
+    "completed",
+    "contemporary",
+    "mild-dissonance",
+    "piano",
+    "with-audio",
+    "with-honors",
+    "with-score"
+  ],
+  "score": "assets/scores/cancer-frog-pike-racul-broasca-si-stiuca.pdf",
+  "recording": "assets/audio/cancer-frog-pike-racul-broasca-si-stiuca.mp3"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "prosthetic-light-lumina-protetica",
+  "title": {
+    "en": "Prosthetic Light",
+    "ro": "Lumină prostetică"
+  },
+  "subtitle": {
+    "en": "An interesting mix of two different worlds.",
+    "ro": "Materialul muzical este […] structurabil în mecanisme […] şi improvizaţii."
+  },
+  "summary": {
+    "en": "Prosthetic Light is an electronic composition I created in 2011. The music makes use of combinatorial software I wrote specifically for this piece. I wrapped the resulting material around a pensive piano improvisation, which I recorded in one take. I ended up with an interesting mix of two different worlds, as I thoroughly manufactured one part of my score, while spontaneously filling up the other.\n\nI also created an experimental art video, closely following the same concept: wrote a piece of software to produce fractal-like imagery, took an amateur shot of hoarfrost on pine needles in the neighborhood and wrapped it all together, closely following the music.",
+    "ro": "TBD"
+  },
+  "programNotes": {
+    "en": "<p>TBD</p>",
+    "ro": "<p><em>Numele neobişnuit al acestei piese are de-a face cu gradul sporit de implicare a calculatorului în procesul ei compoziţional. Privim îndeobşte inspiraţia artistică ca pe o rază de lumină, ce vine de dincolo, emanând dintr-un nivel preeminent al existenţei. În această lumină (sic!), a folosi o maşinărie în sprijinul inspiraţiei poate însemna, de dragul îngemănărilor inedite de cuvinte, a pune luminii un sprijin, o <strong>proteză</strong>.</em></p>\n<p><em>Pentru a realiza această piesă, am scris un soft capabil să combine elemente muzicale predefinite, şi să le reprezinte într-o structură muzicală MIDI, pentru a fi utilizate mai departe.</em></p>\n<p><em>A fost prima mea asemenea experienţă. Pentru a nu irosi timpul de creaţie, şi pentru a valida principiul înaintea implementării, am ales un algoritm elementar, în speţă selecţia aleatoare ponderată. Am oferit maşinii un subset de durate muzicale de folosit; un subset de intervale muzicale; şi un set de evenimente muzicale (esenţialmente, note şi pauze). Fiecare element dintr-un (sub)set a avut o pondere, sau probabilitate de a fi ales, stabilită de operatorul uman la pornirea programului. Am implementat conceptele de <strong>mers treptat</strong>&nbsp;şi <strong>deplasare prin salt</strong>, şi am instruit maşina să le utilizeze cât mai <strong>înţelept</strong> cu putinţă: să facă uz de mersul treptat dacă s-au folosit prea multe salturi, şi viceversa. Restul a fost haos.</em></p>\n<p><em>Ca singur element uman implicat în proiect, mi-am adus contribuţia producând o bucată de muzică nefinisată, uşor minimalistă şi/sau repetitivă, dar totuşi, plăcută de ascultat. Din aceleaşi considerente (maşina este materie rece, fără raţiune şi fără simţire) mi-a revenit mie sarcina de a combina cele două crâmpeie de partitură (a mea, şi a maşinii) în aşa fel încât să alcătuiască o compoziţie muzicală unitară, cu structură, sens şi devenire proprie, care să fie recunoscută ca atare (şi agreată) de ascultătorii de muzică cultă. Ascultători care, oricât de dispuşi ar fi la abstracţiuni sonore, rămân totuşi umani.</em></p>\n<p><em>Materialul muzical este, aşadar, structurabil în <strong>mecanisme</strong> (produsul maşinii) şi <strong>improvizaţii</strong> (produsul omului).</em></p>\n<p><em>Mecanismele îşi datorează autenticitatea pe care o respiră faptului că au fost, realmente, produse în mod mecanic. Ele evoluează pe scări preponderent hexatonale, tind să fie izoritmice şi să favorizeze mersul treptat şi ostinato-ul. Acestea acaparează aproape în întregime ansamblul instrumentelor de percuţie folosite în piesă (jocul de clopoţei, xilofonul, vibrafonul, marimba), ansamblu pe care îl utilizează ca pe un aparat monolitic, multitimbral. Prin excepţie, crotalele se sustrag acestei imixtiuni: ele rămân manevrate de om, şi marchează sau întăresc, explicit şi demonstrativ, graniţele dintre secţiunile lucrării.</em></p>\n<p><em>Improvizaţiile sunt şi ele autentice, prin aceasta posibil născând în auditoriu opinii contradictorii şi puternice. În dorinţa de a-i păstra nealterat caracterul uman, muzica improvizată a fost lăsată în forma ei brută, şi reţine în ea, nealterate, şovăielile muzicianului care creează pe loc. Ea dă seama deciziilor îndoielnice, luate în grabă, în goana după următorul clic, implacabil, al metronomului. În deplin dezacord cu maşina, omul a dat naştere unei muzici tonale, în fa minor, care îşi urmează sieși predictibil, cu rare şi scurte modulaţii către tonalităţi apropiate şi înrudite. Este o muzică ce trece uşor drept facilă; ea refuză evoluţia, dezvoltarea şi variaţia, se scurge între zidurile aparent impenetrabile ale unui ambitus restrâns, şi repetă, cu melancolie şi resemnare, acelaşi regret nedefinit. Pianul, cei patru corni şi cornul englez sunt angajate în interpretarea acestei muzici – instrumente care nu se implică deloc în muzicile <strong>maşinii</strong>.</em></p>\n<p><em>Piesa este organizată ca o suită, în cinci secţiuni plus o codă, care se cântă, toate, fără pauză. Secţiunile – <strong>1 Machine</strong> (maşină), <strong>2 Machine &amp; Human</strong> (maşină şi om), <strong>3 Human &amp; Machine</strong> (om şi maşină), <strong>4 Human</strong> (om), <strong>5 Human &amp; Machine</strong>, <strong>6 Coda (Machine)</strong> – punctează traseul celor două realităţi muzicale divergente, ce încearcă un compromis. Surprinzător, <strong>omul</strong> este cel inflexibil în tot acest proces, el refuzând adoptarea de elemente tematice ale <strong>maşinii</strong>. Uniunea, de scurtă durată, este posibilă tocmai pentru că <strong>maşina</strong>&nbsp;concede să aplice armonia (tonală) a <strong>omului</strong>&nbsp;asupra formulelor ei ritmico-melodice, din care confecţionează un neaşteptat, dar prielnic acompaniament. Deznodământul este cel aşteptat, cele două muzici închizându-se fiecare în universul sonor propriu, necomunicabil şi incomprehensibil.</em></p>"
+  },
+  "picture": "assets/images/pieces/prosthetic-light-lumina-protetica.jpg",
+  "pictureAlt": {
+    "en": "",
+    "ro": ""
+  },
+  "imprint": {
+    "orchestration": {
+      "en": "Piano, 4 F Horns, English Horn, Percussion, Electronics /",
+      "ro": "Pian, 4 corni în Fa, corn englez, percuție, mediu electronic"
+    },
+    "lyrics": null,
+    "length": "10′",
+    "state": "finished",
+    "completedOn": "2012",
+    "premieredOn": "2014, on stage at the Țăndărică Puppet and Marionette Theatre, in a choreographic show by Georgiana Bobocel / într-o producție coregrafică de Georgiana Bobocel, la Teatrul Țăndărică",
+    "premieredBy": null,
+    "honors": null,
+    "copyright": {
+      "en": "Claudius Iacob",
+      "ro": "Claudius Iacob"
+    }
+  },
+  "tags": [
+    "completed",
+    "contemporary",
+    "electronics",
+    "english-horn",
+    "f-horn",
+    "mild-dissonance",
+    "percussion",
+    "piano",
+    "with-audio",
+    "with-score"
+  ],
+  "score": "assets/scores/prosthetic-light-lumina-protetica.pdf",
+  "recording": "assets/audio/prosthetic-light-lumina-protetica.mp3"
+}

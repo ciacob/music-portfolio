@@ -1,5 +1,5 @@
 /* ==========================================================================
-   SITE.CSS — Andrei Ciocîrlan music portfolio
+   SITE.CSS — Claudius Iacob music portfolio
    Structure: 1. Fonts  2. Reset  3. Tokens  4. Base  5. Layout
               6. Header  7. Footer  8. Pages  9. Components  10. Utilities
    ========================================================================== */
@@ -525,8 +525,11 @@ h3 small, h4 small {
 
 .rider__image {
   width: 100%;
-  aspect-ratio: 4 / 3;
   object-fit: cover;
+}
+
+.featured-works {
+  margin-top: var(--sp-20); 
 }
 
 .featured-works__heading,

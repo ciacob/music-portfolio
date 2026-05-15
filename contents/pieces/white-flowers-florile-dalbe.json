@@ -1,0 +1,54 @@
+{
+  "slug": "white-flowers-florile-dalbe",
+  "title": {
+    "en": "White Flowers",
+    "ro": "Florile Dalbe"
+  },
+  "subtitle": {
+    "en": "An arrangement that shifts the focus from the text's playful surface to its sad social undertone.",
+    "ro": "Un aranjament care mută accentul de pe latura jucăușă a textului pe substratul său social trist."
+  },
+  "summary": {
+    "en": "<p>An arrangement of an old Romanian begging song later absorbed into the winter carol repertory, <em>White Flowers</em> surrounds a traditional tune with modal, mildly dissonant harmony. Rather than stressing the text's humor, the piece brings forward its sad social undercurrent, while the choral writing shifts from one stanza to another between monody, polyphony and homophony.</p>",
+    "ro": "<p>Aranjament al unui vechi cântec românesc de cerșit, absorbit mai târziu în repertoriul colindelor de iarnă, <em>Florile Dalbe</em> învelește melodia tradițională într-o armonie modală, ușor disonantă. În loc să insiste asupra umorului textului, piesa scoate la iveală substratul său social trist, iar scriitura corală trece de la o strofă la alta prin monodie, polifonie și omofonie.</p>"
+  },
+  "programNotes": {
+    "en": "<p>Not exactly a composition, rather an arrangement of an ancient Romanian beggars’ song (or pagan carol, if you will, because this is what carols were, long before they were christened). The text, which was originally sung in the first weeks of spring by wandering bands of unsettled young men, takes a humoristic approach to begging for bread (or any form of food, actually) from the wealthy, settled members of the community. The <em>white flowers</em>, generously mentioned in the chorus are likely apple blossom, and the new year mentioned in the closing lyric must be the new agricultural year, also celebrated in this areal on the same date as the spring echinoctium.</p><p>Starting with the fourth century, the 25th of December has been progressively adopted as the day to celebrate the birth of Jesus Christ, first by the West and then by (most of) the Eastern Christian countries. Christian carols begun to appear and be sung before, during and after the Nativity. As it usually happens, a number of pre-christian carols survived, and they get sung today during the Advent, despite the fact of being totally unrelated to it. This is also the case of the present traditional song, which is nowadays considered a Christmas or New Year’s carol in its own right.</p><p>I chose a modal, mildly dissonant harmony to wrap the preexisting tune, as it was my intention to focus not on the funny narrative of the text, but rather on the sad (social) substrate it carries — on the fact of having to beg for one’s food. Each stanza makes use of a slightly different texture, going from monodic to polyphonic, homophonic and back.</p>",
+    "ro": "<p>Piesa nu este chiar o compoziție, ci mai degrabă un aranjament al unui vechi cântec românesc de cerșit (sau colind păgân, dacă vreți, căci asta au fost colindele la origini, și înainte de a fi creștinate). Textul, cântat cel mai probabil în primele săptămâni de primăvară de către grupuri itinerante de bărbați tineri fără căpătâi, face uz de umor pentru a ascunde adevăratul mobil al întreprinderii: cerșitul de pâine (sau orice formă de hrană) de la membrii mai bogați și cu gospodării ai comunității. <strong>Florile (d)albe</strong>, cu generozitate menționate în refren, sunt fără doar și poate flori de măr, iar <strong>anul nou</strong> din ultimul vers trebuie să fi fost noul an agrar, sărbătorit în arealul nostru la aceeași dată cu echinocțiul de primăvară.</p>\n<p>Începând cu secolul al IV-lea, data de 25 decembrie a fost adoptată treptat ca zi de sărbătorire a nașterii lui Iisus Hristos, mai întâi de către Apus și apoi de (majoritatea) țărilor creștine din Răsărit. Colindele creștine au început să apară, și să fie cântate <strong>iarna</strong>, înainte și după Nașterea Domnului. Așa cum era de așteptat, multe colinde pre-creștine (păgâne) au fost asimilate și se cântă astăzi în timpul Adventului (perioada dintre 2 decembrie și 24 decembrie), în ciuda faptului că nu au nicio legătură cu creștinismul. Este și cazul cântecului tradițional de față, care este considerat în prezent, la noi, drept colind de Crăciun sau de Anul Nou.</p>\n<p>Am ales să adaug o armonie modală și ușor disonantă în jurul melodiei preexistente, intenția mea fiind să nu scot în relief latura amuzantă a narațiunii, ci mai degrabă substratul ei trist (cu implicații sociale) — faptul că unii membri ai comunității sunt nevoiți să cerșească alimente pentru a supraviețui. Fiecare strofă folosește o scriitură puțin diferită, mergând de la <strong>monodie</strong> la <strong>polifonie</strong>, la <strong>omofonie</strong> și înapoi.</p>"
+  },
+  "picture": "assets/images/pieces/white-flowers-florile-dalbe.jpg",
+  "pictureAlt": {
+    "en": "Apple Blossom (detail) — Mihai Sârbulescu",
+    "ro": "Flori de măr (detaliu) — Mihai Sârbulescu"
+  },
+  "imprint": {
+    "orchestration": {
+      "en": "Choir /",
+      "ro": "Cor"
+    },
+    "lyrics": {
+      "en": "Traditional Lyrics (Anonymous) /",
+      "ro": "Tradițional (versuri anonime)"
+    },
+    "length": "2:30′",
+    "state": "finished",
+    "completedOn": "2008",
+    "premieredOn": null,
+    "premieredBy": null,
+    "honors": null,
+    "copyright": {
+      "en": "Claudius Iacob",
+      "ro": "Claudius Iacob"
+    }
+  },
+  "tags": [
+    "choir",
+    "classical",
+    "completed",
+    "mild-dissonance",
+    "with-audio",
+    "with-score"
+  ],
+  "score": "assets/scores/white-flowers-florile-dalbe.pdf",
+  "recording": "assets/audio/white-flowers-florile-dalbe.mp3"
+}

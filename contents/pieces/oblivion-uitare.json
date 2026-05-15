@@ -1,0 +1,57 @@
+{
+  "slug": "oblivion-uitare",
+  "title": {
+    "en": "Oblivion",
+    "ro": "Uitare de sine"
+  },
+  "subtitle": {
+    "en": "The music relies on the concept of , a certain state of mental blankness or unconsciousness.",
+    "ro": "O muzică a rătăcirii, rătăcind ea însăși într-un univers confuz și dezrădăcinat."
+  },
+  "summary": {
+    "en": "Oblivion is a choreographic miniature I composed in the spring of 2015 — a trio of clarinet, percussion and piano. The music relies on the concept of oblivion, a certain state of mental blankness or unconsciousness. I hereby raise the question of the mankind permanently (and hopelessly) searching for its initial, otherworldly purpose; and also, about a state of abandonment, where material pleasures, such as wealth, power and vice are favored instead, as much more tangible a goal. Those two incongruous, irreconcilable attitudes, of which none can actually prove satisfaction, generate a contrasting music, that swings between jazzy, shallow themes, Gregorian chant-like chorales, early romantic piano pages, and avant-garde or post-modernist textures — eventually providing no way out. The chorales breaking up from the general frenzy here and there are an icon of (western) Christianity, suggesting that this unfruitful quest shall eventually come to an end by means and help of Jesus Christ.",
+    "ro": "TBD"
+  },
+  "programNotes": {
+    "en": "<p>TBD</p>",
+    "ro": "<p><strong>Oblivion </strong>— <strong>Uitare de sine</strong>&nbsp;— este o muzică a rătăcirii, rătăcind ea însăși într-un univers confuz și dezrădăcinat. O lume sonoră care oscilează fără noimă între idiomuri ante-wagneriene și post schönbergiene. Populată, parcă, de ființe cărora le lipsește abilitatea (sau curajul) de a-și regăsi (și asuma) un <strong>sens originar</strong>, această lume plutește în derivă printre sonorități eterice cu iz de cânt gregorian, printre „barbarisme” bartòkiene, printre muzici mai mult sau mai puțin derizorii de „piano café” sau dulcegării și pasiuni romantice. Ceea ce auzim este, când o căutare fără sorți de izbândă a unui <strong>ceva</strong> pierdut și uitat de mult, când o cantonare îndărătnică în diverse surogate opiacee. Anamneza sau regăsirea izbăvitoare se refuză cu consecvență căutătorului, lăsându-l măcinat de o anume <strong>sete</strong> imposibil de ostoit, și foarte greu de amăgit.</p>\n<p>În plan extramuzical, cele de mai sus suportă multiple echivalări. Teologul creștin l-ar putea regăsi aici pe omul căzut, care rătăcește în căutarea stării paradiziace pierdute: lipsindu-i puterea sau curajul de a urma demersul salvator propus de Hristos, el caută (în van) alinare în diverse vicii sau plăceri <strong>materialnice</strong>. La fel, istoricul de artă sau muzicologul ar putea observa zbaterile artistului creator, în permanență aflat în căutarea unui sens ultim al artei, în permanență vânat de neșansă și de ispita imposturii. Antropologul sau sociologul ar putea găsi o paralelă cu încercările milenare ale omului de a gândi și plăsmui societatea perfectă, și cu eșecurile lui, tot milenare — ș.a.m.d.</p>"
+  },
+  "picture": "assets/images/pieces/oblivion-uitare.jpg",
+  "pictureAlt": {
+    "en": "I Romani Della Decadenza — Thomas Couture",
+    "ro": "I Romani Della Decadenza — Thomas Couture"
+  },
+  "imprint": {
+    "orchestration": {
+      "en": "Clarinet, Piano and Percussion (one player) /",
+      "ro": "Clarinet, pian și percuție (un percuționist)"
+    },
+    "lyrics": null,
+    "length": "10′",
+    "state": "finished",
+    "completedOn": "2015",
+    "premieredOn": "2015, During the Chei (“Keys”) Festival held by UNMB / În cadrul Festivalului Chei organizat de UNMB",
+    "premieredBy": null,
+    "honors": {
+      "en": "Third Prize at the  Music Composition Contest held by  in 2015 / ;\nAcquired by  (2015) /",
+      "ro": "Premiul trei la Concursul de compoziție Ștefan Niculescu organizat de UNMB în 2015Achiziționat de UCMR (2015)"
+    },
+    "copyright": {
+      "en": "Claudius Iacob",
+      "ro": "Claudius Iacob"
+    }
+  },
+  "tags": [
+    "clarinet",
+    "completed",
+    "contemporary",
+    "mild-dissonance",
+    "percussion",
+    "piano",
+    "with-audio",
+    "with-honors",
+    "with-score"
+  ],
+  "score": "assets/scores/oblivion-uitare.pdf",
+  "recording": "assets/audio/oblivion-uitare.mp3"
+}

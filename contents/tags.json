@@ -1,12 +1,170 @@
 [
-  { "value": "piano",       "labels": { "en": "Piano",        "ro": "Pian" } },
-  { "value": "solo",        "labels": { "en": "Solo",         "ro": "Solo" } },
-  { "value": "chamber",     "labels": { "en": "Chamber",      "ro": "Cameră" } },
-  { "value": "orchestral",  "labels": { "en": "Orchestral",   "ro": "Orchestral" } },
-  { "value": "choral",      "labels": { "en": "Choral",       "ro": "Coral" } },
-  { "value": "vocal",       "labels": { "en": "Vocal",        "ro": "Vocal" } },
-  { "value": "folk",        "labels": { "en": "Folk-inspired","ro": "Folcloric" } },
-  { "value": "electronics", "labels": { "en": "Electronics",  "ro": "Electronică" } },
-  { "value": "string",      "labels": { "en": "Strings",      "ro": "Coarde" } },
-  { "value": "wind",        "labels": { "en": "Wind",         "ro": "Suflători" } }
+  {
+    "value": "completed",
+    "labels": {
+      "en": "completed",
+      "ro": "terminată"
+    }
+  },
+  {
+    "value": "contemporary",
+    "labels": {
+      "en": "contemporary",
+      "ro": "contemporan"
+    }
+  },
+  {
+    "value": "mild-dissonance",
+    "labels": {
+      "en": "mild dissonance",
+      "ro": "disonanțe moi"
+    }
+  },
+  {
+    "value": "orchestra",
+    "labels": {
+      "en": "orchestra",
+      "ro": "orchestră"
+    }
+  },
+  {
+    "value": "organ",
+    "labels": {
+      "en": "organ",
+      "ro": "orgă"
+    }
+  },
+  {
+    "value": "with-audio",
+    "labels": {
+      "en": "with audio",
+      "ro": "înregistrarea disponibilă"
+    }
+  },
+  {
+    "value": "with-honors",
+    "labels": {
+      "en": "with honors",
+      "ro": "are distincții"
+    }
+  },
+  {
+    "value": "with-score",
+    "labels": {
+      "en": "with score",
+      "ro": "partitura disponibilă"
+    }
+  },
+  {
+    "value": "classical",
+    "labels": {
+      "en": "classical",
+      "ro": "clasic"
+    }
+  },
+  {
+    "value": "strings",
+    "labels": {
+      "en": "strings",
+      "ro": "coarde"
+    }
+  },
+  {
+    "value": "cello",
+    "labels": {
+      "en": "cello",
+      "ro": "violoncel"
+    }
+  },
+  {
+    "value": "percussion",
+    "labels": {
+      "en": "percussion",
+      "ro": "percuție"
+    }
+  },
+  {
+    "value": "piano",
+    "labels": {
+      "en": "piano",
+      "ro": "pian"
+    }
+  },
+  {
+    "value": "soloists",
+    "labels": {
+      "en": "soloists",
+      "ro": "soliști"
+    }
+  },
+  {
+    "value": "violin",
+    "labels": {
+      "en": "violin",
+      "ro": "vioară"
+    }
+  },
+  {
+    "value": "electronics",
+    "labels": {
+      "en": "electronics",
+      "ro": "mediu electronic"
+    }
+  },
+  {
+    "value": "strong-dissonance",
+    "labels": {
+      "en": "strong dissonance",
+      "ro": "disonanțe puternice"
+    }
+  },
+  {
+    "value": "choir",
+    "labels": {
+      "en": "choir",
+      "ro": "cor"
+    }
+  },
+  {
+    "value": "bassoon",
+    "labels": {
+      "en": "bassoon",
+      "ro": "fagot"
+    }
+  },
+  {
+    "value": "clarinet",
+    "labels": {
+      "en": "clarinet",
+      "ro": "clarinet"
+    }
+  },
+  {
+    "value": "viola",
+    "labels": {
+      "en": "viola",
+      "ro": "violă"
+    }
+  },
+  {
+    "value": "english-horn",
+    "labels": {
+      "en": "English Horn",
+      "ro": "Corn englez"
+    }
+  },
+  {
+    "value": "f-horn",
+    "labels": {
+      "en": "F Horn",
+      "ro": "Corn în Fa"
+    }
+  },
+  {
+    "value": "refining",
+    "labels": {
+      "en": "refining",
+      "ro": "cizelare"
+    }
+  }
 ]
