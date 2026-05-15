@@ -5,15 +5,15 @@
     "ro": "Uitare de sine"
   },
   "subtitle": {
-    "en": "The music relies on the concept of , a certain state of mental blankness or unconsciousness.",
+    "en": "A music of wandering, itself wandering through a confused and uprooted universe.",
     "ro": "O muzică a rătăcirii, rătăcind ea însăși într-un univers confuz și dezrădăcinat."
   },
   "summary": {
-    "en": "Oblivion is a choreographic miniature I composed in the spring of 2015 — a trio of clarinet, percussion and piano. The music relies on the concept of oblivion, a certain state of mental blankness or unconsciousness. I hereby raise the question of the mankind permanently (and hopelessly) searching for its initial, otherworldly purpose; and also, about a state of abandonment, where material pleasures, such as wealth, power and vice are favored instead, as much more tangible a goal. Those two incongruous, irreconcilable attitudes, of which none can actually prove satisfaction, generate a contrasting music, that swings between jazzy, shallow themes, Gregorian chant-like chorales, early romantic piano pages, and avant-garde or post-modernist textures — eventually providing no way out. The chorales breaking up from the general frenzy here and there are an icon of (western) Christianity, suggesting that this unfruitful quest shall eventually come to an end by means and help of Jesus Christ.",
-    "ro": "TBD"
+    "en": "<p><em>Oblivion</em> is a choreographic miniature for clarinet, piano and percussion built as a music of wandering through incompatible stylistic and spiritual territories. Swinging between derisory surface pleasures and the unfulfilled search for an original meaning, the piece stages a restless world in which no stable way out seems available.</p>",
+    "ro": "<p><em>Uitare de sine</em> este o miniatură coregrafică pentru clarinet, pian și percuție, construită ca o muzică a rătăcirii — o rătăcire prin teritorii incompatibile stilistic și spiritual. Oscilând între satisfacții de moment și o zadarnică căutare a unui sens originar, piesa pune în scenă o lume frămîntată de o neliniște nesfârșită, pentru care nu se întrevede niciun leac.</p>"
   },
   "programNotes": {
-    "en": "<p>TBD</p>",
+    "en": "<p><strong>Oblivion</strong>, <strong>Self-forgetfulness</strong>, is a music of wandering, itself wandering through a confused and uprooted universe. A sonic world oscillating without clear purpose between pre-Wagnerian and post-Schoenbergian idioms. It seems populated by beings lacking the ability or courage to recover and assume an <strong>original meaning</strong>. This world drifts among ethereal sonorities tinged with Gregorian chant, among Bartok-like barbarisms, among more or less derisory piano-cafe musics, sugary romantic passions and their like. What we hear is now a futile search for a long-lost and long-forgotten <strong>something</strong>, now a stubborn entrenchment in various opiate substitutes. Anamnesis, or salvific recovery, consistently refuses itself to the seeker, leaving him consumed by a certain impossible-to-quench <strong>thirst</strong>, and one very difficult to deceive.</p>\n<p>On the extra-musical plane, the above admits multiple equivalences. The Christian theologian might recognize here fallen man, wandering in search of the lost paradisal state: lacking the power or courage to follow the path of salvation proposed by Christ, he seeks, in vain, consolation in various <strong>material</strong> vices or pleasures. Likewise, the art historian or musicologist might observe the struggles of the creative artist, perpetually in search of an ultimate meaning of art, perpetually hunted by failure and by the temptation of imposture. The anthropologist or sociologist might find a parallel with humanity’s millennial attempts to conceive and fashion the perfect society, and with its equally millennial failures — and so on.</p>",
     "ro": "<p><strong>Oblivion </strong>— <strong>Uitare de sine</strong>&nbsp;— este o muzică a rătăcirii, rătăcind ea însăși într-un univers confuz și dezrădăcinat. O lume sonoră care oscilează fără noimă între idiomuri ante-wagneriene și post schönbergiene. Populată, parcă, de ființe cărora le lipsește abilitatea (sau curajul) de a-și regăsi (și asuma) un <strong>sens originar</strong>, această lume plutește în derivă printre sonorități eterice cu iz de cânt gregorian, printre „barbarisme” bartòkiene, printre muzici mai mult sau mai puțin derizorii de „piano café” sau dulcegării și pasiuni romantice. Ceea ce auzim este, când o căutare fără sorți de izbândă a unui <strong>ceva</strong> pierdut și uitat de mult, când o cantonare îndărătnică în diverse surogate opiacee. Anamneza sau regăsirea izbăvitoare se refuză cu consecvență căutătorului, lăsându-l măcinat de o anume <strong>sete</strong> imposibil de ostoit, și foarte greu de amăgit.</p>\n<p>În plan extramuzical, cele de mai sus suportă multiple echivalări. Teologul creștin l-ar putea regăsi aici pe omul căzut, care rătăcește în căutarea stării paradiziace pierdute: lipsindu-i puterea sau curajul de a urma demersul salvator propus de Hristos, el caută (în van) alinare în diverse vicii sau plăceri <strong>materialnice</strong>. La fel, istoricul de artă sau muzicologul ar putea observa zbaterile artistului creator, în permanență aflat în căutarea unui sens ultim al artei, în permanență vânat de neșansă și de ispita imposturii. Antropologul sau sociologul ar putea găsi o paralelă cu încercările milenare ale omului de a gândi și plăsmui societatea perfectă, și cu eșecurile lui, tot milenare — ș.a.m.d.</p>"
   },
   "picture": "assets/images/pieces/oblivion-uitare.jpg",
@@ -30,11 +30,14 @@
     "length": "10′",
     "state": "finished",
     "completedOn": "2015",
-    "premieredOn": "2015, During the Chei (“Keys”) Festival held by UNMB / În cadrul Festivalului Chei organizat de UNMB",
+    "premieredOn": {
+      "en": "2015, During the <strong>Chei</strong> Festival held by UNMB",
+      "ro": "În cadrul Festivalului <strong>Chei</strong> organizat de UNMB"
+    },
     "premieredBy": null,
     "honors": {
-      "en": "Third Prize at the  Music Composition Contest held by  in 2015 / ;\nAcquired by  (2015) /",
-      "ro": "Premiul trei la Concursul de compoziție Ștefan Niculescu organizat de UNMB în 2015Achiziționat de UCMR (2015)"
+      "en": "Third Prize at the Ștefan Niculescu Music Composition Contest held by UNMB in 2015;<br>Acquired by UCMR (2015)",
+      "ro": "Premiul trei la Concursul de compoziție Ștefan Niculescu organizat de UNMB în 2015;<br>Achiziționat de UCMR (2015)"
     },
     "copyright": {
       "en": "Claudius Iacob",
