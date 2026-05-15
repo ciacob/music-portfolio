@@ -713,9 +713,19 @@ h3 small, h4 small {
   overflow-y: auto;
 }
 
-.filter-panel--overflows {
+.filter-panel--fade-bottom {
   -webkit-mask-image: linear-gradient(to bottom, black calc(100% - 2.5rem), transparent 100%);
   mask-image: linear-gradient(to bottom, black calc(100% - 2.5rem), transparent 100%);
+}
+
+.filter-panel--fade-top {
+  -webkit-mask-image: linear-gradient(to top, black calc(100% - 2.5rem), transparent 100%);
+  mask-image: linear-gradient(to top, black calc(100% - 2.5rem), transparent 100%);
+}
+
+.filter-panel--fade-top.filter-panel--fade-bottom {
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 2.5rem, black calc(100% - 2.5rem), transparent 100%);
+  mask-image: linear-gradient(to bottom, transparent 0%, black 2.5rem, black calc(100% - 2.5rem), transparent 100%);
 }
 
 .filter-tags {

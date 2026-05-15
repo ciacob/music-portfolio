@@ -41,8 +41,12 @@
   if (!panel) return;
 
   function update() {
-    var atBottom = panel.scrollHeight - panel.scrollTop <= panel.clientHeight + 2;
-    panel.classList.toggle('filter-panel--overflows', panel.scrollHeight > panel.clientHeight && !atBottom);
+    var overflows  = panel.scrollHeight > panel.clientHeight;
+    var atTop      = panel.scrollTop <= 2;
+    var atBottom   = panel.scrollHeight - panel.scrollTop <= panel.clientHeight + 2;
+
+    panel.classList.toggle('filter-panel--fade-bottom', overflows && !atBottom);
+    panel.classList.toggle('filter-panel--fade-top',    overflows && !atTop);
   }
 
   update();
