@@ -34,5 +34,21 @@
   });
 })();
 </script>
+
+<script>
+(function () {
+  var panel = document.querySelector('.filter-panel');
+  if (!panel) return;
+
+  function update() {
+    var atBottom = panel.scrollHeight - panel.scrollTop <= panel.clientHeight + 2;
+    panel.classList.toggle('filter-panel--overflows', panel.scrollHeight > panel.clientHeight && !atBottom);
+  }
+
+  update();
+  panel.addEventListener('scroll', update);
+  new ResizeObserver(update).observe(panel);
+})();
+</script>
 </body>
 </html>
