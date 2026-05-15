@@ -624,6 +624,19 @@ function prepareDirectory(lang) {
   const p        = commons.portfolio;
   const shared   = prepareShared(lang);
 
+  // Attempt to list newer pieces first.
+  pieces.sort((a, b) => {
+    const yearOf = p => {
+      const m = String(p.imprint && p.imprint.completedOn || '').match(/\d{4}/);
+      return m ? parseInt(m[0], 10) : null;
+    };
+    const ya = yearOf(a), yb = yearOf(b);
+    if (ya === null && yb === null) return 0;
+    if (ya === null) return 1;
+    if (yb === null) return -1;
+    return yb - ya; // descending — newest first
+  });
+
   return Object.assign({}, shared, {
     bodyClass:          'directory',
     pageTitle:          t(p.heading, lang),
