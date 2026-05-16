@@ -5,16 +5,16 @@
     "ro": "Due Miniature Futile (Două miniaturi fără rost)"
   },
   "subtitle": {
-    "en": "The music of the  (Two Futile Miniatures) obstinately draws upon Erik Satie’s carefully sought futility and reductionism.",
-    "ro": "O audiție incomodă în spiritul reducționist-futil „marca” Erik Satie."
+    "en": "A chamber diptych on lost innocence, told with deadpan wit.",
+    "ro": "Un diptic cameral despre inocența pierdută, spus cu umor sec."
   },
   "summary": {
-    "en": "A fairly awkward listening, located at the border between laughable and tragic, giving one the choice to either contemplate what happens around or attempt to change something.\n\nThe music of Due miniature futile (Two Futile Miniatures) obstinately draws upon Erik Satie’s carefully sought futility and reductionism. It also combines Webern’s ascetic conciseness with Kagel’s caustic humor, and these both with the anachronistic romanticism of Prokofiev.\n\nBut it is not the stunning stylistic shuffle that makes this piece an uneasy listening: its message is. The music violates a couple of social and cultural taboos. Il piccolo bambino (The Little Child) is actually based on a beggar’s song, that I unwillingly learned during my frequent subway travels; on the other hand, Il filosofo (The philosophe) strands into a suburb rap/hip-hop medley. Put these together, and you get the sad story of way too many children learning “the law of the streets” as the supreme form of wisdom, and losing their innocence in the process.\n\nBut the music is strange, and doesn’t lack humor, so what will it be? Will you laugh? Will you cry? Will you enjoy it?",
-    "ro": "TBD"
+    "en": "<p><em>Due Miniature Futile</em> is a short chamber diptych poised between grotesque humor and social discomfort. Written for violin, clarinet, and piano, it filters Satiean reduction through Webernian concision, Kagelian irony, and a faintly belated Prokofiev-like lyricism, setting a beggar’s tune beside the swagger of streetwise rap to trace the eviction of childhood innocence by the logic of survival.</p>",
+    "ro": "<p><em>Due miniature futile</em> este un scurt diptic cameral aflat la granița dintre grotesc, umor negru și discomfort social. Scrisă pentru vioară, clarinet și pian, lucrarea forțează un melanj improbabil între spiritul reducționist al lui Satie, concizia weberniană, ironia lui Kagel și un lirism ușor anacronic, de filiație prokofieviană — și o face punând un cântec de cerșetor lângă un rap de cartier. Ambele au fost „culese” de autor în interpretarea unor copii: vestigii ale inocenței infantile, alungată de nevoia de a supraviețui.</p>"
   },
   "programNotes": {
-    "en": "<p>TBD</p>",
-    "ro": "<p>O audiție incomodă, aflată la limita dintre umor și tragism, dintre visare și implicare, piesa “Due miniature fultili” îmbină punctualismul ascetic webernian cu umorul caustic al lui Kagel și lirismul anacronic, de romantism întârziat, al unui Prokofiev — totul clădit cu îndărătnicie în spiritul reducționist-futil „marca” Erik Satie.</p>\n<p>O audiție incomodă nu doar din cauza amestecului năucitor de stiluri și tendințe, cât mai ales prin prisma problematicii de factură socială atinse. “Il picolo bambino” se bazează pe un cântec de cerșetor, “cules” de autor în multele călătorii cu metroul; “Il filosofo” eșuează într-un rap “de cartier”: inocența, gonită de chinul supraviețuirii; școala străzii, devenită înțelepciune supremă.</p>\n<p>Pe de altă parte, muzica nu este lipsită de umor. Așadar, râdem? Plângem? Audiție plăcută.</p>"
+    "en": "<p><em>Due Miniature Futile</em> proposes an intentionally uneasy listening experience, suspended between laughter and grief, detachment and moral involvement. Its language actively seeks friction: Satie’s cultivated futility and reductionism, Webern’s pointillist austerity, Kagel’s corrosive irony, and a residue of belated Prokofiev-like lyricism are made to coexist within a compressed chamber discourse for violin, clarinet, and piano.</p>\n<p>The two miniatures draw their force from material that is less innocent than it first appears. <em>Il piccolo bambino</em> grows out of a beggar’s song the composer unwillingly absorbed during repeated subway journeys. <em>Il filosofo</em>, by contrast, drifts toward a rough neighborhood rap, with hints of hip-hop inflection. Placed side by side, the two movements suggest a world in which children are initiated too early into the code of the street and taught to trade vulnerability for precocious hardness.</p>\n<p>The true discomfort of the piece lies there, rather than in its abrupt stylistic collage. The music remains playful, angular, and at moments genuinely funny, yet its wit keeps opening onto something harsher. The listener is left in an unstable zone between amusement and pity, invited not only to enjoy the absurdity of the surface but also to register the social wound beneath it, and perhaps to ask whether such scenes are merely to be observed or should also provoke a response.</p>",
+    "ro": "<p><em>Due miniature futile</em> propune o audiție deliberat incomodă, situată între râs și tristețe, între detașare și implicare. Limbajul ei caută intenționat fricțiunea: reducționismul și inutilitatea programatică ale lui Satie, concizia punctualistă a lui Webern, ironia corozivă a lui Kagel și un rest de lirism prokofievian, ușor întârziat, conviețuiesc aici într-un discurs cameral concentrat pentru vioară, clarinet și pian.</p>\n<p><em>Il piccolo bambino</em> pornește de la un cântec de cerșetor, reținut fără voie de autor în repetatele călătorii cu metroul. <em>Il filosofo</em> alunecă, în schimb, spre un rap de cartier, cu inflexiuni de hip-hop. Puse împreună, cele două miniaturi schițează un tablou sumbru: copilăria împinsă prematur afară din sine, inocența evacuată de presiunea supraviețuirii, iar „școala străzii” instalată ca formă de înțelepciune forțată.</p>\n<p>De aici vine și adevărata incomoditate a piesei. Nu amestecul de stiluri neliniștește în primul rând, ci substratul uman pe care acest amestec îl scoate la iveală. Muzica rămâne spirituală, colțuroasă, uneori de-a dreptul comică, dar umorul ei se deschide mereu spre ceva mai amar. Ascultătorul este lăsat într-o zonă instabilă, între divertisment și compasiune, între simpla contemplare a absurdului și impulsul de a răspunde lumii care l-a produs.</p>"
   },
   "picture": "assets/images/pieces/due-miniature-futili-two-futile-miniatures.png",
   "pictureAlt": {
@@ -30,11 +30,14 @@
     "length": "7:20′",
     "state": "finished",
     "completedOn": "2016",
-    "premieredOn": "2016 (Reggio Emilia, Italy / Italia)",
+    "premieredOn": {
+      "en":"2016 (Reggio Emilia, Italy)",
+      "ro":"2016 (Reggio Emilia, Italia)"
+    },
     "premieredBy": null,
     "honors": {
-      "en": "Nominated among the 8 finalists (out of 37) during the contemporary music composition contest held by Fondazione Giorgio e Aurora Giovannini, the 2016 edition /",
-      "ro": "Selecționată între cele 8 lucrări finaliste (din 37) în cadrul concursului de compoziție de muzică contemporană organizat de Fondazione Giorgio e Aurora Giovannini, ediția din  2016"
+      "en": "Nominated among the 8 finalists (out of 37) during the contemporary music composition contest held by Fondazione Giorgio e Aurora Giovannini, the 2016 edition",
+      "ro": "Inclusă între cele 8 lucrări finaliste (din 37) în cadrul concursului de compoziție de muzică contemporană organizat de Fondazione Giorgio e Aurora Giovannini, ediția din 2016"
     },
     "copyright": {
       "en": "Claudius Iacob",
