@@ -54,32 +54,13 @@
       "heading": { "en": "Featured Music", "ro": "Piese recomandate" },
       "items": [
         {
-          "slug": "ici-bas-here-below",
-          "description": {
-            "en": "Inspired by Benjamin Britten’s War Requiem (1962), Ici-bas is a non-liturgical musical work built on religious thematic.",
-            "ro": "Inspirată de Recviemul de război (1962) al lui Benjamin Britten, lucrarea Ici-bas este de asemenea o lucrare muzicală non-liturgică, dar cu tematică religioasă."
-          }
+          "slug": "ici-bas-here-below"
         },
         {
-          "slug": "due-miniature-futili-two-futile-miniatures",
-          "description": {
-            "en": "A chamber diptych on lost innocence, told with deadpan wit.",
-            "ro": "Un diptic cameral despre inocența pierdută, spus cu umor sec."
-          }
+          "slug": "oblivion-uitare"
         },
         {
-          "slug": "oblivion-uitare",
-          "description": {
-            "en": "The music relies on the concept of oblivion, a certain state of mental blankness or unconsciousness.",
-            "ro": "O muzică a rătăcirii, rătăcind ea însăși într-un univers confuz și dezrădăcinat."
-          }
-        },
-        {
-          "slug": "chants-from-the-valley-of-sighs-cantari-din-valea-plangerii",
-          "description": {
-            "en": "Builds upon the Christian concept of regarding life as a mere preparation for a better one to come.",
-            "ro": "În spațiul spiritualității creștine, Valea Plângerii este numele lumii pământești, trecătoare, înșelătoare și plină de suferință."
-          }
+          "slug": "chants-from-the-valley-of-sighs-cantari-din-valea-plangerii"
         }
       ]
     },

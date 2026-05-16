@@ -339,7 +339,7 @@ function buildFeaturedItems(featuredItems, pieces, lang) {
   return featuredItems.map(fi => {
     const piece = pieces.find(p => p.slug === fi.slug);
     const title = piece ? t(piece.title, lang) : fi.slug;
-    const desc  = t(fi.description, lang);
+    const desc  = piece? t(piece.subtitle, lang) : '';
     return `    <li class="featured-works__item">
       <a class="featured-works__link" href="/${lang}/portfolio/music/${fi.slug}.html">
         <h4 class="featured-works__title">${title}<small>↗</small></h4>
