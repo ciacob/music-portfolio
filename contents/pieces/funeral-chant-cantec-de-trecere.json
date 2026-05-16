@@ -9,12 +9,12 @@
     "ro": "Muzica trăieşte din însăşi propria austeritate."
   },
   "summary": {
-    "en": "I recently wrote a Bb clarinets trio, and did my best with some accompanying video art too. This is a rather austere music, trimmed down to its very substance, sober and severe, as was the sad fact that inspired me to write it. The four sections of the piece illustrate, respectively, birth, youth, maturity and death, as does the video, which obstinately reiterates the idea of passing, or crossing, going over — actually, the Romanian name of the piece literally means Song for Going Over.",
-    "ro": "TBD"
+    "en": "<p><em>Funeral chant</em> is an austere clarinet trio built from tightly disciplined means and a persistent return to a single generative idea. Its four sections trace, in symbolic form, birth, youth, maturity, and death, turning the Romanian notion of ‘song of passing over’ into a concise meditation on human becoming and departure.</p>",
+    "ro": "<p><em>Cântec de trecere</em> este un trio de clarinete auster, construit din mijloace riguros epurate și din revenirea obstinată la un unic nucleu generator. Cele patru secțiuni urmăresc simbolic nașterea, tinerețea, maturitatea și moartea, într-o meditație concentrată asupra traseului existențial și a „trecerii” prin această lume.</p>"
   },
   "programNotes": {
-    "en": "<p>TBD</p>",
-    "ro": "<p><em>Am încheiat recent (30 iunie 2013) o nouă piesă, “Cântec de trecere”, pentru un trio de clarinete în Sib, piesă pe care în sfârşit am acum şansa să o şi public. A fost prilejuită de o întâmplare tristă, asupra căreia, însă, nu voi stărui.</em></p>\n<p><em>Am conceput Cântecul de trecere ca pe un exerciţiu de claritate şi auto-disciplină. Discursul muzical este epurat de orice elemente superflue; muzica trăieşte din însăşi propria austeritate, şi din revenirea cu obstinaţie la elementul generativ.</em></p>\n<p><em>Cele patru secţiuni recuperează în plan simbolic patru stadii ontologice: <strong>naşterea</strong> (ca sosire), creionată monodic prin insinuarea materialului tematic unic; <strong>tinereţea</strong> (ca joc), stilizată într-o idee de dans, în care cele trei instrumente se împerechează, aparent aleatoriu; <strong>maturitatea</strong> (ca reflecţie), capabilă să decanteze şi să sedimenteze valori, echivalată muzical cu un coral izomorf; şi, în fine, <strong>moartea</strong> (ca plecare), relatată printr-o rememorare a materialului sonor iniţial, îmbrăcat în crâmpeie din toate sintaxele muzicale cu care a cochetat pe parcurs.</em></p>"
+    "en": "<p>I recently completed, on June 30, 2013, a new piece, <strong>Funeral chant</strong>, for a trio of B-flat clarinets, a piece I now finally have the chance to publish. It was occasioned by a sad event on which, however, I will not dwell.</p>\n<p>I conceived <strong>Funeral chant</strong> as an exercise in clarity and self-discipline. The musical discourse is stripped of all superfluous elements; the music lives by its own austerity and by its obstinate return to the generative element.</p>\n<p>The four sections recover, on a symbolic plane, four ontological stages: <strong>birth</strong>, as arrival, outlined monodically through the insinuation of the unique thematic material; <strong>youth</strong>, as play, stylized as a dance idea in which the three instruments pair off in apparently random ways; <strong>maturity</strong>, as reflection, capable of decanting and sedimenting values, rendered musically as an isomorphic chorale; and finally <strong>death</strong>, as departure, recounted through a recollection of the initial sonic material, clothed in fragments of all the musical syntaxes with which it has flirted along the way.</p>",
+    "ro": "<p>Am încheiat recent (30 iunie 2013) o nouă piesă, “Cântec de trecere”, pentru un trio de clarinete în Sib, piesă pe care în sfârşit am acum şansa să o şi public. A fost prilejuită de o întâmplare tristă, asupra căreia, însă, nu voi stărui.</p>\n<p>Am conceput Cântecul de trecere ca pe un exerciţiu de claritate şi auto-disciplină. Discursul muzical este epurat de orice elemente superflue; muzica trăieşte din însăşi propria austeritate, şi din revenirea cu obstinaţie la elementul generativ.</p>\n<p>Cele patru secţiuni recuperează în plan simbolic patru stadii ontologice: <strong>naşterea</strong> (ca sosire), creionată monodic prin insinuarea materialului tematic unic; <strong>tinereţea</strong> (ca joc), stilizată într-o idee de dans, în care cele trei instrumente se împerechează, aparent aleatoriu; <strong>maturitatea</strong> (ca reflecţie), capabilă să decanteze şi să sedimenteze valori, echivalată muzical cu un coral izomorf; şi, în fine, <strong>moartea</strong> (ca plecare), relatată printr-o rememorare a materialului sonor iniţial, îmbrăcat în crâmpeie din toate sintaxele muzicale cu care a cochetat pe parcurs.</p>"
   },
   "picture": "assets/images/pieces/funeral-chant-cantec-de-trecere.jpg",
   "pictureAlt": {
@@ -23,7 +23,7 @@
   },
   "imprint": {
     "orchestration": {
-      "en": "Trio for Clarinets /",
+      "en": "clarinet trio",
       "ro": "Trio de clarinete"
     },
     "lyrics": null,
