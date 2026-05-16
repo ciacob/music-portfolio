@@ -878,7 +878,6 @@ h3 small, h4 small {
 .piece-card__subtitle {
   font-size: var(--text-msm);
   color: var(--ink-soft);
-  font-style: italic;
   margin-bottom: var(--sp-3);
 }
 
