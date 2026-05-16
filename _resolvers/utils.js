@@ -716,6 +716,10 @@ function preparePiece(slug, lang) {
 
   const shared = prepareShared(lang);
 
+  const scoresAndRecordingsLabel = lang === 'ro' ? 'Partituri și înregistrări' : 'Scores & Recordings';
+  const scoresOnlyLabel = lang === 'ro' ? 'Partituri' : 'Scores';
+  const recordingsOnlyLabel = lang === 'ro' ? 'înregistrări' : 'Recordings';
+
   return Object.assign({}, shared, {
     bodyClass:             'piece',
     pageTitle:             t(piece.title, lang),
@@ -736,11 +740,55 @@ function preparePiece(slug, lang) {
     notesLabel:            lang === 'ro' ? 'Note de program'  : 'Program notes',
     tagsLabel:             lang === 'ro' ? 'Etichete'         : 'Tags',
     imprintLabel:          lang === 'ro' ? 'Fișă tehnică'     : 'Imprint',
-    scoreLabel:            lang === 'ro' ? 'Partituri și înregistrări'        : 'Scores & Recordings',
-    recordingLabel:        lang === 'ro' ? 'Înregistrare'     : 'Recording',
-    scoreDownloadLabel:    lang === 'ro' ? 'Descarcă partitura (PDF)' : 'Download score (PDF)',
-    recordingDownloadLabel:lang === 'ro' ? 'Descarcă înregistrarea (MP3)' : 'Download recording (MP3)',
-    audioFallback:         lang === 'ro' ? 'Browserul dumneavoastră nu suportă audio HTML5.' : 'Your browser does not support HTML5 audio.',
+
+    scoreSection: piece.score
+      ? `<section class="piece__score" aria-labelledby="score-heading">
+        <a class="piece__download-link piece__download-link--score"
+            href="/${piece.score}"
+            download>
+          <img class="piece__download-icon"
+              src="/assets/icons/pdf.svg"
+              alt="" aria-hidden="true" />
+          ${lang === 'ro' ? 'Descarcă partitura (PDF)' : 'Download score (PDF)'}
+        </a>
+      </section>`
+      : '',
+
+    recordingSection: piece.recording
+      ? `<section class="piece__recording-download" aria-labelled="score-heading">
+          <a class="piece__download-link piece__download-link--audio"
+             href="/${piece.recording}"
+             download>
+            <img class="piece__download-icon"
+                 src="/assets/icons/download.svg"
+                 alt="" aria-hidden="true" />
+            ${lang === 'ro' ? 'Descarcă înregistrarea (MP3)' : 'Download recording (MP3)'}
+          </a>
+        </section>` : '',
+
+    playerSection: piece.recording
+      ? `<section class="piece__recording" aria-labelledby="recording-heading">
+          <h2 class="piece__section-heading" id="recording-heading">
+            ${lang === 'ro' ? 'Înregistrare' : 'Recording'}
+          </h2>
+          <audio class="piece__audio-player"
+                 controls
+                 preload="none"
+                 aria-label="{{current.pieceTitle}}">
+            <source src="/${piece.recording}" type="audio/mpeg" />
+            ${lang === 'ro' ? 
+              'Browserul dumneavoastră nu suportă audio HTML5.' : 
+              'Your browser does not support HTML5 audio.'}
+          </audio>
+        </section>` : '',
+
+    resourcesLabel: (piece.score || piece.recording)
+      ? `<h2 class="piece__section-heading" id="score-heading">
+      ${(piece.score && piece.recording)? 
+        scoresAndRecordingsLabel : 
+          piece.score? scoresOnlyLabel : 
+            recordingsOnlyLabel}</h2>` : ''
+    
   });
 }
 

@@ -22,42 +22,16 @@
                loading="lazy" />
         </figure>
 
-        <section class="piece__score" aria-labelledby="score-heading">
-          <h2 class="piece__section-heading" id="score-heading">{{current.scoreLabel}}</h2>
-          <a class="piece__download-link piece__download-link--score"
-             href="/{{current.pieceScore}}"
-             download>
-            <img class="piece__download-icon"
-                 src="/assets/icons/pdf.svg"
-                 alt="" aria-hidden="true" />
-            {{current.scoreDownloadLabel}}
-          </a>
-        </section>
+        {{current.resourcesLabel}}
 
-        <section class="piece__recording-download" aria-label="{{current.recordingLabel}}">
-          <a class="piece__download-link piece__download-link--audio"
-             href="/{{current.pieceRecording}}"
-             download>
-            <img class="piece__download-icon"
-                 src="/assets/icons/download.svg"
-                 alt="" aria-hidden="true" />
-            {{current.recordingDownloadLabel}}
-          </a>
-        </section>
+        {{current.scoreSection}}
+
+        {{current.recordingSection}}
       </div>
 
       <!-- C2: audio player, summary -->
       <div class="piece__col2">
-        <section class="piece__recording" aria-labelledby="recording-heading">
-          <h2 class="piece__section-heading" id="recording-heading">{{current.recordingLabel}}</h2>
-          <audio class="piece__audio-player"
-                 controls
-                 preload="none"
-                 aria-label="{{current.pieceTitle}}">
-            <source src="/{{current.pieceRecording}}" type="audio/mpeg" />
-            {{current.audioFallback}}
-          </audio>
-        </section>
+        {{current.playerSection}}
 
         <section class="piece__summary" aria-labelledby="summary-heading">
           <h2 class="piece__section-heading" id="summary-heading">{{current.summaryLabel}}</h2>
