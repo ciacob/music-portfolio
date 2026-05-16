@@ -1073,7 +1073,7 @@ h3 small, h4 small {
 
 .piece__subtitle {
   font-size: var(--text-base);
-  color: var(--ink-soft);
+  color: var(--ink);
 }
 
 /* Piece image — square, cover */
@@ -1098,6 +1098,10 @@ h3 small, h4 small {
   margin-bottom: var(--sp-3);
   padding-bottom: var(--sp-2);
   border-bottom: var(--border-soft);
+}
+
+#score-heading {
+  margin-top: var(--sp-10);
 }
 
 /* Summary */
