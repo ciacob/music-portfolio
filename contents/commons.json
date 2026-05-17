@@ -37,8 +37,8 @@
   "home": {
     "rider": {
       "heading": {
-        "en": "Claudius Tiberiu Iacob, <a href=\"https://music.claudius-iacob.eu/download.php?file=DOCS%2Fclaudius-iacob--doctorat.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PhD</a>",
-        "ro": "<a href=\"https://music.claudius-iacob.eu/download.php?file=DOCS%2Fclaudius-iacob--doctorat.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Dr.</a> Claudius Tiberiu Iacob"
+        "en": "Claudius Tiberiu Iacob, PhD",
+        "ro": "<a href=\"/assets/documents/claudius-iacob--doctorat.pdf\" download target=\"_blank\" rel=\"noopener noreferrer\">Dr.</a> Claudius Tiberiu Iacob"
       },
       "subheading": {
         "en": "composer",
@@ -127,19 +127,25 @@
   "footer": {
     "sections": [
       {
-        "heading": { "en": "Works", "ro": "Lucrări" },
-        "headingHref": "portfolio/music/directory.html",
+        "heading": { "en": "About this Website", "ro": "Despre acest portofoliu" },
+        "headingHref": "",
         "text": {
-          "en": "Browse the full catalogue of compositions, filter by instrumentation or period, and download available scores.",
-          "ro": "Răsfoiți catalogul complet de compoziții, filtrați după instrumentație sau perioadă și descărcați partiturile disponibile."
+          "en": "This is a curated list of works by Romanian composer Claudius Tiberiu Iacob.",
+          "ro": "Aici găsiți selecțiuni din creația compozitorului român Claudius Tiberiu Iacob."
         }
       },
       {
         "heading": { "en": "Contact", "ro": "Contact" },
-        "headingHref": "contact.html",
         "text": {
-          "en": "Commissions, licensing, and performance enquiries are welcome. Response within five working days.",
-          "ro": "Comenzile, licențierea și solicitările de interpretare sunt binevenite. Răspuns în termen de cinci zile lucrătoare."
+          "en": "<ul><li class=\"footer__contact-item\"><img class=\"contact-mean__icon\" src=\"/assets/icons/email.svg\" alt=\"\" /> <a href=\"mailto:claudius.iacob@gmail.com\" target=\"_blank\" rel=\"noopener noreferrer\">Gmail</a></li><li  class=\"footer__contact-item\"><img class=\"contact-mean__icon\" src=\"/assets/icons/linkedin.svg\" alt=\"\" /> <a href=\"https://www.linkedin.com/in/ciacob/\" target=\"_blank\" rel=\"noopener noreferrer\">LinkedIn</a></li></ul>"
+        }
+      },
+      {
+        "heading": { "en": "Copyright Waiver", "ro": "Derogare de la drepturile de autor" },
+        "headingHref": "",
+        "text": {
+          "en": "According to Romanian copyright rules, you can freely use copyrighted works for academic / didactic purposes, as well as for any activity that does not result in an income. For any other uses you must obtain written permission from the current copyright owner (see Imprint table).",
+          "ro": "Conform regulilor de copyright din România, puteți utiliza gratuit lucrări protejate prin drepturi de autor în scopuri academice / didactice, precum și pentru orice activitate care nu are drept rezultat un venit. Pentru alte utilizări, trebuie să obțineți permisiunea scrisă de la proprietarul actual al drepturilor de autor (consultați tabelul Fișă Tehnică)."
         }
       }
     ]
