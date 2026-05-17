@@ -604,7 +604,7 @@ function prepareHome(lang) {
     bioHeading:         t(h.bio.heading, lang),
     bioText:            t(h.bio.text, lang),
     recentHeading:      lang === 'ro' ? 'Lucrări recente' : 'Recent works',
-    recentSubheading:   lang === 'ro' ? 'Cele mai recente compoziții finalizate' : 'Latest finished compositions',
+    recentSubheading:   lang === 'ro' ? 'Piese terminate de curând' : 'Latest finished compositions',
     recentItems:        buildRecentItems(recent, lang),
   });
 }
@@ -760,7 +760,7 @@ function preparePiece(slug, lang) {
              href="/${piece.recording}"
              download>
             <img class="piece__download-icon"
-                 src="/assets/icons/download.svg"
+                 src="/assets/icons/audio.svg"
                  alt="" aria-hidden="true" />
             ${lang === 'ro' ? 'Descarcă înregistrarea (MP3)' : 'Download recording (MP3)'}
           </a>

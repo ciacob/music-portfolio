@@ -183,7 +183,7 @@ audio {
   width: 100%;
 }
 
-button, .piece__download-link, .piece-tag, .piece-card__tag {
+button, .piece__download-link, .contact-mean__cta, .piece-tag, .piece-card__tag {
   border-radius: var(--round-4);
 }
 
@@ -961,24 +961,9 @@ h3 small, h4 small {
 }
 
 .contact-mean__subheading {
-  font-size: var(--text-sm);
+  font-size: var(--text-msm);
   color: var(--ink-soft);
   margin-bottom: var(--sp-3);
-}
-
-.contact-mean__cta {
-  display: inline-block;
-  font-size: var(--text-sm);
-  font-weight: 500;
-  letter-spacing: 0.06em;
-  color: var(--accent);
-  border-bottom: 1px solid var(--accent);
-  transition: color var(--transition), border-color var(--transition);
-}
-
-.contact-mean__cta:hover {
-  color: var(--accent-soft);
-  border-color: var(--accent-soft);
 }
 
 
@@ -1164,7 +1149,8 @@ h3 small, h4 small {
 }
 
 /* Download links */
-.piece__download-link {
+.piece__download-link,
+.contact-mean__cta {
   display: inline-flex;
   align-items: center;
   gap: var(--sp-2);
@@ -1178,7 +1164,8 @@ h3 small, h4 small {
   margin-bottom: var(--sp-2);
 }
 
-.piece__download-link:hover {
+.piece__download-link:hover,
+.contact-mean__cta:hover {
   background-color: var(--accent);
   color: var(--paper);
 }
@@ -1190,7 +1177,8 @@ h3 small, h4 small {
   filter: invert(20%) sepia(60%) saturate(800%) hue-rotate(330deg);
 }
 
-.piece__download-link:hover .piece__download-icon {
+.piece__download-link:hover .piece__download-icon,
+.contact-mean__cta:hover .piece__download-icon {
   filter: invert(1);
 }
 

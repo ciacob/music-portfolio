@@ -1,12 +1,12 @@
 {
   "site": {
     "title": {
-      "en": "",
-      "ro": ""
+      "en": "Broken sounds",
+      "ro": "Sunete frânte"
     },
     "tagline": {
-      "en": "",
-      "ro": ""
+      "en": "Music at beauty's edge",
+      "ro": "Muzică la marginea frumosului"
     },
     "copyright": {
       "en": "Claudius Iacob. All rights reserved.",
@@ -41,8 +41,8 @@
         "ro": "<a href=\"https://music.claudius-iacob.eu/download.php?file=DOCS%2Fclaudius-iacob--doctorat.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Dr.</a> Claudius Tiberiu Iacob"
       },
       "subheading": {
-        "en": "Romanian contemporary composer of mostly art music",
-        "ro": "Compozitor român contemporan, preponderent de muzică cultă"
+        "en": "composer",
+        "ro": "compozitor"
       },
       "picture": "assets/images/rider.svg",
       "pictureAlt": {
@@ -67,10 +67,10 @@
     "bio": {
       "heading": { "en": "Short Bio", "ro": "Scurtă biografie" },
       "text": {
-        "en": "<p>Claudius Tiberiu Iacob is a Romanian composer whose work focuses on contemporary art music. Born in the fiery generation of the 1980s, he managed to combine humanities (theology and classical studies at the Orthodox Seminary of Bucharest, and traditional western composition at the National Music University of Bucharest) with innate engineering skills, which enabled him to successfully tackle artistic projects that were a mix of music and IT. Victor Frangulea, Dan Dediu, Doina Rotaru, Ştefan Niculescu, Teodor Ţuțuianu, Nicolae Coman, Mihaela Vosganian and Liviu Dănceanu are some of the prevalent teachers who shaped his compositional taste and artistic personality.</p><p>Despite focusing on more than one area, he consistently carries on his musical concerns, both academically (he has a <a href=\"https://music.claudius-iacob.eu/download.php?file=DOCS%2Fclaudius-iacob--doctorat.pdf\" target=\"_blank\" rel=\"noopener\">PhD in Musicology</a> at the aforementioned University) and creatively: there are, among his works, titles that received honors in composition competitions, both in Romania and abroad, and pieces that were acquired by the Society of Composers and Musicologists from Romania. Claudius also built and maintained for 12 years <strong><a href=\"https://github.com/ciacob/maidens\" target=\"_blank\" rel=\"noopener\">MAIDENS</a></strong>, a computer aided algorithmic composition software.</p><p>Claudius speaks on his music as being “unwonted and spontaneous, with peaks of humor, grotesque, reverie and meditation.” Not containing himself to art music, Claudius also tackles stage, film, gaming and commercial music, at times with notable success.</p>",
+        "en": "<p><strong>Claudius Tiberiu Iacob is a Romanian composer working at the intersection of rigorous construction and symbolic weight.</strong> His music moves between sacred resonance and contemporary fracture — drawing on Byzantine modality, modal thinking, and liturgical shadow not as acts of stylistic piety, but as living structural pressures placed against dissonance, fragmentation, and abrupt changes of perspective. Transcendence, in his work, is rarely granted innocently; beauty, when it appears, is almost always shadowed by memory, fracture, or loss.</p><p>Formed across an unusually wide arc — Orthodox theology, classical studies, then composition at the <a href=\"https://www.unmb.ro/en\" target=\"_blank\" rel=\"noopener noreferrer\">National Music University of Bucharest</a> under figures such as Dan Dediu, Doina Rotaru, Ştefan Niculescu, and Liviu Dănceanu — he went on to complete a doctorate in musicology, <em>summa cum laude</em>, with a thesis on algorithmic aspects of musical composition, accompanied by original software of his own design. He is a member of the <a href=\"https://ucmr.org.ro/en/homepage-ucmr/\" target=\"_blank\" rel=\"noopener noreferrer\">Union of Composers and Musicologists</a> of Romania (<strong>UCMR</strong>).</p><p>Alongside a parallel career in software architecture, he has maintained a steady compositional output: on average two new works per year, in recent years predominantly for orchestra, each typically exceeding ten minutes. The catalogue spans chamber, choral, piano, orchestral, and electroacoustic writing, and includes works honoured in composition competitions both in Romania and abroad, as well as pieces acquired by the UCMR.</p><p>He has described his own music as <em>&quot;unwonted and spontaneous, with peaks of humour, grotesque, reverie and meditation&quot;</em> — a characterization that, for once, undersells nothing.</p>",
 
 
-        "ro": "<p>Claudius Tiberiu Iacob este un compozitor român, a cărui creație se axează pe muzica cultă contemporană. Face parte din ferventa generație a anilor ’80 și a îmbinat cu succes studiile umaniste (teologie și limbi clasice la Seminarul Ortodox din București, compoziție clasică la Universitatea Națională de Muzică din București) cu aptitudinile inginerești înnăscute, fapt care i-a permis să atace cu succes proiecte artistice aflate la granița dintre muzică și IT. Printre profesorii care i-au conturat personalitatea componistică se numără Victor Frangulea, Dan Dediu, Doina Rotaru, Ștefan Niculescu, Teodor Țuțuianu, Nicolae Coman, Mihaela Vosganian și Liviu Dănceanu.</p><p>În ciuda preocupărilor multidisciplinare, Claudius a manifestat consecvență în activitatea sa muzicală, atât în plan academic (deține un titlu de <a href=\"https://music.claudius-iacob.eu/download.php?file=DOCS%2Fclaudius-iacob--doctorat.pdf\" target=\"_blank\" rel=\"noopener\">Doctor în Muzicologie</a>, obținut la Universitatea sus-amintită) cât și creator, printre piesele sale numărându-se titluri distinse la concursuri de compoziție, interne și internaționale, și lucrări achiziționate de Uniunea Compozitorilor și Muzicologilor din România. De asemenea, Claudius a creat și îmbunătățit, timp de 12 ani, programul <strong><a href=\"https://github.com/ciacob/maidens\" target=\"_blank\" rel=\"noopener\">MAIDENS</a></strong>, un soft de compoziție muzicală algoritmică asistată de calculator.</p><p>Claudius își consideră muzica „insolită și spontană, cu accente de umor, grotesc, reverie și meditație.” Fără a se limita la creația cultă, Claudius abordează — uneori cu succes notabil — zone precum muzica pentru teatru, film/jocuri video, dar și producții comerciale.</p>"
+        "ro": "<p><strong>Claudius Tiberiu Iacob este un compozitor român a cărui muzică cultă combină rigoarea construcției cu un simbolism exacerbat.</strong> Discursul său sonor oscilează între rezonanță sacră și fractură contemporană. Modalismul bizantin, gândirea modală și proiecția liturgică nu funcționează în lucrările sale ca gesturi de pietate stilistică, ci ca resurse structurale vii, puse sub testul disonanței, fragmentării și schimbărilor bruște de perspectivă. Transcendența nu se dăruiește niciodată cu naivitate; frumusețea, atunci când apare, este aproape întotdeauna umbrită de străfulgerări, fracturi sau pierderi.</p><p>Format pe un traseu neobișnuit de larg — teologie ortodoxă și studii clasice, urmate de compoziție la <a href=\"https://www.unmb.ro\" target=\"_blank\" rel=\"noopener noreferrer\">Universitatea Națională de Muzică din București</a>, în clasa unor personalități precum Dan Dediu, Doina Rotaru, Ștefan Niculescu și Liviu Dănceanu — și-a încheiat doctoratul în muzicologie cu calificativul <em>summa cum laude</em>, cu o teză dedicată aspectelor algoritmice ale compoziției muzicale, însoțită de un software original conceput și realizat de autor. Este membru al <a href=\"https://ucmr.org.ro\" target=\"_blank\" rel=\"noopener noreferrer\">Uniunii Compozitorilor și Muzicologilor din România</a> (<strong>UCMR</strong>).</p><p>În paralel cu o carieră solidă în arhitectura de software, a menținut o producție componistică constantă: în medie două lucrări noi pe an, în ultimii ani preponderent orchestrale, cu durate ce depășesc frecvent zece minute. Catalogul său cuprinde muzică de cameră, corală, pentru pian, orchestrală și electroacustică, și include lucrări distinse în concursuri de compoziție din țară și din străinătate, precum și piese achiziționate de UCMR.</p><p>Și-a caracterizat propria muzică drept <em>„inopinată și spontană, cu accente de umor, grotesc, reverie și meditație&quot;</em> — o formulare care, rar lucru, nu lasă nimic nespus.</p>"
       }
     }
   },
@@ -104,30 +104,21 @@
         "id": "email",
         "icon": "assets/icons/email.svg",
         "heading": { "en": "Email", "ro": "Email" },
-        "subheading": { "en": "Preferred for all formal enquiries", "ro": "Preferat pentru toate solicitările formale" },
+        "subheading": { "en": "Preferred for all formal enquiries, such as commissions, licensing, and performance — response within five working days.", "ro": "Preferat pentru toate solicitările formale — comenzi, drepturi de autor, interpretare. Răspund în termen de cinci zile lucrătoare." },
         "cta": {
-          "label": { "en": "Send a message", "ro": "Trimite un mesaj" },
-          "href": "mailto:andrei@example.com"
+          "label": { "en": "claudius.iacob@gmail.com" },
+          "href": "mailto:claudius.iacob@gmail.com"
         }
       },
       {
-        "id": "soundcloud",
-        "icon": "assets/icons/soundcloud.svg",
-        "heading": { "en": "SoundCloud", "ro": "SoundCloud" },
-        "subheading": { "en": "Stream selected recordings", "ro": "Ascultă înregistrări selectate" },
+        "id": "linkedin",
+        "icon": "assets/icons/linkedin.svg",
+        "heading": { "en": "LinkedIn" },
+        "subheading": { "en": "Professional profile spanning music composition and software development — connections from either world are welcome.", 
+        "ro": "Profil profesional — compoziție muzicală și dezvoltare software. Sunt binevenite contacte din ambele lumi." },
         "cta": {
-          "label": { "en": "Visit profile", "ro": "Vizitează profilul" },
-          "href": "https://soundcloud.com/example"
-        }
-      },
-      {
-        "id": "imslp",
-        "icon": "assets/icons/imslp.svg",
-        "heading": { "en": "IMSLP", "ro": "IMSLP" },
-        "subheading": { "en": "Download freely available scores", "ro": "Descarcă partituri disponibile gratuit" },
-        "cta": {
-          "label": { "en": "View scores", "ro": "Vezi partiturile" },
-          "href": "https://imslp.org/example"
+          "label": { "en": "/in/ciacob" },
+          "href": "https://www.linkedin.com/in/ciacob/"
         }
       }
     ]
