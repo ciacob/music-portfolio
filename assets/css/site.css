@@ -457,7 +457,7 @@ h3 small, h4 small {
 }
 
 .footer__section-text {
-  font-size: var(--text-sm);
+  font-size: var(--text-msm);
   color: var(--paper);
   line-height: 1.7;
 }
@@ -470,6 +470,13 @@ h3 small, h4 small {
   padding-top: var(--sp-6);
 }
 
+.footer__contact-item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: var(--sp-1);
+}
+
 
 /* --------------------------------------------------------------------------
    8. PAGE LAYOUTS
@@ -480,7 +487,8 @@ h3 small, h4 small {
 .piece__notes-text a,
 .piece__summary-text a,
 .imprint__value a,
-.contact-mean__subheading a {
+.contact-mean__subheading a,
+.rider__heading a {
   color: var(--accent);
   border-bottom: 1px solid currentColor;
 }
@@ -489,7 +497,8 @@ h3 small, h4 small {
 .piece__notes-text a:hover,
 .piece__summary-text a:hover,
 .imprint__value a:hover,
-.contact-mean__subheading a:hover {
+.contact-mean__subheading a:hover,
+.rider__heading a:hover {
   color: var(--accent-soft);
 }
 
