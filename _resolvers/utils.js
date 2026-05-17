@@ -215,7 +215,7 @@ function buildLangPickerItems(languages, currentLang) {
 function buildFooterSections(sections, lang) {
   return sections.map(s => `  <section class="footer__section">
     <h3 class="footer__section-heading">
-      <a class="footer__section-link" href="/${lang}/${s.headingHref}">${t(s.heading, lang)}<small>↗</small></a>
+      <a class="footer__section-link" href="/${lang}/${s.headingHref}">${t(s.heading, lang)}</a>
     </h3>
     <div class="footer__section-text">${t(s.text, lang)}</div>
   </section>`).join('\n');
@@ -231,7 +231,7 @@ function buildFooterSections(sections, lang) {
 function buildContactMeans(means, lang) {
   return means.map(m => {
     const ctaHtml = m.cta
-      ? `\n      <a class="contact-mean__cta" href="${m.cta.href}">${t(m.cta.label, lang)}</a>`
+      ? `\n      <a class="contact-mean__cta" href="${m.cta.href}" target=\"_blank\" rel=\"noopener noreferrer\">${t(m.cta.label, lang)}</a>`
       : '';
     return `  <article class="contact-mean" id="contact-${m.id}">
     <img class="contact-mean__icon" src="/${m.icon}" alt="" aria-hidden="true" />
@@ -319,7 +319,7 @@ function buildRecentItems(pieces, lang) {
     <a class="recent-work__link" href="/${lang}/portfolio/music/${p.slug}.html">
       <img class="recent-work__image" src="/${p.picture}" alt="${t(p.pictureAlt, lang)}" loading="lazy" />
       <div class="recent-work__body">
-        <h4 class="recent-work__title">${t(p.title, lang)}<small>↗</small></h4>
+        <h4 class="recent-work__title">${t(p.title, lang)}</h4>
         <p class="recent-work__date">${completedLabel}</p>
       </div>
     </a>
@@ -342,7 +342,7 @@ function buildFeaturedItems(featuredItems, pieces, lang) {
     const desc  = piece? t(piece.subtitle, lang) : '';
     return `    <li class="featured-works__item">
       <a class="featured-works__link" href="/${lang}/portfolio/music/${fi.slug}.html">
-        <h4 class="featured-works__title">${title}<small>↗</small></h4>
+        <h4 class="featured-works__title">${title}</h4>
       </a>
       <p class="featured-works__description">${desc}</p>
     </li>`;

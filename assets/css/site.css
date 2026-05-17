@@ -475,6 +475,44 @@ h3 small, h4 small {
    8. PAGE LAYOUTS
    -------------------------------------------------------------------------- */
 
+/* ---- commons ----- */
+.bio__text a,
+.piece__notes-text a,
+.piece__summary-text a,
+.imprint__value a,
+.contact-mean__subheading a {
+  color: var(--accent);
+  border-bottom: 1px solid currentColor;
+}
+
+.bio__text a:hover,
+.piece__notes-text a:hover,
+.piece__summary-text a:hover,
+.imprint__value a:hover,
+.contact-mean__subheading a:hover {
+  color: var(--accent-soft);
+}
+
+.featured-works__link .featured-works__title,
+.recent-work__link .recent-work__title {
+  color: var(--accent);
+}
+
+.featured-works__link:hover .featured-works__title,
+.recent-work__link:hover .recent-work__title {
+  color: var(--accent-soft);
+}
+
+.footer__section-text a {
+  border-bottom: 1px solid rgba(247, 244, 239, 0.4);
+  transition: border-color var(--transition);
+}
+
+.footer__section-text a:hover {
+  color: var(--accent-soft);
+  border-color: var(--accent-soft);
+}
+
 /* ---- 8a. HOME ---- */
 
 .page--home {
