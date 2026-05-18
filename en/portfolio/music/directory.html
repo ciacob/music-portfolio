@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A catalogue of completed and ongoing works" />
+  <title>Music Portfolio — Broken sounds</title>
+  <link rel="stylesheet" href="/assets/css/site.css" />
+  <script>document.documentElement.classList.remove('no-js');</script>
+</head>
+<body class="page">
+
+<header class="site-header" role="banner">
+  <div class="site-header__inner">
+
+    <a class="site-header__brand" href="/en/home.html">
+      <span class="site-header__site-title">Broken sounds</span>
+      <span class="site-header__site-tagline">Music at beauty's edge</span>
+    </a>
+
+    <button class="site-header__hamburger"
+            aria-controls="primary-nav"
+            aria-expanded="false"
+            aria-label="Menu">
+      <span class="hamburger__bar"></span>
+      <span class="hamburger__bar"></span>
+      <span class="hamburger__bar"></span>
+    </button>
+
+    <nav class="site-nav" id="primary-nav" aria-label="Menu">
+      <ul class="nav__list" role="list">
+    <li class="nav__item">
+      <a class="nav__link" href="/en/home.html">Home</a>
+    </li>
+    <li class="nav__item">
+      <a class="nav__link nav__link--active" href="/en/portfolio/music/directory.html" aria-current="page">Portfolio</a>
+    </li>
+    <li class="nav__item">
+      <a class="nav__link" href="/en/contact.html">Contact</a>
+    </li>
+      </ul>
+    </nav>
+
+    <ul class="lang-picker" role="list" aria-label="Language">
+    <li class="lang-picker__item lang-picker__item--active">
+      <button class="lang-picker__btn lang-picker__btn--active"
+              data-lang-switch="en"
+              aria-pressed="true"
+              aria-label="Switch to EN">EN</button>
+    </li>
+    <li class="lang-picker__item">
+      <button class="lang-picker__btn"
+              data-lang-switch="ro"
+              aria-pressed="false"
+              aria-label="Switch to RO">RO</button>
+    </li>
+    </ul>
+
+  </div>
+</header>
+
+
+<main class="page-content page--directory" id="main-content">
+
+  <header class="page-header">
+    <h1 class="page-header__heading">Music Portfolio</h1>
+    <p class="page-header__subheading">A catalogue of completed and ongoing works</p>
+  </header>
+
+  <!-- FILTER PANEL -->
+  <section class="filter-panel" aria-label="Filter works">
+    <div class="filter-panel__inner">
+
+      <fieldset class="filter-tags">
+        <legend class="filter-tags__legend">Show works tagged</legend>
+  <label class="filter-tags__label filter-tags__label--all">
+    <input class="filter-tags__checkbox" type="checkbox" name="tag" value="__all__" checked />
+    <span>All</span>
+  </label>
+  <label class="filter-tags__label">
+    <input class="filter-tags__checkbox" type="checkbox" name="tag" value="completed" />
+    <span>completed</span>
+  </label>
+  <label class="filter-tags__label">
+    <input class="filter-tags__checkbox" type="checkbox" name="tag" value="contemporary" />
+    <span>contemporary</span>
+  </label>
+  <label class="filter-tags__label">
+    <input class="filter-tags__checkbox" type="checkbox" name="tag" value="mild-dissonance" />
+    <span>mild dissonance</span>
+  </label>
+  <label class="filter-tags__label">
+    <input class="filter-tags__checkbox" type="checkbox" name="tag" value="orchestra" />
+    <span>orchestra</span>
+  </label>
+  <label class="filter-tags__label">
+    <input class="filter-tags__checkbox" type="checkbox" name="tag" value="organ" />
+    <span>organ</span>
+  </label>
+  <label class="filter-tags__label">
+    <input class="filter-tags__checkbox" type="checkbox" name="tag" value="with-audio" />
+    <span>with audio</span>
+  </label>
+  <label class="filter-tags__label">
+    <input class="filter-tags__checkbox" type="checkbox" name="tag" value="with-honors" />
+    <span>with honors</span>
+  </label>
+  <label class="filter-tags__label">
+    <input class="filter-tags__checkbox" type="checkbox" name="tag" value="with-score" />
+    <span>with score</span>
+  </label>
+  <label class="filter-tags__label">
+    <input class="filter-tags__checkbox" type="checkbox" name="tag" value="classical" />
+    <span>classical</span>
+  </label>
+  <label class="filter-tags__label">
+    <input class="filter-tags__checkbox" type="checkbox" name="tag" value="strings" />
+    <span>strings</span>
+  </label>
+  <label class="filter-tags__label">
+    <input class="filter-tags__checkbox" type="checkbox" name="tag" value="cello" />
+    <span>cello</span>
+  </label>
+  <label class="filter-tags__label">
+    <input class="filter-tags__checkbox" type="checkbox" name="tag" value="percussion" />
+    <span>percussion</span>
+  </label>
+  <label class="filter-tags__label">
+    <input class="filter-tags__checkbox" type="checkbox" name="tag" value="piano" />
+    <span>piano</span>
+  </label>
+  <label class="filter-tags__label">
+    <input class="filter-tags__checkbox" type="checkbox" name="tag" value="soloists" />
+    <span>soloists</span>
+  </label>
+  <label class="filter-tags__label">
+    <input class="filter-tags__checkbox" type="checkbox" name="tag" value="violin" />
+    <span>violin</span>
+  </label>
+  <label class="filter-tags__label">
+    <input class="filter-tags__checkbox" type="checkbox" name="tag" value="electronics" />
+    <span>electronics</span>
+  </label>
+  <label class="filter-tags__label">
+    <input class="filter-tags__checkbox" type="checkbox" name="tag" value="strong-dissonance" />
+    <span>strong dissonance</span>
+  </label>
+  <label class="filter-tags__label">
+    <input class="filter-tags__checkbox" type="checkbox" name="tag" value="choir" />
+    <span>choir</span>
+  </label>
+  <label class="filter-tags__label">
+    <input class="filter-tags__checkbox" type="checkbox" name="tag" value="bassoon" />
+    <span>bassoon</span>
+  </label>
+  <label class="filter-tags__label">
+    <input class="filter-tags__checkbox" type="checkbox" name="tag" value="clarinet" />
+    <span>clarinet</span>
+  </label>
+  <label class="filter-tags__label">
+    <input class="filter-tags__checkbox" type="checkbox" name="tag" value="viola" />
+    <span>viola</span>
+  </label>
+  <label class="filter-tags__label">
+    <input class="filter-tags__checkbox" type="checkbox" name="tag" value="english-horn" />
+    <span>English Horn</span>
+  </label>
+  <label class="filter-tags__label">
+    <input class="filter-tags__checkbox" type="checkbox" name="tag" value="f-horn" />
+    <span>F Horn</span>
+  </label>
+  <label class="filter-tags__label">
+    <input class="filter-tags__checkbox" type="checkbox" name="tag" value="refining" />
+    <span>refining</span>
+  </label>
+      </fieldset>
+
+      <div class="filter-phrase">
+        <label class="filter-phrase__label" for="filter-phrase-input">
+          matching phrase
+        </label>
+        <input class="filter-phrase__input"
+               id="filter-phrase-input"
+               type="search"
+               placeholder="…"
+               aria-label="matching phrase" />
+
+        <fieldset class="filter-phrase__fields">
+          <legend class="filter-phrase__fields-legend">search in</legend>
+          <label class="filter-phrase__field-label">
+            <input type="checkbox" name="search-field" value="title" checked />
+            <span>title</span>
+          </label>
+          <label class="filter-phrase__field-label">
+            <input type="checkbox" name="search-field" value="subtitle" />
+            <span>subtitle</span>
+          </label>
+          <label class="filter-phrase__field-label">
+            <input type="checkbox" name="search-field" value="summary" />
+            <span>summary</span>
+          </label>
+          <label class="filter-phrase__field-label">
+            <input type="checkbox" name="search-field" value="notes" />
+            <span>program notes</span>
+          </label>
+        </fieldset>
+      </div>
+
+    </div>
+    <p class="filter-panel__count" aria-live="polite" aria-atomic="true">
+      <span id="filter-result-count"></span>
+    </p>
+  </section>
+
+  <!-- PIECE LIST -->
+  <section class="piece-list" aria-label="Music Portfolio" id="piece-list">
+  <article class="piece-card"
+    data-slug="fulgura"
+    data-tags="completed contemporary mild-dissonance orchestra organ with-audio with-honors with-score"
+    data-title="Fúlgura"
+    data-subtitle="A mosaic of fleeting sonic impressions"
+    data-summary="<p><em>Fúlgura</em> unfolds as a mosaic of fleeting sonic impressions, fragments of light, color, and texture that flare up and vanish before settling into a more coherent horizon. Beneath its montage-like surface, the piece traces a search for musical and spiritual harmony, culminating in echoes of the ancient Christian hymn <em>Phōs hilarón</em> as a final luminous eruption before silence.</p>"
+    data-notes="Fúlgura is a sonic mosaic made up of disparate patches of light, color, and texture that erupt spontaneously into the auditory space. The work does not follow a linear development, but is built instead from a succession of fragments, each with its own breath, much like church stained-glass windows traversed by an ever-changing light. Each section functions as an autonomous apparition, a shard of light, a self-sufficient timbral and gestural configuration, linked to the others not by narrative but by affinities of resonance and color. Throughout this auditory montage, suggestions of sacredness hover persistently, culminating in the iridescent echoes of the ancient Christian hymn Φῶς ἱλαρόν, Phōs hilarón , Joyful Light, still sung today at Orthodox Vespers, a final sonic fulguration before silence. The form of the piece is in principle free. The music is built more from gestures and breaths than from musical substance proper, almost like a sketch for a possible music not yet fully materialized. And yet one may still speak of a musical dramaturgy, in the sense that the piece displays a kind of discourse in which the type of musical syntax employed itself marks off the form, which is why the texture types used are so deliberately raw, overt, and unambiguous. There is also a general process of coagulation of the sonic material, which helps make the opus intelligible as a whole. For despite its manifest heterogeneity and fragmentation, the score does in fact crystallize around a single idea, a shared subtext: the search for harmony , in both the musical and the metaphysical sense, harmony as the supreme mode of justification and fulfillment in communion rather than in individuality. Concretely, the piece evolves, non-linearly — owing to its multiple insertions, many of them strongly chamber-like — from a multicolored babble, more or less dissonant and agitated, in which the instruments are sharply individualized, something that recalls the golden age of certain long-vanished avant-garde musics — a pointillism lacking meanings of its own or any great depth, though not necessarily devoid of wit — toward more homophonic, consonant, and idiomatic writings rooted in late Classicism or early Romanticism, in which the instruments seem to discover a higher meaning through cooperation and through their relation to one another. Given its extreme heterogeneity, the harmonic substance of the piece is difficult to classify. In the last analysis, it is a panoply of stylistic and geographic wanderings that bring together, for instance, Wagnerian harmonies and orientalizing superpositions. One could probably find here most of the harmonic innovations of the last century: Bartók’s minor-major chord, Messiaen’s added-note chords, fourth- and fifth-based harmonies, Hindemith, Stravinsky, perhaps Copland, polychords, perhaps Charles Ives, and so forth, all of it culminating, toward the end, in a bewildering ocean of consonance, disarmingly naive, pure, and luminous, perhaps in the manner of Arvo Pärt, or rather John Tavener, given the Byzantine-inspired melodic material I employ. As for the horizontal, intonational, diachronic plane, the music lives to a large extent from a deconstruction of the hymn just mentioned, whose primary melodic elements subtly and decoratively feed both the substance of the interstices between sections — more visibly — and the general melodic gesturality — more discreetly. This becomes clearly perceptible only after the fact, once that musical material is finally granted the right to its own life and unfolding, at which point the entire preceding latent process suddenly appears in full light. On the rhythmic level, the piece relies on the perplexity produced by the combination of chaos — statistically predominant and obtained through arrhythmia , itself generated by an exacerbation of perpetual rhythmic invention — and oligorhythmia , used on smaller surfaces but highly conspicuous because it brings with it a strong ritual charge. The orchestration might best be described as functional , in the sense that it faithfully supports and brings out the intended melodic gesture and harmonic color. It is worth noting that the organ, a pipe organ, a church organ, does not explicitly occupy a soloistic role within the ensemble, though neither does it refuse such a posture when occasion arises; it is employed here above all to offer an alternative timbral universe, being itself a kind of second orchestra. Fúlgura is the plural form of the Latin noun fulgur , &quot;lightning&quot;, or &quot;flash of light&quot;. It seemed to me that such a title, implying at once concision, energy, and sacredness, serves this strange musical assemblage particularly well: a handful of musical shards hurled into the ether by flashes of the spirit, a hollow of sonic matter seeking its way toward a higher calling.">
+    <a class="piece-card__link" href="/en/portfolio/music/fulgura.html">
+      <img class="piece-card__image" src="/assets/images/pieces/fulgura.png" alt="Abstract solar stained glass" loading="lazy" />
+      <div class="piece-card__body">
+        <h3 class="piece-card__title">Fúlgura</h3>
+        <p class="piece-card__subtitle">A mosaic of fleeting sonic impressions</p>
+        <div class="piece-card__tags" aria-label="Tags"><span class="piece-card__tag" data-tag="completed">completed</span><span class="piece-card__tag" data-tag="contemporary">contemporary</span><span class="piece-card__tag" data-tag="mild-dissonance">mild dissonance</span><span class="piece-card__tag" data-tag="orchestra">orchestra</span><span class="piece-card__tag" data-tag="organ">organ</span><span class="piece-card__tag" data-tag="with-audio">with audio</span><span class="piece-card__tag" data-tag="with-honors">with honors</span><span class="piece-card__tag" data-tag="with-score">with score</span></div>
+      </div>
+    </a>
+  </article>
+  <article class="piece-card"
+    data-slug="hortus-conclusus"
+    data-tags="cello classical completed contemporary mild-dissonance orchestra percussion piano soloists strings violin with-audio with-honors with-score"
+    data-title="Hortus conclusus"
+    data-subtitle="Imaginary sacred garden transcending earthly misery"
+    data-summary="<p><em>Hortus conclusus</em> extends the sacred symbolism of the enclosed garden into a meditation on the conflict between ideal form and fallen material reality. Moving through lush heterophony, birdlike agitation, and chorale-like moments of suspension, the piece imagines a personal sanctuary of light and transcendence within a desacralized world.</p>"
+    data-notes="Hortus conclusus , literally Enclosed Garden , or inward, hidden garden, is a widely used Western European cultural reference from the late Middle Ages onward, reaching its apotheosis in the Renaissance, when it became, in the Christian West, the symbolic representation par excellence of the Virgin Mary, especially in connection with the Catholic doctrine of the Immaculata conceptio , a doctrine not shared in the East. My piece preserves the intrinsic and inextricable aura of sacredness and transcendence that the term acquired in the Renaissance, yet broadens its conceptual frame. In Hortus conclusus , I begin by exploring the fundamental conflict between the ideal, romanticized, idyllic image of the concept of a garden and its tangible, material, worldly realization , full of all the shortcomings, discomforts, and ultimately the miseries inherent to biological life. Once there, I continue, inevitably, toward observing the conflict between the world of ideas, of the ineffable and of faith, and its sad material projection, only to confess, in the end and quite bluntly, that I prefer the former. The framing concept of the garden — indeed even of a fantastic garden — allowed me to expand my own musical experiments, such as those connected with classes of composition and with heterophony, understood here as an icon of landscape reformulation and vegetative luxuriance, respectively. It also offered the ideal pretext for a kaleidoscopic, discontinuous discourse full of allusions to Piazzolla, Vivaldi, and Messiaen, especially the last of these, since the somewhat unusual union of winds and vibraphone builds — in the first two sections of the piece — a fragmented and ornithophilic musical discourse, very close to some of Olivier Messiaen’s historic transcriptions, historic in the sense of their historical importance, even if they are more representative of the French composer’s own melodic and rhythmic choices than of any approximate rendering of the birdsong he observed. The music is apparently chaotic, with the exception of the final section, wandering restlessly and in scattered fashion across three principal sonic and poetic registers: first, a visceral, intensely heterophonic excursion, usually entrusted to a small concertino group within the strings; second, a birdlike agitation making use of a subset of the rhythmic, melodic, and harmonic language of the composer just mentioned, generally carried by winds and or percussion; and third, small crumbs of eternity, chorale moments of manifest and almost ostentatious homophony, images of sacredness and transcendence, both already implied by the very name Hortus conclusus . To these are added micro-fragments of fundamentally mundane music, recalling the Schubertiade or the Romantic salon ballad, a slightly sad gesture of reverence toward the human gardener, that creature of interval and compromise. Hortus conclusus is a piece shaped in principle from clear, precise gestures, even when these are superposed and amalgamated in varying thicknesses and densities, to which are added very subtle intentions of non-repetitive minimalism. On the diachronic plane, the material is organized as textures formed through agglutinations of melodic rudiments. The ephemerid life of the musical material thus set in motion, ephemerid because, with few exceptions, once presented it is neither repeated nor reused, compelling the listener to consume it frugally, is compensated by the perpetual invention of an abundance of similar, though never identical, musical elements — compare the classes of composition theorized by Aurel Stroe. Despite the abundant consonances and an at times overtly triadic aura, especially in the final section, Hortus conclusus is a non-tonal piece. Harmony is used independently of any functionality, although occasional repetitions and or rhythmic-metric placements may serve as anchors around a center of attraction. Harmonic material has two principal tasks here: first, it controls tension, chords being used according to their classification in groups of consonance, compare Hindemith, which means the piece might in some sense be called pan-tonal ; and second, it constructs new timbres through the careful dosing of chordal components coupled with attention to the harmonic and inharmonic characteristics of the instruments involved, here again one may think of Messiaen, since the procedure recalls, in some way, his added or resonance sounds and chords. As noted earlier, the piece has three principal sonic and poetic registers, and the allocation of instruments to them is, to a large extent, consistent. Beyond this, and repeating what has already been said, there is a sustained concern for the creation of new timbres , specifically through the measured distribution of the different chordal elements in use, correlated with the suitability of the instruments to the harmony they render. Added to this is a constantly shifting dynamic plane, from which results a perpetual timbral metamorphosis. For this reason, the dynamic markings, notated with particular care in the score, must be rendered with great exactitude in performance, otherwise wholly different colors and sonorities will emerge. Taken to its limit, such a concern could qualify the present piece, to some extent, as spectral as well. One should also note that the piano is treated like a pitched percussion instrument, participating together with vibraphone and marimba in the informal group of soli that justifies the work’s technical title: I call it a concertante prelude because, on the one hand, the percussion instruments are sometimes granted a dominant role within the orchestral whole, and on the other because the frequent use of groups of string soloists offers a subtle allusion to the concerto grosso . There are, in principle, three sections in the piece, plus a coda, untitled individually and of unequal duration, the middle one being the most substantial. They are marked in the score by double bar lines, though they exist more truly for the conductor, for rehearsal purposes, or for the musicologist, for analytical ones. During performance, no additional pauses or interstices beyond those explicitly notated may be introduced, my intention being that the piece should be perceived as a unitary whole. The actual exit from the work, measures 264 to 289, functions as a coda to the coda, a final chamber-like, quasi-solo fragment that restores the atmosphere, tempo, and sonority of the five solo cellos from the opening of the score, without repeating the material itself, and contributes, through its refusal of a firm and unequivocal cadence, to giving the entire preceding sonic architecture an aura of endlessness or cyclicity. I cannot conclude without observing, in light of the sacred descent of the words Hortus conclusus , first drawn from the Vulgate , Canticum Canticorum , 4:12 , that I likely composed this work in search of a personal sanctuary as well: a place in which I might take refuge, far from a world full of clamor, emptied of meaning, desacralized, and, in my view, lost. A blessed place, a perfect garden in which the light of Christ continues to shine.">
+    <a class="piece-card__link" href="/en/portfolio/music/hortus-conclusus.html">
+      <img class="piece-card__image" src="/assets/images/pieces/hortus-conclusus.jpg" alt="The Garden of Paradise, Upper Rhenish Master, 1410" loading="lazy" />
+      <div class="piece-card__body">
+        <h3 class="piece-card__title">Hortus conclusus</h3>
+        <p class="piece-card__subtitle">Imaginary sacred garden transcending earthly misery</p>
+        <div class="piece-card__tags" aria-label="Tags"><span class="piece-card__tag" data-tag="cello">cello</span><span class="piece-card__tag" data-tag="classical">classical</span><span class="piece-card__tag" data-tag="completed">completed</span><span class="piece-card__tag" data-tag="contemporary">contemporary</span><span class="piece-card__tag" data-tag="mild-dissonance">mild dissonance</span><span class="piece-card__tag" data-tag="orchestra">orchestra</span><span class="piece-card__tag" data-tag="percussion">percussion</span><span class="piece-card__tag" data-tag="piano">piano</span><span class="piece-card__tag" data-tag="soloists">soloists</span><span class="piece-card__tag" data-tag="strings">strings</span><span class="piece-card__tag" data-tag="violin">violin</span><span class="piece-card__tag" data-tag="with-audio">with audio</span><span class="piece-card__tag" data-tag="with-honors">with honors</span><span class="piece-card__tag" data-tag="with-score">with score</span></div>
+      </div>
+    </a>
+  </article>
+  <article class="piece-card"
+    data-slug="the-fall-toamna"
+    data-tags="classical completed contemporary mild-dissonance orchestra strings with-audio with-honors with-score"
+    data-title="The Fall"
+    data-subtitle="Frozen echoes in an antinomic journey through winter settling in"
+    data-summary="<p><em>The Fall</em> is a programmatic work for chamber string orchestra inspired by freezing rain and by the image of winter slowly sealing the world in ice. Built on antinomic contrasts across texture, rhythm, register and harmony, the piece revives the logic of program music through a refined, color-driven orchestral writing.</p>"
+    data-notes="This composition, The Fall , bearing the somewhat odd subtitle A Short Musical Novel for Strings Orchestra , is a study for chamber string orchestra, twenty-five players. Based on a literary text of my own[1], poetic in essence though without versification, The Fall revives, for the sake of exercise and experiment, a musical type that has all but vanished today: program music . The score is built on an antinomic principle of composition, applied on as many parametric levels as possible. The binary oppositions that arise in this way, long-short , loud-soft , high-low , consonant-dissonant , agitated-still , organized-chaotic , rhythmic-atemporal , coherent-loose , and so on, catalyze and sustain the musical dramaturgy, which otherwise follows, with a touching naivety, deliberate and sought after, the assumed literary program. From this point of view, the formal organization of the piece is fairly easy to follow, since it can be segmented quite efficiently on the basis of the plastic and kinetic landmarks abundantly provided by the extra-musical source. The sections marked in the score, whose justification is purely pragmatic, they exist only to ease rehearsals, will serve us as guideposts. Harmony is, in varying proportions, omnipresent in the substratum of this music, predominantly in the form of pedalized polychords that constantly change color through the selective dynamic variation of their component tones. The procedure, very common in spectral music, is probably a radicalization of Messiaen’s technique of added-note chords. In the present case, one should speak rather of resonance tones. Onto a basic structure of two or three superposed triads are grafted two or three tones chosen in such a way that each of them is more consonant with one and only one of those triads, while having varying degrees of dissonance with the others. Through very carefully controlled dynamic variation, both of the basic tones as a group and of the resonance tones individually, one obtains ever new shades, weights and harmonic fundamentals. The general harmonic climate is pan-chromatic in the first two thirds of the piece, so as to give equal chances to all the micro-melodies from which the textures are composed, and it grows more nuanced toward the end, ultimately tending toward spectral harmonies. With the exception of the final section, the entire melodic material , sinuous and organized in principle around an ever-present formula of inverted chromaticism, is emphatically non-thematic and non-tonal without thereby becoming unintelligible. A certain degree of musical meaning breathes through every melodic intervention thanks to meticulous phrasing. To this is added a carefully built dynamic profile that faithfully follows the intrinsic semantics of the pitch contour, nuances generally intensifying as the melody rises, and vice versa. With the exception of the final sections, the temporal plane of this music borders on arrhythmia. This is sought after, in keeping with the literary substratum, and is obtained on the one hand by over-saturating the discourse with hemiolas and on the other by perpetual rhythmic invention, simultaneous attack being practically nonexistent. The absence of local, micro-granular rhythm is however compensated by a macro-rhythm, or global rhythm, a broader respiration of the piece, created by the succession and alternation of different textures and characters, and this provides the musical dramaturgy with the reference system it needs in order to function. I believe one may speak of orchestration even in the case of a homogeneous orchestra such as this one. As far as I am concerned, I treated each of the twenty-five string instruments at my disposal as a multi-timbral source of sound, something entirely justifiable if one considers the virtually endless wealth of colors and attack types that a bowed string instrument can produce. Concretely, I applied techniques of synthesis, or sonic agglutination, more typical of electronic music, constructing new timbres by adding resonance tones, see above, at much lower dynamic intensities, which the ear will perceive as harmonic or inharmonic partials depending on their constantly shifting relation to the basic tones. I also applied classical orchestration techniques, for instance by using doublings or by superimposing, on the same pitch, various bowing techniques and attack modes: arco, pizzicato, including Bartok pizzicato and pizzicato with the fingernail, tremolo, sul ponticello, sul tasto, vibrato, non-vibrato, and so on. All these means, together with the harmonic techniques described above, resulted in a greatly enriched palette of colors, capable of serving the proposed programmatic source faithfully, promptly and efficiently. Despite the exercise of poetic and literary imagination that lies at the basis of the piece, its trigger was entirely concrete. Toward the end of January 2019, not in November, as in the short prose, Bucharest witnessed a very rare and spectacular, and no less catastrophic, meteorological phenomenon. The freezing rain that fell between 24 and 29 January, made up in fact not of ice but of supercooled water that froze instantly on contact with surfaces already cold from the ground, encased everything within a few days in a sheet of ice up to one centimeter thick. That image, wholly otherworldly, haunted me for a long time, yet for various reasons I needed several years to decant it and arrive at a literary and musical formulation that felt plausible, coherent and refined. [1] The text, in English, is included at the beginning of the score.">
+    <a class="piece-card__link" href="/en/portfolio/music/the-fall-toamna.html">
+      <img class="piece-card__image" src="/assets/images/pieces/the-fall-toamna.jpg" alt="XX Century-Style Befalling Winter Painting - AI/ChatGPT" loading="lazy" />
+      <div class="piece-card__body">
+        <h3 class="piece-card__title">The Fall</h3>
+        <p class="piece-card__subtitle">Frozen echoes in an antinomic journey through winter settling in</p>
+        <div class="piece-card__tags" aria-label="Tags"><span class="piece-card__tag" data-tag="classical">classical</span><span class="piece-card__tag" data-tag="completed">completed</span><span class="piece-card__tag" data-tag="contemporary">contemporary</span><span class="piece-card__tag" data-tag="mild-dissonance">mild dissonance</span><span class="piece-card__tag" data-tag="orchestra">orchestra</span><span class="piece-card__tag" data-tag="strings">strings</span><span class="piece-card__tag" data-tag="with-audio">with audio</span><span class="piece-card__tag" data-tag="with-honors">with honors</span><span class="piece-card__tag" data-tag="with-score">with score</span></div>
+      </div>
+    </a>
+  </article>
+  <article class="piece-card"
+    data-slug="mirando-al-bosco"
+    data-tags="completed contemporary electronics mild-dissonance percussion with-audio with-honors with-score"
+    data-title="Mirando al’ Bosco"
+    data-subtitle="Reverberating Hieronymus Bosch’s Garden of Earthly Delights"
+    data-summary="<p><em>Mirando al’ Bosco</em> is an electronic poem born from the conflicting reactions stirred by Bosch’s <em>Garden of Earthly Delights</em>. Moving between luminous, ecstatic, grotesque and infernal states, the piece absorbs elements from entertainment music into a broader dramaturgy that ultimately turns toward release, restoration, and a distinctly Christian horizon.</p>"
+    data-notes="The present unusual sonic journey outlines the audible projection of the multitude of thoughts and inner states stirred in me by contemplating the triptych The Garden of Earthly Delights , the sixteenth-century religious, that is, Christian, work of the Dutch painter Hieronymus Bosch , Bosco as the Spaniards call him, and as the three oak panels were labeled in the room of the Prado Museum where I encountered them. Art criticism generally interprets this work in a moralizing sense: set against the background of original sin, the spiritual decadence of man, embodied in total surrender to the drunkenness of the senses and to the pleasures of a purely biological existence, leads inevitably to damnation, spiritual death and hell. Yet regardless of, and independently from, any possible or probable exegesis of that pictorial composition, what inevitably remains is the viewer’s direct contact with the painted images and the contradictory feelings that this immediate encounter yields. This is because Bosch’s triptych is not merely highly interpretable from an eschatological point of view — how is it that in a Christian religious work Christ’s sacrifice plays no role whatsoever and humanity descends unerringly through sin into hell? — but is even questionable in its very presumed moralizing purpose. First, because the frenzy, detail and delirious inventiveness with which the pan-orgiastic intoxication of the central panel is depicted make one wonder whether the author is really condemning decadence or rather recommending it. And then because the grotesque and the coarsely obscene humor revealed by a closer inspection of the right panel, Hell, make one wonder what the painter’s actual attitude toward eternal torments may have been, and how seriously he took them. As for me, I used the decadence to which Bosch apparently abandons himself without reserve in his central panel as a viable pretext for a similar plunge, possibly dangerous and certainly debatable, into a zone of musical decadence, or derision. The basic equivalence operating at the level of the work’s general hermeneutic would therefore be: the intoxication of the senses equals entertainment music . Like Bosch’s figures, who allow themselves to indulge without restraint in the most elementary pleasures, my score too flirts freely with less exalted musical regions, enthusiastically absorbing elements from pop, rock, lounge, trance, film music, and naturally a measure of easy jazz — and doing so without the slightest fear of the musical inferno such a terrible excess might ultimately unleash. From such a perspective, even the extent to which I may still claim that Mirando al’ Bosco is musica seria , a serious work of cultivated music, becomes open to question, since the fact that its trigger was a principally religious visual work whose motive was — presumably — moralizing, suddenly proves insufficient. I will not launch into an apology, but it may help to say that my piece is in fact simply faithful, in spiritu , to its pictorial source, before which — anyone who knows the work can confirm this — it is difficult not to sketch at least a smile: the combination of frenzy, grotesquerie and bizarre invention on those wooden panels is hard to assimilate in a sober key, whatever Bosco may originally have intended. The piece is intensely harmonic, though not in the conventional sense of the term. It is harmonic in that the abundance of simultaneously emitted frequencies is simply overwhelming. Yet this richness stems more from the assortment of sound envelopes involved than from the combination of chordal sonorities based on the twelve-tone equal-tempered system, which is not to say that such a concern is absent from the work. The most accurate statement would probably be that the piece does make use of a sonic simultaneity built around the equal-tempered system grounded in the cycle of fifths and the superposition of thirds, yet with vast and frequent microtonal and spectral incursions. Apart from these, the piece employs something that might be called non-functional tonal harmony, polytonality, and non-chord tones — compare Messiaen. Finally, these are joined by a clear jazz lineage that brings to the foreground a predilection for augmented and diminished sonorities, major sevenths, and suspended-fourth chords, in that order of preference. In the absence of any established custom or tradition in this regard, the notation in the synthesizer score is, in principle, organ-like, with the important difference that one or more sostenuto pedals may be attached to the synthesizer, something a classical organ generally does not allow. As in organ music, dynamic markings found no real purpose here either, since most of the sounds used have no amplitude gradations, and the only way to animate an already emitted sound is through the handling of a MIDI continuous controller . The intrinsic richness of the sound envelopes employed, many of them built around a logic of inharmonic partials — the most extreme cases were notated in the score by means of special note-heads — made a sophisticated chordal writing impracticable; likewise, the fact that many of them display their own intonational evolution drastically limited melodic freedom of movement; and finally, to leave one somehow without options, the immense sustain of most of the timbres used disqualified them from the outset for any kind of rhythmic agility. In concrete terms, the score is therefore organized around a slow exposition of pedals and block harmonies, with only transient melodic-rhythmic irruptions. Note : In many cases, the sounds notated in the score represent strictly the pitch on the keyboard and the moment in time at which the key must be pressed by the performer. In general, the resulting sonority and/or rhythm are very different, and sometimes bear no discernible relation at all to the notated score. The sonic result is only circumstantially related to what can be seen in the score, so much so that it is practically impossible to form any opinion of the piece by studying the notation alone. More than that, this music is irredeemably tied to the instrument for which it was written, and performing it on any other instrument would, in practice, produce a different work altogether. Ideally, the piece should be performed by five musicians: four keyboard players, each working at a separate keyboard connected to its own instance of the now-discontinued but much-loved Absynth synthesizer, plus a DJ who triggers the prerecorded sequences, constantly ensures the correct balance between the five sound sources, and adds live effects to the final mixed program. In wholly exceptional situations, the score might also be performed, with significantly greater difficulty, by only two players, each operating two keyboards simultaneously or alternately. In that case, each performer must realize two staves at once — the CC64 sustain instructions written in the score may help in this regard. Such an approach does not come without compromise, for example the keyboard players will no longer be able to manipulate the MIDI modulation or wheel controls, so the expressive quality of the performance will inevitably suffer — but it remains possible. Although Mirando al’ Bosco does not in any way seek to become a dramatization of the images depicted on Bosch’s triptych, my piece retains much of the grotesque, the bizarreness and the alienating frenzy represented there. The work consists of four clearly defined sequences of progressive length, totaling approximately twenty-six minutes. The four parts bear Latin names and resonate, through the musical semantics they project, with the four painted surfaces of Bosch’s triptych: I. In principio (&quot;In the Beginning&quot;), 02:37 This corresponds to the reverse of the side panels, visible when the triptych is closed, a naive representation of what might be the second day of Creation. It is a brief probing of possible musical worlds, an attempt to identify the principal bright and dark sonorities from which the rest will later be built. II. Hortus conclusus (&quot;Enclosed Garden&quot;), 06:45 This corresponds to the left panel of the triptych, a representation of Paradise, with three figures in the foreground: Christ, whose presence there is explained theologically by His Trinitarian pre-existence, and Adam and Eve before the Fall. The musical score is built around a permanent pendulation between equal-tempered harmony and spectral or microtonal structures, to which is added a minimalist-developmental strategy on the melodic plane, where one primarily perceives a kind of micro-thematic working, the identification and refinement of a source-material for later use. These are joined by a rich component of musique concrete , the sonic emanation of an avian and aquatic paradise. Taken as a whole, this is gentle and luminous music, yet also slightly sad, like a premonition of the Fall. III. Bacchus et Mars (&quot;Bacchus and Mars&quot;), 08:11 This is, debatably, the work’s main section. It corresponds to the central panel of the triptych, a generalized, contagious orgy, and makes use of an exposition of rhetorical figures drawn from the Baroque doctrine of the affections , thrown, not without indecency, into an improper realm bordering on the commercial or pop zone of electronic music. On the melodic-rhythmic plane, the thematic elements identified earlier are taken up with aplomb but without fulfillment, the frenzy of a sterile agitation seeking its end in itself and, of course, failing to find it. This is also the only section of the piece that makes use of prerecorded loops. The material of those sequences is entirely mine and expands the otherwise limited orchestral possibilities of the four performers with an influx of polyphonic complexity and timbral freshness. The thematic material of the piece also circulates between the live score and the tape part, in the sense that all four prerecorded sequences embody the hypnotic and flamboyant evolution of a motif suggested earlier in the synthesizer writing. The musical semantics that emerge range from amusing and engaging to warlike, violent and morbid. IV. &quot;Ex morte vita nascitur&quot; (&quot;From Death Life Is Born&quot;), 08:48 This refers in principle to the right panel of Bosch’s triptych, a bizarre and alienating metaphor of Hell that includes scabrous and pornographic elements. My music, however, is concerned less with Hell as such than with the idea of a projection of Hell, or Hell as the unnatural destiny of the human being: a tormented chorale seeks its path from the shadows toward light and the ineffable, progressing from intensely dissonant harmonies toward ultimate consonance, and from melodic uncertainty toward a Gregorian simplicity, all the while having to withstand a number of harsh and inharmonic sonorities. As though, in a kind of eschatological reversal that openly opposes the atrocities Bosch depicts and comes much closer to the essence of Christianity, my inferno ultimately betrays its own purpose and releases the sinner through the sacrifice of the Redeemer. The idea of salvation or restoration, of a new Paradise made possible, is also supported by the reappearance of certain elements from the first two sections of the piece.">
+    <a class="piece-card__link" href="/en/portfolio/music/mirando-al-bosco.html">
+      <img class="piece-card__image" src="/assets/images/pieces/mirando-al-bosco.jpg" alt="Hieronymus Bosch, The Garden of Earthly Delights" loading="lazy" />
+      <div class="piece-card__body">
+        <h3 class="piece-card__title">Mirando al’ Bosco</h3>
+        <p class="piece-card__subtitle">Reverberating Hieronymus Bosch’s Garden of Earthly Delights</p>
+        <div class="piece-card__tags" aria-label="Tags"><span class="piece-card__tag" data-tag="completed">completed</span><span class="piece-card__tag" data-tag="contemporary">contemporary</span><span class="piece-card__tag" data-tag="electronics">electronics</span><span class="piece-card__tag" data-tag="mild-dissonance">mild dissonance</span><span class="piece-card__tag" data-tag="percussion">percussion</span><span class="piece-card__tag" data-tag="with-audio">with audio</span><span class="piece-card__tag" data-tag="with-honors">with honors</span><span class="piece-card__tag" data-tag="with-score">with score</span></div>
+      </div>
+    </a>
+  </article>
+  <article class="piece-card"
+    data-slug="a-farmer-went-out"
+    data-tags="classical completed contemporary mild-dissonance orchestra soloists with-audio with-honors with-score"
+    data-title="A farmer went out"
+    data-subtitle="Eclectic modalism with cinematic drive"
+    data-summary="<p><em>A farmer went out</em> is an eclectic work that combines Byzantine-derived melodic thinking with polytonality, polymodality, and a pronounced cinematic impulse. Drawing on the Parable of the Sower, the piece moves between scholastic, chant-inflected discourse and the charged idiom of psychological thriller or adventure-film music.</p>"
+    data-notes="A farmer went out is an essentially eclectic work, combining in a deliberate and fully assumed manner a significant number of writing idioms, pitch-organization systems, and musical syntaxes. Taking advantage of the unique combination of the sacred and the dramaturgical offered by the chosen scriptural text as its support, the Parable of the Sower in Saint Mark’s version, Mk. 4:3-8, my piece experiments with a personal version of a Byzantine melodic idiom, clothed harmonically in a blend of polytonality and polymodality. It combines this, in an unusual manner, with a cinematic breath, something I had already attempted in other works, most notably Ici Bas in 2017. Thus the score oscillates, without losing its equilibrium, between a scholastic discourse made up of short, explicitly articulated, sententiously assertive phrases and an idiomatic writing proper to the psychological thriller or the adventure film. The music is therefore built heterogeneously, alternating moments of fragmented, discontinuous discourse with homogeneous surfaces of thematic working, and alternating the dense heterophony required by the modal material of Byzantine origin with the lighter homophony specific to orchestral figurations familiar from film music. The harmony is based on a mixture of pitch-organization systems, ranging from polymodality and polytonality — which predominate and are used ostentatiously in many places, to the point that two or more different gravitational centers are explicitly and simultaneously assigned to two or more instrumental families or groups — to free atonalism and twelve-tone serialism, see in this regard the fugue in the second section. The melodic substance — where it is not gestural in a rhetorical, Baroque spirit — is irreducibly derived from two plagal Byzantine modes: echoi V, diatonic, chosen for its specific formulaic behavior around its mutable sixth degree, and echoi VI, chromatic, chosen for its color and for the Phrygian cadence it offers on the level of both of its symmetrical tetrachords. The rhythm varies across a very broad spectrum, from monorhythm, see the march in the opening and penultimate section, to perpetual rhythmic invention, in fact a species of arrhythmia, see the woodwind heterophonies in the final section. Formally, the piece is kaleidoscopic, revealing itself to the listener in small autonomous units of content, strongly individualized by orchestral color and by writing. The orchestration is therefore based on the isolated treatment of instrumental families and groups, with moments of true timbral blending remaining quite rare. Last but not least, it should be mentioned that the musical text in fact supports a literary text in absentia , more precisely verses 14-20 of the same chapter, in which Jesus interprets the parable privately to His disciples. Seen from this perspective, the drama and apodictic character of the middle sections acquire an altogether different meaning, as does the rich rhetorical apparatus behind the musical gestures so abundantly present in the melodic writing. I will not elaborate on this point, leaving such a possible analysis to the musicologist interested in formulaic writing and Affektenlehre .">
+    <a class="piece-card__link" href="/en/portfolio/music/a-farmer-went-out.html">
+      <img class="piece-card__image" src="/assets/images/pieces/a-farmer-went-out.jpg" alt="Parable of the Sower — Pieter Bruegel, 1557" loading="lazy" />
+      <div class="piece-card__body">
+        <h3 class="piece-card__title">A farmer went out</h3>
+        <p class="piece-card__subtitle">Eclectic modalism with cinematic drive</p>
+        <div class="piece-card__tags" aria-label="Tags"><span class="piece-card__tag" data-tag="classical">classical</span><span class="piece-card__tag" data-tag="completed">completed</span><span class="piece-card__tag" data-tag="contemporary">contemporary</span><span class="piece-card__tag" data-tag="mild-dissonance">mild dissonance</span><span class="piece-card__tag" data-tag="orchestra">orchestra</span><span class="piece-card__tag" data-tag="soloists">soloists</span><span class="piece-card__tag" data-tag="with-audio">with audio</span><span class="piece-card__tag" data-tag="with-honors">with honors</span><span class="piece-card__tag" data-tag="with-score">with score</span></div>
+      </div>
+    </a>
+  </article>
+  <article class="piece-card"
+    data-slug="the-first-dawn-primii-zori"
+    data-tags="completed contemporary electronics strong-dissonance with-audio with-honors with-score"
+    data-title="The First Dawn"
+    data-subtitle="The ineffable genesis of a consciousness"
+    data-summary="<p><em>The First Dawn</em>, an electronic poem, explores the ineffable genesis of a consciousness through a sound world shaped by Judeo-Christian cosmology. From within a primordial darkness, the music follows the coming-into-being of a first Adam, gradually awakening to selfhood, to the surrounding universe, and to the presence of the Creator.</p>"
+    data-notes="The electronic poem The First Dawn is intended as a metaphorical and supra-musical foray into the ineffable genesis of a consciousness. Embracing, in its subtext, Judeo-Christian cosmology, the sound construction traces, somehow from within, the coming into being , the coming into existence, of a first Adam , enlivened, sentient, rational, capable of perceiving the surrounding universe, of perceiving himself, and of perceiving the Creator. This conception gives rise to a deeply interiorized music of extreme density, though not necessarily cryptic or hermetic; a music that unfolds slowly, non-linearly, and on multiple planes, traversing a sinuous path from aural denotations of the abyss and darkness , a kind of primordial chaotic seething rendered by a constantly shifting heterophonic magma of varying densities, to radiant sonic formulations, expressions of light in its many representations, from fulgurant, explosive and blinding to serene, clear and diaphanous. The technical vehicle here consists in a succession of spectral harmonic pedals and short microtonal chorales that will ultimately converge toward unison. In the same spirit, the pitch material of the piece evolves almost imperceptibly from the low register toward the extreme high, the musical substance ultimately sublimating both intonationally and timbrally; similarly, micro-rhythm gradually yields to more consistent and/or more discernible rhythmic organizations, agitation progressively subsides, and timbre becomes purified, organized and thinned out. Complementarily, on a second plane or in a secondary universe, the raw sonic masses described above are set against refined chordal structures, principially diatonic, quasi-triadic solar harmonies discreetly adorned with non-functional dissonances. These pierce the dark sonic matter at key points and guide it on its otherwise chaotic road toward organization and becoming. The course of this fragmentary chorale, both poly - and micro -tonal in equal measure, follows in essence the same generative principle, its final structures being both higher and more extended than the initial ones. From a technical point of view, the piece is built using sound envelopes programmed in the Absynth 5 synthesizer, in combination with classical procedures of digital waveform conversion, oversampling, selective sample-rate modification, FFT filtering, and so forth. As a personal compositional signature, I would note the unconventional use of convolution reverb, namely by selecting, as modulating material or impulse, unusual audio sources. Whereas impulses are normally short samples of a room’s echo, I instead used extended recordings made in natural reserves. The result was a subtle coloring of the synthetic, abstract sound envelopes with the timbres of birds, real and concrete. In this way, within a piece of mystical subtext, I took up Olivier Messiaen’s vision, while also paying him homage, that all winged creatures are emissaries of the divine.">
+    <a class="piece-card__link" href="/en/portfolio/music/the-first-dawn-primii-zori.html">
+      <img class="piece-card__image" src="/assets/images/pieces/the-first-dawn-primii-zori.jpg" alt="The Garden of Eden" loading="lazy" />
+      <div class="piece-card__body">
+        <h3 class="piece-card__title">The First Dawn</h3>
+        <p class="piece-card__subtitle">The ineffable genesis of a consciousness</p>
+        <div class="piece-card__tags" aria-label="Tags"><span class="piece-card__tag" data-tag="completed">completed</span><span class="piece-card__tag" data-tag="contemporary">contemporary</span><span class="piece-card__tag" data-tag="electronics">electronics</span><span class="piece-card__tag" data-tag="strong-dissonance">strong dissonance</span><span class="piece-card__tag" data-tag="with-audio">with audio</span><span class="piece-card__tag" data-tag="with-honors">with honors</span><span class="piece-card__tag" data-tag="with-score">with score</span></div>
+      </div>
+    </a>
+  </article>
+  <article class="piece-card"
+    data-slug="doamne-auzi-o-lord-hear-my-prayer"
+    data-tags="choir classical completed contemporary mild-dissonance soloists with-audio with-honors with-score"
+    data-title="O Lord, hear my prayer…"
+    data-subtitle="Chromatic heterophony over Byzantine-derived modes"
+    data-summary="<p><em>O Lord, hear my prayer…</em> is a choral study built from modes derived from Byzantine echoi, used here as the basis for new melodic, polyphonic, and harmonic formations. Closely related in spirit to the lineage of Paul Constantinescu and Ștefan Niculescu, the work moves between chromatic heterophony, dense harmonic transformation, and a final liturgical fulfillment.</p>"
+    data-notes="“O Lord, hear…” is a study in chromatic heterophony with pedal, based on modes derived from Byzantine echoi , the modal systems of pitch organization still in use in the service music of Eastern Christian Orthodox churches. In the tradition of Paul Constantinescu , and later Ștefan Niculescu , the piece explores the implications of recovering the modal treasury of Byzantine origin and reusing that material for the forging of new modal formations. These new “pseudo-Byzantine” modes prove especially compelling in simultaneity, and in my piece they clothe the entire nuanced range of polyphonic expression, from heterophony to polyphony, including some utterances difficult to categorize, in which the polyphonic “lines” are in themselves chordal structures. The melodic material is freely derived from these new modal formations, yet more than once it approximates, or even directly takes over, authentic Byzantine melodic formulas. The vertical result, that is, the harmony of the piece, revisits Olivier Messiaen’s concept of added sounds in chords, though what I seek in fact is to reproduce, in a controlled context, the natural phenomenon of inharmonic partials, those overtones of a given fundamental whose pitch escapes the mathematical model of the natural harmonic series. My experiment took shape in a system based on the precise notation of the dynamic intensity of each sound within a given chordal structure. Beyond yielding more finely defined harmonic colors, the system also offers the ability to transfigure a given chord through the continual variation of the dynamic parameter in some of its key tones. From a formal point of view, the piece arches from exteriority toward interiority, its construction relying heavily on delayed expectation and on opposing planes. A number of clearly defined musical realities, recognizable through the specificity and consistency of the elementary parameters that define them: writing, instrumentation, dynamics, harmony, and so forth, evolve fragmentarily, in iterations, along apparently parallel trajectories, only to converge at last toward an organic and homogeneous musical sense. The generative impulse, an elliptical thematic incipit on the text “O Lord, hear…,” undergoes a slow becoming characterized by transmutations of register and instrumentation, as well as by the setting in motion of subsidiary processes and secondary thematic material, such as the fugato drawn from Psalm 50, “Have mercy on me, O God,” so that in the final part of the piece it may attain its fulfillment, both justificatory and apotheotic, on the text of the first verse of Psalm 142, “O Lord, hear my prayer…” The multitude of intensely heterophonic passages on texts from the messianic psalms, Old Testament prophetic echoes concerning the life and activity of Christ, shattered by the solo interventions of the coryphaei and interwoven with the principal plane, have their own becoming as well, made explicit here by the sudden conversion of the monodic voice into harmonic voice, see for instance the polyphony of harmonies in the passage “You are My Son, today I have begotten You.” Last but not least, the recitatives evolve into solos through augmentation and melodic-rhythmic and registral diversification, and find their own fulfillment, sublimating themselves into the extreme upper register, at the limit of the ineffable, in the responsorial passage of the two solo sopranos, on the text “From the womb, before the morning star, I have begotten You.” The coda concludes the entire edifice in an assertive fashion, placing it within immediate reality, in the perspective of the practicing Christian, for whom the Christic model transcends the sphere of meditation and becomes transfigured life, lived in prayer.">
+    <a class="piece-card__link" href="/en/portfolio/music/doamne-auzi-o-lord-hear-my-prayer.html">
+      <img class="piece-card__image" src="/assets/images/pieces/doamne-auzi-o-lord-hear-my-prayer.jpg" alt="King David Playing the Harp – Johan Zoffany" loading="lazy" />
+      <div class="piece-card__body">
+        <h3 class="piece-card__title">O Lord, hear my prayer…</h3>
+        <p class="piece-card__subtitle">Chromatic heterophony over Byzantine-derived modes</p>
+        <div class="piece-card__tags" aria-label="Tags"><span class="piece-card__tag" data-tag="choir">choir</span><span class="piece-card__tag" data-tag="classical">classical</span><span class="piece-card__tag" data-tag="completed">completed</span><span class="piece-card__tag" data-tag="contemporary">contemporary</span><span class="piece-card__tag" data-tag="mild-dissonance">mild dissonance</span><span class="piece-card__tag" data-tag="soloists">soloists</span><span class="piece-card__tag" data-tag="with-audio">with audio</span><span class="piece-card__tag" data-tag="with-honors">with honors</span><span class="piece-card__tag" data-tag="with-score">with score</span></div>
+      </div>
+    </a>
+  </article>
+  <article class="piece-card"
+    data-slug="forest-in-my-dreams"
+    data-tags="bassoon cello clarinet classical completed contemporary mild-dissonance piano strings viola violin with-audio with-honors with-score"
+    data-title="Forest in My Dreams"
+    data-subtitle="Reverie and anxiety in a shifting fantasy world"
+    data-summary="<p>Inspired by two poems by Vlad Dobrescu, <em>Forest in My Dreams</em> unfolds as an atmospheric score of misted harmonies, birdlike calls, and fractured narrative impulses. Suspended between reverie and dread, the piece builds a strange, shifting sonic world in which contemplation and anxiety remain inseparable.</p>"
+    data-notes="The extra-musical impulse behind this piece, heterogeneous in construction and shifting in expression, came from the neo-expressionist verses of the poet Vlad Dobrescu , especially his poems Prologue and The Forest . Set within the strangeness of a universe recalling the alienating tales of Hermann Hesse , many of them ending in suicide, these two texts, though they found no literal inclusion in the present musical work — since the piece is not a lied — provided its atmosphere and shaped, more or less roughly, the rudiment of musical dramaturgy that binds it together. The first text, Prologue , under the pretext of sketching a hunting story unfolding on a morning full of mist and snowfall, explores the inward terrors of one of its characters. By the end of the poem, the deft handling of metaphor plants in the reader the thought that the two men are not in fact going hunting and that, most likely, only one will return. In the second poem, The Forest , the contemplative plane subtly migrates toward a surrealist one, the character’s fascination with an ancient forest literally petrifying him and, in the end, transforming him into a tree. In light of the above, Forest in My Dreams is an atmospheric piece, with narrative intrusions limited in scope and amplitude and clearly demarcated. From a compositional point of view, it is an intensely harmonic work, built around a pan- and polytonal vein, with occasional and discreet moments of free atonalism. Rooted in the “melody of tone-colors” of the Second Viennese School, in fact with clear similarities to the third of Five Pieces for Orchestra , op. 16, by Arnold Schoenberg , often titled Farben , &quot;Colors&quot;, the present music produces, improbably enough, dissonance through the amalgamation of consonances: a number of harmonic entities, each consonant in itself, overlap while constantly changing in salience and instrumental color. The result is a sonority in perpetual transformation, the intention being to obtain a rainbow in continuous motion, a constant chromatic metamorphosis, a mixture of sounds equally undefinedly consonant and undefinedly dissonant. In the service of this aim, the orchestration is more symphonic than chamber-like. The instruments do not pursue self-affirmation; there are no virtuoso passages designed to display them as distinct entities. Rather, they all function as a single multi-timbral instrument. The melodic dimension of the piece, insofar as one may speak of melody at all — since the piece is more atmospheric than narrative — draws on two very distinct and immediately recognizable sources for a listener educated in Western art music: Olivier Messiaen ’s ornithological fascination and the Baroque doctrine of the affections. The former, with its strongly pictorial, descriptive, and non-evolutionary character, serves exclusively to evoke, alongside the diffuse harmonies, the vaguely defined forest setting in which the rudimentary action of the two poems takes place. The latter, with a declared narrative and dramaturgical purpose, offers an expression of extreme austerity, scholastic and stripped of all ornamental burden, an austerity matched only by its firm and unequivocal rhetoric, visible in intervallic choices, overt phrasing, narrow ambitus, and discreet references to the world of Gregorian chant. Although it adheres to no established formal scheme, the music reveals its mode of organization from the first hearing: a nucleus, a hard core, consisting of a narrative discourse of undeniable vocality and relative harmonic stability, is sporadically pierced by a limited number of recognizable descriptive structures, each evolving almost imperceptibly along its own path toward musical fulfillment. Out of this struggle for supremacy between the various planes emerges the image of a fragmented yet intelligible becoming, of a music that, like the poetic text that provoked it, oscillates between the hypnotic and the oneiric, between contemplation and anguish, continuously interweaving narration and reverie.">
+    <a class="piece-card__link" href="/en/portfolio/music/forest-in-my-dreams.html">
+      <img class="piece-card__image" src="/assets/images/pieces/forest-in-my-dreams.jpg" alt="Caspar David Friedrich - Uttewalder Grund" loading="lazy" />
+      <div class="piece-card__body">
+        <h3 class="piece-card__title">Forest in My Dreams</h3>
+        <p class="piece-card__subtitle">Reverie and anxiety in a shifting fantasy world</p>
+        <div class="piece-card__tags" aria-label="Tags"><span class="piece-card__tag" data-tag="bassoon">bassoon</span><span class="piece-card__tag" data-tag="cello">cello</span><span class="piece-card__tag" data-tag="clarinet">clarinet</span><span class="piece-card__tag" data-tag="classical">classical</span><span class="piece-card__tag" data-tag="completed">completed</span><span class="piece-card__tag" data-tag="contemporary">contemporary</span><span class="piece-card__tag" data-tag="mild-dissonance">mild dissonance</span><span class="piece-card__tag" data-tag="piano">piano</span><span class="piece-card__tag" data-tag="strings">strings</span><span class="piece-card__tag" data-tag="viola">viola</span><span class="piece-card__tag" data-tag="violin">violin</span><span class="piece-card__tag" data-tag="with-audio">with audio</span><span class="piece-card__tag" data-tag="with-honors">with honors</span><span class="piece-card__tag" data-tag="with-score">with score</span></div>
+      </div>
+    </a>
+  </article>
+  <article class="piece-card"
+    data-slug="seven-haikus-on-bird-prints-sapte-haiku-uri-pe-stampe-cu-pasari"
+    data-tags="completed contemporary electronics strong-dissonance with-honors with-score"
+    data-title="Seven Haikus on Bird Prints"
+    data-subtitle="A blend of electronic sounds and classical composition"
+    data-summary="<p><em>Seven Haikus on Bird Prints</em> is an electronic poem in seven short episodes that, while distinct, gradually build a single organic musical entity. Blending synthetic sound envelopes with the vocabulary of classical composition, the work shapes each musical haiku around a light-darkness polarity and a contemplative, ultimately Christian, metaphysical subtext.</p>"
+    data-notes="Seven Haikus on Bird Prints is an eight-minute electronic poem made up of seven distinct episodes which nevertheless share recurring themes and sonorities and collaborate in the construction and becoming of an organic, unified musical entity. Apart from duration and subtitle, any other resemblance to Edgard Varese’s 1958 composition is rather forced, since the sonic substance of the present work does not include concrete sounds in its expressive arsenal. More than that, far from revolting in any way against the natural and the traditional, and thus seeking to create an artificial meta-musical language based on promoting crude sonic expressions and acoustic artifacts as elements of artistic vocabulary, my piece attempts to recover both. More precisely, although it is a work of cultivated electronic music, Seven Haikus... departs from convention and does not dismiss wholesale the sonorities, processes and working tools of classical musical composition. On the one hand, it blends the novel, artificial sound envelope produced electronically with the concepts, procedures, and vocabulary of traditional composition, thesis, antithesis, development, reduction, reiteration and reprise, imitation, contrast, musical syntax, chordal structure, melodic succession, and so forth. On the other hand, it restores to cultivated electronic music a number of elements too easily dismissed and too readily treated as the preserve of pop production, such as rhythmic pulse, consonance, tonal-modal pitch organization, thematic statement and development, and the like. Consequently, despite the fact that the virtual instruments used do obscure, through their continuously transforming and transfiguring sound envelopes, the clear perception of pitch and rhythmic succession, we may still speak in this electronic poem of musical syntax , just as we may speak of harmonic structures and of thematism . Thus the music makes predominant use of heterophonies , specifically the species with pedal or ison , interrupted by clearly delimited inserts of polyphony , especially in the odd-numbered episodes; the homophonic chorale , in its most explicit form, appears ostentatiously three times in the even-numbered haikus; monodic fragments can be found in the first and last episode, while the penultimate one offers a glimpse of accompanied monody . Formally, the piece materializes as seven self-standing episodes, approximately one minute each, with the exception of the last. Each episode, or musical haiku, has, like its literary model, a binary structure that in my composition usually gravitates around the binomial light-darkness . As in haiku, the cut occurs at approximately the positive golden ratio point of each episode, and the concrete musical expression of this binary opposition assumes various forms, from the classical pairs consonance-dissonance and low register-high register to much subtler sonic suggestions that would not have been possible in the purely acoustic universe of traditional instruments. On the semantic plane, each of the work’s seven sections seeks to transpose into music, as faithfully as possible, a series of traits proper to the literary haiku genre. Last but not least, haiku poetry has a subtext: it possesses the ability to provoke the reader into meditating on subjects of a metaphysical order that the text itself does not seem to address. The Seven Haikus on Bird Prints likewise have a subtext, both each individually and the cycle as a whole. This becomes progressively clearer as the piece unfolds its content, culminating with the ineluctably celestial chorale of the penultimate episode and with the fragments of Byzantine monody interwoven with the polyphonic material of the last. Like Matsuo Basho’s poems, my musical haikus use the contemplation of creation as an occasion for a higher contemplation, that of the Creator who brought it into existence. The echoes of an Orthodox Vespers service that emerge from the final haiku of the cycle underscore the thesis I have articulated, artistically, in all my compositions of the last decade: that we will not be able to preserve our cultural identity as a people unless we remain in close contact with the Christian spirituality that formed and shaped us.">
+    <a class="piece-card__link" href="/en/portfolio/music/seven-haikus-on-bird-prints-sapte-haiku-uri-pe-stampe-cu-pasari.html">
+      <img class="piece-card__image" src="/assets/images/pieces/seven-haikus-on-bird-prints-sapte-haiku-uri-pe-stampe-cu-pasari.jpg" alt="Hosai Hokuma - Marsh-tits and Aronia Flowers" loading="lazy" />
+      <div class="piece-card__body">
+        <h3 class="piece-card__title">Seven Haikus on Bird Prints</h3>
+        <p class="piece-card__subtitle">A blend of electronic sounds and classical composition</p>
+        <div class="piece-card__tags" aria-label="Tags"><span class="piece-card__tag" data-tag="completed">completed</span><span class="piece-card__tag" data-tag="contemporary">contemporary</span><span class="piece-card__tag" data-tag="electronics">electronics</span><span class="piece-card__tag" data-tag="strong-dissonance">strong dissonance</span><span class="piece-card__tag" data-tag="with-honors">with honors</span><span class="piece-card__tag" data-tag="with-score">with score</span></div>
+      </div>
+    </a>
+  </article>
+  <article class="piece-card"
+    data-slug="mioritikon"
+    data-tags="completed contemporary electronics mild-dissonance with-audio with-honors"
+    data-title="Mioritikon"
+    data-subtitle="A sonic meditation on the erasure of Romanian cultural specificity"
+    data-summary="<p><em>Mioritikon</em> reflects on the possible erasure of a distinctly Romanian ethos under the pressure of technological modernity and cultural globalization. Drawing on Marțian Negrea’s <em>Păstorița</em>, the piece sets an archaic pastoral world against industrial sonorities and dodecaphonic tensions, tracing an image of loss, disintegration, and estrangement.</p>"
+    data-notes="Mioritikon is a sonic meditation on the erasure of Romanian specificity in the contemporary world. It offers an acoustic embodiment of the void, with direct reference to this early twenty-first century, hyper-technologized, consumerist, and globalizing age. In the irresistible rush toward the leveling of cultural particularities, what chance does that eternity — which, in Lucian Blaga’s famous phrase, was born in the village — still have of finding a place? The music unfolds a contradictory discourse starting from Păstorița by the Romanian composer Marțian Negrea, a masterpiece of Romanian choral music and, at the same time, an apodictic symbol of an archaic time and of the so-called “Mioritic space,” both so strikingly picturesque. The electronic sonorities added to it, distributed across two opposing planes, one of confirmation and one of resistance, jointly sketch an image of disintegration, loss, and wandering. The truncated and reinterpreted lines from Coșbuc’s poem cast a cataclysmic light over the whole process („și murind […] soarele” / “and [...] the sun, dying”) and bitterly ironize the nation’s indifference and inertia in the face of self-loss („obosit și blând popor / noapte bună, noapte bună” / “weary and gentle people / good night, good night”). The piece was composed in August 2018 in response to the electronic music composition competition organized by the fifth edition of the InnerSound International Festival of contemporary art music, where it was nominated among the ten finalist works.">
+    <a class="piece-card__link" href="/en/portfolio/music/mioritikon.html">
+      <img class="piece-card__image" src="/assets/images/pieces/mioritikon.png" alt=""Shepherdess" by Nicolae Grigorescu" loading="lazy" />
+      <div class="piece-card__body">
+        <h3 class="piece-card__title">Mioritikon</h3>
+        <p class="piece-card__subtitle">A sonic meditation on the erasure of Romanian cultural specificity</p>
+        <div class="piece-card__tags" aria-label="Tags"><span class="piece-card__tag" data-tag="completed">completed</span><span class="piece-card__tag" data-tag="contemporary">contemporary</span><span class="piece-card__tag" data-tag="electronics">electronics</span><span class="piece-card__tag" data-tag="mild-dissonance">mild dissonance</span><span class="piece-card__tag" data-tag="with-audio">with audio</span><span class="piece-card__tag" data-tag="with-honors">with honors</span></div>
+      </div>
+    </a>
+  </article>
+  <article class="piece-card"
+    data-slug="three-wise-men-magii"
+    data-tags="choir classical completed contemporary mild-dissonance soloists with-audio with-honors with-score"
+    data-title="Three Wise Men"
+    data-subtitle="A pendulum between uncertainty, reverie, and hope"
+    data-summary="<p>Prompted by Vasile Voiculescu’s strange poem <em>Magii</em>, this choral piece follows the unsettling ambiguity of three seekers whose journey remains suspended between wonder and failure. Its musical language alternates clusters and polychords with stable triadic sonorities, tracing a discontinuous path between uncertainty, reverie and hope.</p>"
+    data-notes="My encounter with one of Vasile Voiculescu’s rather cryptic works produced, as might be expected, something quite strange. Vasile Voiculescu, one of Romania’s great mystics, alongside figures such as Arsenie Boca, Nicolae Steinhardt and Vladimir Ghika, was among the many Romanian intellectuals imprisoned by the communist regime for the vaguest of reasons: officially, suspicion of a “hostile attitude,” but in practice anything from reluctance toward state ideology to simply attending Sunday service. As a political system grounded in Marxism-Leninism, communism adopted positive atheism as an official state religion. Voiculescu’s mystical literature is not easy reading, even for specialists. As for me, I was repeatedly struck by his theological “expansions,” “liberties,” and reinterpretations, which, while in no way diminishing the artistic and literary value of his texts, create real difficulty for any theologian tasked, let us say, with reclaiming Voiculescu as a “poet of Orthodoxy.” Time and again I found his writings so unpredictable that I could not help wondering whether theology and/or theosophy are not, for him, vehicles carrying far more earthly truths. As though, in an inverted world, he were using parables about God to speak to us about the “kingdom of man.” Such is also the case with the present poem, the source and literary text of the music I composed for mixed choir and mezzo-soprano soloist. Magii (1916) apparently elaborates on the Christian tradition, partially recorded in the canonical text of the Gospel according to Matthew , of a group of foreigners who came to Biblical Palestine from the East bearing gifts for the newborn Child, guided only by an unusual celestial body. Secondary figures in Tradition, they become the poem’s chief focus to such an extent that Christ, who is in fact the very purpose of this undertaking, equally unusual and exhausting, is entirely absent. As in a staging of a play from which the director has decided to remove the main character, these Magi perform a great act of bravery through a wearying initiatory journey, but little more. The infant Jesus is only vaguely suggested by the information that the Magi “bowed down.” That is at the very least unusual for a poem inevitably linked, by its theme, to Christmas. At the end of the poem’s four stanzas, the prevailing feeling seems to be uncertainty. More than that, the characters’ undertaking is transposed into a childlike, playful key: Voiculescu’s Magi are “naive,” exalted (“caught by an enchantment”), immature and lacking in all experience (“three children”; [...] “beyond the city gates / not one step had they taken”), and in the final analysis the importance of the whole affair is debatable: “they followed the trail of a star / that vanished into infinity.” None of the above can escape an attentive reading. Which led me to ask: what exactly do the characters in this “fable of holy things” represent ? The bitter contemplation of an ideal that appears ever higher the more one struggles to attain it? An icon of self-fulfillment? The endeavor of the Christian, who through the continuous inner labor of improving his being resembles a “magus” confronting the harsh road of life in order to bring offerings of good deeds? Be that as it may, Voiculescu’s poem is certainly not a carol. These considerations gave rise to a music in which mystery, strangeness and constant allusion combine with a discernible yet discontinuous narrative trajectory. The constant alternation of cluster harmonies and polychords with triadic structures, stable and consonant, produces a pendulum swing between uncertainty, reverie and hope. The explicit succession of musical syntaxes, homophony, polyphony and heterophony, monody, and then homophony again, follows the episodic character of the literary work. Finally, the macrostructural projection of pitch organization creates zones that roughly reflect the predominant feeling at a given point in the poetic text: atonality and isomorphism at the opening of the piece as an expression of cosmic mystery and contemplation; modality and fauxbourdon as a reference to practical involvement, to liturgical action, in essence, leitourgia , in ancient Greek, means “the work of the people”; and proto-tonality in the conclusion of the piece as an image of naivety. Last but not least, the mezzo-soprano’s two solo interventions constitute a personal commentary on the poem’s text. Built on modes of limited transposition, they add to the music, to borrow Messiaen’s phrase, “the charm of impossibilities.”">
+    <a class="piece-card__link" href="/en/portfolio/music/three-wise-men-magii.html">
+      <img class="piece-card__image" src="/assets/images/pieces/three-wise-men-magii.jpg" alt="Three Wise Men" loading="lazy" />
+      <div class="piece-card__body">
+        <h3 class="piece-card__title">Three Wise Men</h3>
+        <p class="piece-card__subtitle">A pendulum between uncertainty, reverie, and hope</p>
+        <div class="piece-card__tags" aria-label="Tags"><span class="piece-card__tag" data-tag="choir">choir</span><span class="piece-card__tag" data-tag="classical">classical</span><span class="piece-card__tag" data-tag="completed">completed</span><span class="piece-card__tag" data-tag="contemporary">contemporary</span><span class="piece-card__tag" data-tag="mild-dissonance">mild dissonance</span><span class="piece-card__tag" data-tag="soloists">soloists</span><span class="piece-card__tag" data-tag="with-audio">with audio</span><span class="piece-card__tag" data-tag="with-honors">with honors</span><span class="piece-card__tag" data-tag="with-score">with score</span></div>
+      </div>
+    </a>
+  </article>
+  <article class="piece-card"
+    data-slug="ici-bas-here-below"
+    data-tags="choir classical completed contemporary mild-dissonance orchestra soloists with-audio with-honors with-score"
+    data-title="Ici-bas (Here Below)"
+    data-subtitle="Conceptual retake on Benjamin Britten’s War Requiem"
+    data-summary="<p>Inspired by Benjamin Britten’s <em>War Requiem</em>, <em>Ici-bas</em> opposes the sacred and the secular through texts sung by eight soloists. A Marian hymn and Sully-Prudhomme’s poem <em>Ici-bas</em> frame a meditation on spiritual estrangement, while the music points beyond conflict toward the possibility of ascent and recovery.</p>"
+    data-notes="Inspired by Benjamin Britten’s War Requiem (1962), Ici-bas is a non-liturgical musical work grounded in religious themes. It is linked to Britten’s opus, which served both as model and as creative impetus, by affinities of approach, namely the vocal-symphonic genre, the concert setting, and the use of a Western Church service as compositional frame of reference — here the litany, a memorial office — but above all by conceptual affinities. Like Britten’s Requiem , my work opposes, through the literary text sung by the eight solo soloists, the sacred, spiritual world, concretely the Christian one, to the secular and desacralized world, trapped in a vicious circle of contemplating its own imminent end, vanity, and despair, all of which it in fact nourishes and amplifies. The former is represented by a hymn to the Virgin Mary, drawn from Viridarium Marianum septemplici rosario, variis exercitiis, exemplis ut plantationibus peramoenum , after Gasparem Bellerum , 1615, and the latter by René-François Sully-Prudhomme’s poem Ici-bas , which also gives the work its title. Unlike Britten, however, who chose to deepen and explore the conflict, my own option was to expose and dismantle it, in order to sustain the thesis that nourishes, on a philosophical plane, almost all the works I have written in recent years: namely, that the secular world is its own executioner, and the sole cause of its unhappiness, precisely through expelling the sacred dimension, the only source of meaning , from its existence. This is how the final sequence of the work should be understood, where the two apparently irreconcilable factions, the women’s solo voices and the men’s, though each held captive by a single literary source, seem to converge semantically: the women sing “Amen,” while the men, at the same time, sing “Toujours,” almost as a kind of secular, powerless Amen , yet one that still reveals the human being’s apodictic longing, however fallen or estranged from God, for original inextricability. The piece stubbornly withdraws from a narrative idiom, despite owing its existence to such an impulse. A vocal-instrumental work, especially one in which the voice sings text rather than mere vocalise, as in Debussy’s coloristic uses of it, promises, if not outright owes, a strong dramaturgy and a corresponding narrativity. Yet through a sustained refusal, Ici-bas chooses instead to dwell in an uncertain territory somewhere between dream and contemplation, between ascesis and abandonment. Somewhat like Byzantine icons, it declines on principle the invitation to pictorialize any mundane affect: irony, laughter, sarcasm, passion, none of these. Nothing beyond the contemplation of God. The result is an austere music poised on the threshold between the sublime and the decayed, between flight and restraint, an interminable virtuality containing within itself the motors of its own arrested ascent: an immobile upward vector, a perpetual preparation for a flight never begun. Ici-bas is music that does not dare to live, yet cannot bear to die. It persists, therefore, suspended at the juncture of two worlds, silently hoping for some external help to pull it toward one side or the other. But help never comes, and its sound ultimately dies away into the modesty from which it first emerged, and into the muffled regret of never having truly dared to be . It mirrors the human condition in contemporaneity: called to a divinity it has refused, only to mourn that refusal for an eternity afterward, and finding in the resigned quietude of inward, deeply hidden lament its sole consolation. Contrary to all expectations, the world below, the terrestrial realm, the lament of fallen human existence, is treated less dramatically than mockingly, something easily observed in the orchestration’s Hollywood allusions. The intention is a scholastic one, drawing deliberately on a strand of Western systematic theology: the source of unhappiness in this vale of tears lies in the continued refusal of the sacred, of Christ’s restorative act. Consequently, any lament that does not entail penitence and reorientation along an ascending vector is futile and even faintly ludicrous, because it already contains within itself the guarantee of the unhappiness it laments. Ici-bas is an eikon of wandering between two worlds, the spiritual one, immutable, ecstatic, radiant, and the material one, caught in perpetual decline, disintegration, and disenchantment. Though built upon opposition, it does not seek to intensify the antagonism between these two realities so much as to render the human condition itself, forever wavering between transcendence and immanence. Ultimately, the music proposes the elevation of the human being toward the celestial, toward the spiritual, concretely, through the text, toward Christ, as the answer to the insatiability of the world down here (“Whoever drinks of this water will thirst again” — John 4:13).">
+    <a class="piece-card__link" href="/en/portfolio/music/ici-bas-here-below.html">
+      <img class="piece-card__image" src="/assets/images/pieces/ici-bas-here-below.jpg" alt="Maddalena penitente — Guido Cagnacci" loading="lazy" />
+      <div class="piece-card__body">
+        <h3 class="piece-card__title">Ici-bas (Here Below)</h3>
+        <p class="piece-card__subtitle">Conceptual retake on Benjamin Britten’s War Requiem</p>
+        <div class="piece-card__tags" aria-label="Tags"><span class="piece-card__tag" data-tag="choir">choir</span><span class="piece-card__tag" data-tag="classical">classical</span><span class="piece-card__tag" data-tag="completed">completed</span><span class="piece-card__tag" data-tag="contemporary">contemporary</span><span class="piece-card__tag" data-tag="mild-dissonance">mild dissonance</span><span class="piece-card__tag" data-tag="orchestra">orchestra</span><span class="piece-card__tag" data-tag="soloists">soloists</span><span class="piece-card__tag" data-tag="with-audio">with audio</span><span class="piece-card__tag" data-tag="with-honors">with honors</span><span class="piece-card__tag" data-tag="with-score">with score</span></div>
+      </div>
+    </a>
+  </article>
+  <article class="piece-card"
+    data-slug="due-miniature-futili-two-futile-miniatures"
+    data-tags="clarinet completed contemporary piano strong-dissonance violin with-audio with-honors with-score"
+    data-title="Due Miniature Futile (Two Futile Miniatures)"
+    data-subtitle="A chamber diptych on lost innocence"
+    data-summary="<p><em>Due Miniature Futile</em> is a short chamber diptych poised between grotesque humor and social discomfort. Written for violin, clarinet, and piano, it filters Satiean reduction through Webernian concision, Kagelian irony, and a faintly belated Prokofiev-like lyricism, setting a beggar’s tune beside the swagger of streetwise rap to trace the eviction of childhood innocence by the logic of survival.</p>"
+    data-notes="Due Miniature Futile proposes an intentionally uneasy listening experience, suspended between laughter and grief, detachment and moral involvement. Its language actively seeks friction: Satie’s cultivated futility and reductionism, Webern’s pointillist austerity, Kagel’s corrosive irony, and a residue of belated Prokofiev-like lyricism are made to coexist within a compressed chamber discourse for violin, clarinet, and piano. The two miniatures draw their force from material that is less innocent than it first appears. Il piccolo bambino grows out of a beggar’s song the composer unwillingly absorbed during repeated subway journeys. Il filosofo , by contrast, drifts toward a rough neighborhood rap, with hints of hip-hop inflection. Placed side by side, the two movements suggest a world in which children are initiated too early into the code of the street and taught to trade vulnerability for precocious hardness. The true discomfort of the piece lies there, rather than in its abrupt stylistic collage. The music remains playful, angular, and at moments genuinely funny, yet its wit keeps opening onto something harsher. The listener is left in an unstable zone between amusement and pity, invited not only to enjoy the absurdity of the surface but also to register the social wound beneath it, and perhaps to ask whether such scenes are merely to be observed or should also provoke a response.">
+    <a class="piece-card__link" href="/en/portfolio/music/due-miniature-futili-two-futile-miniatures.html">
+      <img class="piece-card__image" src="/assets/images/pieces/due-miniature-futili-two-futile-miniatures.png" alt="Hip-Hopper Child Graffiti" loading="lazy" />
+      <div class="piece-card__body">
+        <h3 class="piece-card__title">Due Miniature Futile (Two Futile Miniatures)</h3>
+        <p class="piece-card__subtitle">A chamber diptych on lost innocence</p>
+        <div class="piece-card__tags" aria-label="Tags"><span class="piece-card__tag" data-tag="clarinet">clarinet</span><span class="piece-card__tag" data-tag="completed">completed</span><span class="piece-card__tag" data-tag="contemporary">contemporary</span><span class="piece-card__tag" data-tag="piano">piano</span><span class="piece-card__tag" data-tag="strong-dissonance">strong dissonance</span><span class="piece-card__tag" data-tag="violin">violin</span><span class="piece-card__tag" data-tag="with-audio">with audio</span><span class="piece-card__tag" data-tag="with-honors">with honors</span><span class="piece-card__tag" data-tag="with-score">with score</span></div>
+      </div>
+    </a>
+  </article>
+  <article class="piece-card"
+    data-slug="survival-exercices-exercitii-de-supravietuire"
+    data-tags="bassoon completed contemporary electronics mild-dissonance with-audio with-honors with-score"
+    data-title="Survival Exercices"
+    data-subtitle="A shockingly rough, simple and fair music"
+    data-summary="<p><em>Survival Exercises</em>, for bassoon and electronics, grew out of a personal crisis and gradually turned into a broader cry against a spiritually exhausted world. Framed as five meditations for solo bassoon, the piece dares to answer today’s cultivated dissonance with a deliberately rough, simple and unmasked musical language.</p>"
+    data-notes="The first version of Survival Exercises (2013), never published and never presented to the public, was born out of great frustration, in a period when the cruel vanity of an existence apparently prosperous yet in fact devoid of purpose had brought my creative self to the brink of extinction. In an effort to escape the united assault of Gantt charts, spreadsheets, reports, estimates, and various other trivialities, I cobbled these Exercises together in order to prove to myself that I am more than a tiny cog spinning endlessly inside an infernal machine; a conscious attempt to remember myself as a creator. In the midst of that process I underwent a revelation that ended by lifting from my eyes the veil through which I had been looking around: I saw humanity entire, wandering in exhaustion through an existence drained of spirit, love, hope and faith. That transformed my Exercises from a merely personal rescue operation into an undefined cry against a world that, even as it advances technologically, decays spiritually. In their current form, Survival Exercises retain, in principle, the content of Book Two from the much longer earlier version, while occasionally drawing from Book One in the newly added electronic medium. The piece enters irreverently a territory now dominated by strange dissonances, proposing a music shockingly rudimentary, simple and undisguised, pleasures from which some listeners may shy away. And yet these modest studies for solo bassoon, for that is what they are, seek to make today’s classical listener rediscover the joy of perceiving an agreeable harmony, an eloquent discourse, an honest musical theme, one you might hum on your way back from the concert. The subtitle of the piece, Meditations for Solo Bassoon , reveals the author’s intention to glean and set to music several profoundly human themes for meditation: I. On Death, and its lucrative remembering An ascending gesture, like the search for a sonic foundation on which something may be built. Also a subtle reference to the teachings of the &quot;improved fathers&quot; in the deserts of the East, who regarded the constant remembrance of death as the cornerstone of spiritual correction. II. On Life, and its ruthless waltz A dark rudiment of a waltz, built on the groundwork laid in the preceding section. It manages, in some measure, to render the paradoxical nature of human life, which does nothing but perpetuate an unbroken state of mortality. III. On Marriage, and the way she leaves me silent Something like an interlude; a sarcastic plunge into the worldly core of our everyday existence. IV. On Love, Youth, Shady Benches, and that old barrel organ man The love story of a cheap novel, an adorably outdated romance, frenetically supported by the underlying musique concrete. It sends the listener into the time or place of fabulous youth-without-old-age, a realm in which one may still fall in love with life and with everyone else like a high-school student. V. Epilogue, on the much too distant sunset vespers A sad and pensive remembrance of the &quot;imperishable soul&quot;, of the days when inert matter had not yet swallowed it whole. A recollection of the times when people still believed in God. Not accidentally, the accompanying electronic medium brings echoes of an old Christian chant, reiterating the author’s conviction that the only remedy for the inner void consuming us today is to recover our spiritual roots. The electronic medium provided by this new version alternates passages of pure electronic music with passages of musique concrete, at times amalgamating so-called virtual instruments as well. All of them stand in close relation to the meditation they accompany, and either challenge or support the bassoonist’s interpretive undertaking.">
+    <a class="piece-card__link" href="/en/portfolio/music/survival-exercices-exercitii-de-supravietuire.html">
+      <img class="piece-card__image" src="/assets/images/pieces/survival-exercices-exercitii-de-supravietuire.png" alt="Image of a gothic cathedral being dismantled" loading="lazy" />
+      <div class="piece-card__body">
+        <h3 class="piece-card__title">Survival Exercices</h3>
+        <p class="piece-card__subtitle">A shockingly rough, simple and fair music</p>
+        <div class="piece-card__tags" aria-label="Tags"><span class="piece-card__tag" data-tag="bassoon">bassoon</span><span class="piece-card__tag" data-tag="completed">completed</span><span class="piece-card__tag" data-tag="contemporary">contemporary</span><span class="piece-card__tag" data-tag="electronics">electronics</span><span class="piece-card__tag" data-tag="mild-dissonance">mild dissonance</span><span class="piece-card__tag" data-tag="with-audio">with audio</span><span class="piece-card__tag" data-tag="with-honors">with honors</span><span class="piece-card__tag" data-tag="with-score">with score</span></div>
+      </div>
+    </a>
+  </article>
+  <article class="piece-card"
+    data-slug="chants-from-the-valley-of-sighs-cantari-din-valea-plangerii"
+    data-tags="classical contemporary organ strong-dissonance with-audio with-honors with-score"
+    data-title="Chants From the Valley of Sighs"
+    data-subtitle="Earthly world — passing, deceptive, and full of suffering"
+    data-summary="<p><em>Chants From the Valley of Sighs</em> is an organ suite shaped by the Christian understanding of earthly life as a sorrowful passage toward a transfigured existence beyond it. Oscillating between neobaroque gravity and a more fragmented contemporary discourse, the work sets the dissonant gloom of the here and now against flashes of a consoling elsewhere.</p>"
+    data-notes="In the realm of Christian spirituality, the Valley of Sighs is the name given to the earthly world, passing, deceptive, and full of suffering, in contrast with the paradisal places prepared for those who are saved, the redeemed. Professor Victor Aga offers perhaps the most eloquent formulation of the concept in his dictionary of Christian terms, Simbolica biblică şi creştină , where, alongside a rich semantic field, he preserves the poetic force typical of Eastern theological language: “The valley of tears, or the valley of sighs, is the name of the earthly world and of life on earth in contrast to the heights of heaven and its blessed life. It symbolizes the hardships and continual temptations with which the Christian struggles, which he must overcome, shedding many tears for his own sins and for those of others.” Seen in this light, any musical embodiment of the here is a possible chant from the Valley of Sighs , yet the present music also encloses within itself something of the concept described above. Beginning with the instrumentation, the pipe organ remains, despite its origins, despite the substantial secular literature written for it, and despite sustained efforts of secularization directed at it, an eminently religious instrument: it is physically bound to countless houses of prayer, and its sound remains emblematic of Catholic and Protestant liturgical space. One then comes to the musical score itself, which symbolically recovers the spirit of Bachian toccatas, chorales, and concertos. Accordingly, the character of my work oscillates between neobaroque and neoclassical. My music combines, with gravity, sobriety, and at times fear, the meticulous polyphonies and imposing homophony of my predecessors with a fragmented discourse unfolding across two or three autonomous planes. It is a continual pendulation, a struggle between a dissonant, gloomy, chaotic, all-consuming here and the sad yet consoling flashes of an elsewhere , or then , luminous and gentle. I wrote the work in January-February 2015, chiefly motivated by participation in the organ composition competition organized by the Gheorghe Dima Music Academy of Cluj during the first edition of the Sigismund Toduță Festival . At the same time, somewhat “guilty” for the existence of this piece is Professor Teodor Țuțuianu, whose master’s course, Notions of Heterophony , I attended during that period. A substantial portion of the first part of the present suite was written — on the basis of an incipit or thematic head provided by him — as the practical assignment for the final examination of that course.">
+    <a class="piece-card__link" href="/en/portfolio/music/chants-from-the-valley-of-sighs-cantari-din-valea-plangerii.html">
+      <img class="piece-card__image" src="/assets/images/pieces/chants-from-the-valley-of-sighs-cantari-din-valea-plangerii.jpg" alt="Vevers Kartina - In a distant land at the foot of the mountain" loading="lazy" />
+      <div class="piece-card__body">
+        <h3 class="piece-card__title">Chants From the Valley of Sighs</h3>
+        <p class="piece-card__subtitle">Earthly world — passing, deceptive, and full of suffering</p>
+        <div class="piece-card__tags" aria-label="Tags"><span class="piece-card__tag" data-tag="classical">classical</span><span class="piece-card__tag" data-tag="contemporary">contemporary</span><span class="piece-card__tag" data-tag="organ">organ</span><span class="piece-card__tag" data-tag="strong-dissonance">strong dissonance</span><span class="piece-card__tag" data-tag="with-audio">with audio</span><span class="piece-card__tag" data-tag="with-honors">with honors</span><span class="piece-card__tag" data-tag="with-score">with score</span></div>
+      </div>
+    </a>
+  </article>
+  <article class="piece-card"
+    data-slug="oblivion-uitare"
+    data-tags="clarinet completed contemporary mild-dissonance percussion piano with-audio with-honors with-score"
+    data-title="Oblivion"
+    data-subtitle="A wandering music in an uprooted universe"
+    data-summary="<p><em>Oblivion</em> is a choreographic miniature for clarinet, piano and percussion built as a music of wandering through incompatible stylistic and spiritual territories. Swinging between derisory surface pleasures and the unfulfilled search for an original meaning, the piece stages a restless world in which no stable way out seems available.</p>"
+    data-notes="Oblivion , Self-forgetfulness , is a music of wandering, itself wandering through a confused and uprooted universe. A sonic world oscillating without clear purpose between pre-Wagnerian and post-Schoenbergian idioms. It seems populated by beings lacking the ability or courage to recover and assume an original meaning . This world drifts among ethereal sonorities tinged with Gregorian chant, among Bartok-like barbarisms, among more or less derisory piano-cafe musics, sugary romantic passions and their like. What we hear is now a futile search for a long-lost and long-forgotten something , now a stubborn entrenchment in various opiate substitutes. Anamnesis, or salvific recovery, consistently refuses itself to the seeker, leaving him consumed by a certain impossible-to-quench thirst , and one very difficult to deceive. On the extra-musical plane, the above admits multiple equivalences. The Christian theologian might recognize here fallen man, wandering in search of the lost paradisal state: lacking the power or courage to follow the path of salvation proposed by Christ, he seeks, in vain, consolation in various material vices or pleasures. Likewise, the art historian or musicologist might observe the struggles of the creative artist, perpetually in search of an ultimate meaning of art, perpetually hunted by failure and by the temptation of imposture. The anthropologist or sociologist might find a parallel with humanity’s millennial attempts to conceive and fashion the perfect society, and with its equally millennial failures — and so on.">
+    <a class="piece-card__link" href="/en/portfolio/music/oblivion-uitare.html">
+      <img class="piece-card__image" src="/assets/images/pieces/oblivion-uitare.jpg" alt="I Romani Della Decadenza — Thomas Couture" loading="lazy" />
+      <div class="piece-card__body">
+        <h3 class="piece-card__title">Oblivion</h3>
+        <p class="piece-card__subtitle">A wandering music in an uprooted universe</p>
+        <div class="piece-card__tags" aria-label="Tags"><span class="piece-card__tag" data-tag="clarinet">clarinet</span><span class="piece-card__tag" data-tag="completed">completed</span><span class="piece-card__tag" data-tag="contemporary">contemporary</span><span class="piece-card__tag" data-tag="mild-dissonance">mild dissonance</span><span class="piece-card__tag" data-tag="percussion">percussion</span><span class="piece-card__tag" data-tag="piano">piano</span><span class="piece-card__tag" data-tag="with-audio">with audio</span><span class="piece-card__tag" data-tag="with-honors">with honors</span><span class="piece-card__tag" data-tag="with-score">with score</span></div>
+      </div>
+    </a>
+  </article>
+  <article class="piece-card"
+    data-slug="cancer-frog-pike-racul-broasca-si-stiuca"
+    data-tags="classical completed contemporary mild-dissonance piano with-audio with-honors with-score"
+    data-title="Cancer, Frog & Pike"
+    data-subtitle="Three creature portraits in comic relief"
+    data-summary="<p><em>Cancer, Frog &amp; Pike</em> is a piano suite inspired by Alecu Donici’s fable, though it departs freely from the narrative in order to sketch each creature through its most vivid trait: the crab’s backward pull, the frog’s springing mobility, and the pike’s predatory force. Framed by the recurring presence of the pond, the piece becomes a cheerful, sharply characterized miniature cycle.</p>"
+    data-notes="Although I no longer remember how the idea first came to me to write music in response to Alecu Donici’s verses, I do remember that it happened in the autumn of 2012, from which the first notes also date, namely the opening of The Frog . The piece was only completed a year later. Alecu Donici made use of these three creatures, who share little beyond their habitat, in order to satirize a society incapable of overcoming personal pride in the service of the common good. In the fable of the same name, the innocent animals take upon themselves the improbable and absurd task of moving a sack of grain into their pond of residence, a thing I do not ask them to do. Instead, I concentrate on each one individually, trying to capture with humor and sympathy its most characteristic trait. The Crab is little more than a pair of claws, which can be heard striking menacingly in the high register. Otherwise it is a paradoxical and comical creature in its futility: many steps forward, after long planning and cautious probing, are cancelled by two vigorous movements of the tail that send the gentleman crab right back where he started. An uncertain and sinuous melodic path struggles to conquer an ambitus of little more than an octave over the course of nearly an entire phrase, only to collapse back into the low register in the next two beats, precisely where it began. The Little Frog jumps, and it does so with grace and liveliness, when it is not lazily swimming, drifting afloat, or remaining motionless in competition with the leaves and other lifeless things in the pond. A clearly outlined melodic-harmonic path of leaps alternates with diffuse polyphonies evolving slowly in the middle and lower registers. A play of chase and relâche from one leaf to another. The Pike is predator number one, lying still under the cover of a submerged branch and attacking ferociously at the opportune moment. Often the prey does not fight back, or does so only briefly and without any real chance of success. A threatening ostinato in the low register grows into an all-consuming homophonic drive and moves implacably toward a strident, painful cluster in the high register. Though absent from Donici’s poem, my music introduces a fourth character: the pond . The pond in which all three live is also partially personified and appears episodically through an introduction, two intermezzi , and a conclusion. The cyclic bass formula that characterizes this figure invites the contemplation of imaginary ripples moving gently outward and turning back once they reach the banks. The theme in the upper register suggests a possible little fish on an afternoon stroll among the burdocks, with whom the distinguished Mrs. Pike knows perfectly well what to do.">
+    <a class="piece-card__link" href="/en/portfolio/music/cancer-frog-pike-racul-broasca-si-stiuca.html">
+      <img class="piece-card__image" src="/assets/images/pieces/cancer-frog-pike-racul-broasca-si-stiuca.jpg" alt="Pond with Burdocks" loading="lazy" />
+      <div class="piece-card__body">
+        <h3 class="piece-card__title">Cancer, Frog & Pike</h3>
+        <p class="piece-card__subtitle">Three creature portraits in comic relief</p>
+        <div class="piece-card__tags" aria-label="Tags"><span class="piece-card__tag" data-tag="classical">classical</span><span class="piece-card__tag" data-tag="completed">completed</span><span class="piece-card__tag" data-tag="contemporary">contemporary</span><span class="piece-card__tag" data-tag="mild-dissonance">mild dissonance</span><span class="piece-card__tag" data-tag="piano">piano</span><span class="piece-card__tag" data-tag="with-audio">with audio</span><span class="piece-card__tag" data-tag="with-honors">with honors</span><span class="piece-card__tag" data-tag="with-score">with score</span></div>
+      </div>
+    </a>
+  </article>
+  <article class="piece-card"
+    data-slug="et-dieu-crea-la-femme"
+    data-tags="cello contemporary refining strings strong-dissonance viola violin with-audio with-score"
+    data-title="Et Dieu créa la femme (And God Created Woman)"
+    data-subtitle="An unsparing view of the feminine miracle"
+    data-summary="<p><em>Et Dieu créa la femme</em> follows the emotional and erotic itinerary of the man in love, from childhood play and adolescent fantasy to consummation and disillusion. Written for string quartet, the piece moves through sharply contrasted idioms, from minimalism and bruitism to Bartókian ferocity, late-Romantic glow, and a harsh Russian-tinged aftermath.</p>"
+    data-notes="This not easily approachable score offers a less than flattering view of the “feminine miracle” from the erotic perspective of the man . The impulse behind the piece came not so much from the sacred text, Genesis 2:22 , as from the 1956 film of the same name starring Brigitte Bardot, in which Roger Vadim explores, without indulgence, a feminine psychological archetype grounded in concupiscence, hypersexuality, caprice, instability, unpredictability, irreverence, pride, selfishness, and sadism, a sophisticated and incomprehensible figure who nevertheless proves capable, against all expectations, of genuine love and total passion. Across the Atlantic, the French production was deemed so shocking that the American promoters felt compelled to augment the poster title, “And God Created Woman,” with the wry addition “but the devil invented Brigitte Bardot,” a phrase that must have served equally as teaser and disclaimer. My piece, however, does not follow Vadim’s character. In a complementary manner, it approximates an imaginary and non-exhaustive journey through the states experienced by the man in love. From the innocent games of childhood, Amourette d’enfance , where sensuality remains highly debatable and is in any case overshadowed by play, through the repressed tumult of adolescence, Une fille, un reve , a period in which the oneiric element deforms and in large measure substitutes for erotic experience, the lover in my musical text eventually reaches the consummation of the long-desired bodily union, Chant d’Amour , and the brutal awakening from an opiate dream whose substance he had never doubted, Postlude triste . The music of these sections engages, respectively, with American minimalism, Italian bruitism, and an instrumental reincarnation of Pierre Schaeffer’s musique concrète ; then with Bartókian fury and a Germanic vein of late Romanticism; and finally with the improbable lyricism of Olivier Messiaen, especially the sonorities of Jardin du sommeil d’amour . Last but not least, the closing music, perhaps a species of domestic storm, though I did not conceive the composition programmatically, carries a harsh Siberian-tundra scent through its veiled allusions to Stravinsky’s virulence and Shostakovich’s dissonances. I remain not entirely convinced either by the present form or by the content of this “essay for strings,” written in 2003. A readjustment, reassembly, or even outright recomposition of the musical material, though not imminent, remains entirely possible.">
+    <a class="piece-card__link" href="/en/portfolio/music/et-dieu-crea-la-femme.html">
+      <img class="piece-card__image" src="/assets/images/pieces/et-dieu-crea-la-femme.png" alt="Et Dieu créa la femme — Detail of a Film Poster" loading="lazy" />
+      <div class="piece-card__body">
+        <h3 class="piece-card__title">Et Dieu créa la femme (And God Created Woman)</h3>
+        <p class="piece-card__subtitle">An unsparing view of the feminine miracle</p>
+        <div class="piece-card__tags" aria-label="Tags"><span class="piece-card__tag" data-tag="cello">cello</span><span class="piece-card__tag" data-tag="contemporary">contemporary</span><span class="piece-card__tag" data-tag="refining">refining</span><span class="piece-card__tag" data-tag="strings">strings</span><span class="piece-card__tag" data-tag="strong-dissonance">strong dissonance</span><span class="piece-card__tag" data-tag="viola">viola</span><span class="piece-card__tag" data-tag="violin">violin</span><span class="piece-card__tag" data-tag="with-audio">with audio</span><span class="piece-card__tag" data-tag="with-score">with score</span></div>
+      </div>
+    </a>
+  </article>
+  <article class="piece-card"
+    data-slug="funeral-chant-cantec-de-trecere"
+    data-tags="clarinet contemporary strong-dissonance with-audio with-score"
+    data-title="Funeral chant"
+    data-subtitle="Music reduced to austere essentials"
+    data-summary="<p><em>Funeral chant</em> is an austere clarinet trio built from tightly disciplined means and a persistent return to a single generative idea. Its four sections trace, in symbolic form, birth, youth, maturity, and death, turning the Romanian notion of ‘song of passing over’ into a concise meditation on human becoming and departure.</p>"
+    data-notes="I recently completed, on June 30, 2013, a new piece, Funeral chant , for a trio of B-flat clarinets, a piece I now finally have the chance to publish. It was occasioned by a sad event on which, however, I will not dwell. I conceived Funeral chant as an exercise in clarity and self-discipline. The musical discourse is stripped of all superfluous elements; the music lives by its own austerity and by its obstinate return to the generative element. The four sections recover, on a symbolic plane, four ontological stages: birth , as arrival, outlined monodically through the insinuation of the unique thematic material; youth , as play, stylized as a dance idea in which the three instruments pair off in apparently random ways; maturity , as reflection, capable of decanting and sedimenting values, rendered musically as an isomorphic chorale; and finally death , as departure, recounted through a recollection of the initial sonic material, clothed in fragments of all the musical syntaxes with which it has flirted along the way.">
+    <a class="piece-card__link" href="/en/portfolio/music/funeral-chant-cantec-de-trecere.html">
+      <img class="piece-card__image" src="/assets/images/pieces/funeral-chant-cantec-de-trecere.jpg" alt="Blossom Catalpa Tree Over Lake in Rain" loading="lazy" />
+      <div class="piece-card__body">
+        <h3 class="piece-card__title">Funeral chant</h3>
+        <p class="piece-card__subtitle">Music reduced to austere essentials</p>
+        <div class="piece-card__tags" aria-label="Tags"><span class="piece-card__tag" data-tag="clarinet">clarinet</span><span class="piece-card__tag" data-tag="contemporary">contemporary</span><span class="piece-card__tag" data-tag="strong-dissonance">strong dissonance</span><span class="piece-card__tag" data-tag="with-audio">with audio</span><span class="piece-card__tag" data-tag="with-score">with score</span></div>
+      </div>
+    </a>
+  </article>
+  <article class="piece-card"
+    data-slug="deafs-music-muzica-surzilor"
+    data-tags="completed contemporary piano strong-dissonance with-audio with-score"
+    data-title="Deafs’ Music"
+    data-subtitle="Three studies in composition without the piano"
+    data-summary="<p><em>Deafs’ Music</em> is a piano piece born from an unusual compositional experiment: writing without access to any instrument. Built in three short sections, the work tests how far form, syntax, and controlled development can stand in for direct sonic intuition, with results that remain surprisingly expressive despite that deliberate deprivation.</p>"
+    data-notes="Deafs’ Music owes its existence, and its strange title, to an experiment, an experiment for me, though standard practice for many composers: I set out to compose music without access to a musical instrument, and I did so in the most rigorous way I could. For those few fortunate people able to hear a score flawlessly in all its complexity merely by looking at the notes, such an undertaking holds few revelations. For me, however, those few afternoons of writing music in a Bucharest park were full of discoveries. Deprived of empirical contact with pitch, and separated from the most competent judge of music, namely hearing, I was forced to give capital attention to those meta-musical elements whose good management usually facilitates the perception of a work as music proper: form , the architectural construction of the piece; tectonics , the alternation, rhythm, and relations between the valleys and peaks of a melody; syntax , the expression of music as monody, homophony, or polyphony; and the evolution of dynamics , tempo , and harmonic tensions , where, in the absence of a piano, Hindemith’s theoretical hierarchy proved especially helpful. I was also compelled to view in a new light the thorny issue of developing musical material, being forced to rely on mechanical procedures that could be operated and controlled exclusively visually: augmentations and diminutions of intervals and durations, additions, elisions, transpositions, and above all repetitions. This last procedure in particular lies at the foundation of the first piece. Labyrinth is a tangled skein of motives that establishes its salience and its relations of antecedent and consequent almost exclusively through repetition. Its humorous bent is ensured by the elaborate system of nested repeat bars, a guarantee of many radically different performances of the same music. Stops is a music austere in thematic material, yet one that becomes plausible thanks to its rapid tempo, and the implicit stream of sound it generates, together with a radical contrast of states produced by the many fermatas, marked very explicitly and audibly. Chorale is exactly what its title declares it to be, with a tripartite harmonic discourse and a middle section that offers certain rudiments of polyphony. The music justifies itself through an overt harmonic rhythm, a very clearly articulated form, and an uncompromising raw austerity, consistently exposed without indulgence.">
+    <a class="piece-card__link" href="/en/portfolio/music/deafs-music-muzica-surzilor.html">
+      <img class="piece-card__image" src="/assets/images/pieces/deafs-music-muzica-surzilor.jpg" alt="Fall in public park" loading="lazy" />
+      <div class="piece-card__body">
+        <h3 class="piece-card__title">Deafs’ Music</h3>
+        <p class="piece-card__subtitle">Three studies in composition without the piano</p>
+        <div class="piece-card__tags" aria-label="Tags"><span class="piece-card__tag" data-tag="completed">completed</span><span class="piece-card__tag" data-tag="contemporary">contemporary</span><span class="piece-card__tag" data-tag="piano">piano</span><span class="piece-card__tag" data-tag="strong-dissonance">strong dissonance</span><span class="piece-card__tag" data-tag="with-audio">with audio</span><span class="piece-card__tag" data-tag="with-score">with score</span></div>
+      </div>
+    </a>
+  </article>
+  <article class="piece-card"
+    data-slug="prosthetic-light-lumina-protetica"
+    data-tags="completed contemporary electronics english-horn f-horn mild-dissonance percussion piano with-audio with-score"
+    data-title="Prosthetic Light"
+    data-subtitle="Musical matter between mechanism and improvisation"
+    data-summary="<p><em>Prosthetic Light</em> is built around the encounter between two contrasting musical realities: machine-generated mechanisms and human improvisation. Using custom combinatorial software alongside live, tonal piano-centered material, the piece stages a fragile negotiation between algorithmic construction and expressive spontaneity.</p>"
+    data-notes="The unusual title of this piece has to do with the heightened degree of computer involvement in its compositional process. We usually regard artistic inspiration as a ray of light coming from beyond, emanating from a higher level of existence. In that light, to use a machine in support of inspiration may mean, for the sake of an unusual verbal pairing, to give light a support, a prosthesis . To create this piece, I wrote a software application capable of combining predefined musical elements and representing them in a MIDI musical structure for further use. This was my first such experience. In order not to waste creative time and to validate the principle before implementation, I chose an elementary algorithm, namely weighted random selection. I gave the machine a subset of musical durations to use, a subset of musical intervals, and a set of musical events, essentially notes and rests. Every element within a subset had a weight, or probability of being chosen, established by the human operator when starting the program. I implemented the concepts of stepwise motion and movement by leap , and instructed the machine to use them as wisely as possible: to favor stepwise motion if too many leaps had been used, and vice versa. The rest was chaos. As the only human element involved in the project, I contributed by producing a piece of unfinished music, somewhat minimalist and/or repetitive, yet still pleasant to listen to. For the same reasons, the machine is cold matter, without reason or feeling, it fell to me to combine the two fragments of score, mine and the machine’s, in such a way that they would form a unified musical composition with its own structure, sense and becoming, one that listeners of cultivated music might recognize as such and accept. Listeners who, however willing they may be to entertain sonic abstractions, remain human nevertheless. The musical material can therefore be structured into mechanisms , the product of the machine, and improvisations , the product of the human being. The mechanisms owe the authenticity they breathe to the fact that they were in fact produced mechanically. They evolve on predominantly hexatonic scales, tend toward isorhythm, and favor stepwise motion and ostinato. They take over almost entirely the percussion ensemble used in the piece, glockenspiel, xylophone, vibraphone, marimba, treating it as a monolithic, multi-timbral apparatus. By exception, the crotales escape this intrusion: they remain handled by the human being and explicitly, demonstratively mark or reinforce the boundaries between the sections of the work. The improvisations are authentic as well, and for that very reason may provoke contradictory and intense reactions in the listener. In the desire to preserve its human character unaltered, the improvised music was left in its raw form and retains intact the hesitations of the musician creating on the spot. It bears witness to doubtful decisions taken in haste, in pursuit of the next implacable click of the metronome. In full disagreement with the machine, the human being gave rise to a tonal music, in F minor, which predictably follows its own course, with rare and brief modulations toward close and related tonalities. It is a music that easily passes for facile; it refuses evolution, development and variation, flows between the apparently impenetrable walls of a narrow ambitus, and repeats with melancholy and resignation the same undefined regret. The piano, the four horns and the English horn are enlisted to perform this music, instruments that do not take part at all in the musics of the machine . The piece is organized as a suite, in five sections plus a coda, all performed without pause. The sections, 1 Machine , 2 Machine &amp; Human , 3 Human &amp; Machine , 4 Human , 5 Human &amp; Machine , 6 Coda (Machine) , trace the course of two divergent musical realities attempting a compromise. Surprisingly, it is the human who proves inflexible throughout the process, refusing to adopt thematic elements from the machine . The short-lived union becomes possible precisely because the machine concedes to apply the human being’s tonal harmony to its own rhythmic-melodic formulas, fashioning from them an unexpected yet favorable accompaniment. The denouement is the expected one: the two musics close themselves off once more, each within its own sonic universe, incommunicable and incomprehensible.">
+    <a class="piece-card__link" href="/en/portfolio/music/prosthetic-light-lumina-protetica.html">
+      <img class="piece-card__image" src="/assets/images/pieces/prosthetic-light-lumina-protetica.jpg" alt="" loading="lazy" />
+      <div class="piece-card__body">
+        <h3 class="piece-card__title">Prosthetic Light</h3>
+        <p class="piece-card__subtitle">Musical matter between mechanism and improvisation</p>
+        <div class="piece-card__tags" aria-label="Tags"><span class="piece-card__tag" data-tag="completed">completed</span><span class="piece-card__tag" data-tag="contemporary">contemporary</span><span class="piece-card__tag" data-tag="electronics">electronics</span><span class="piece-card__tag" data-tag="english-horn">English Horn</span><span class="piece-card__tag" data-tag="f-horn">F Horn</span><span class="piece-card__tag" data-tag="mild-dissonance">mild dissonance</span><span class="piece-card__tag" data-tag="percussion">percussion</span><span class="piece-card__tag" data-tag="piano">piano</span><span class="piece-card__tag" data-tag="with-audio">with audio</span><span class="piece-card__tag" data-tag="with-score">with score</span></div>
+      </div>
+    </a>
+  </article>
+  <article class="piece-card"
+    data-slug="prayer-of-saint-ephrem-of-syria-rugaciunea-sfantului-efrem-sirul"
+    data-tags="choir classical completed mild-dissonance with-audio with-honors with-score"
+    data-title="The Prayer of Saint Ephrem the Syrian"
+    data-subtitle="Byzantine material in a predominantly polyphonic frame"
+    data-summary="<p>A polyphonic work for male choir on the text of Saint Ephrem the Syrian’s prayer, this piece draws on Byzantine thematic material while shaping it through Western formal models such as the fugue and the ciaccona. Conceived for choir and bass reciter, it balances liturgical gravity with a concert-oriented choral sound.</p>"
+    data-notes="Attributed to Saint Ephrem the Syrian and used especially during the Triodion , this prayer is often regarded as the most concise expression of the specific spirituality of Great Lent , and is therefore the prayer par excellence of the fasting Christian in Orthodox Christianity . It is recited at the daily services throughout the Fast, at the Liturgy of the Presanctified Gifts , and many more times in private devotion. The piece, which I completed in 2011, is written in a predominantly polyphonic style, using Byzantine thematic material and harmonies derived from the scales of the Byzantine echoi, in some measure following the line traced by Paul Constantinescu. It is intended to be sung both on stage and at the Communion hymn during the Divine Liturgy , while the priests receive Communion in the sanctuary . The present version is scored for male choir with a bass reciter; the reciter may also be an actor. The work is laid out in three sections plus a coda, two of them indebted, at least in principle, to formal structures from Western art music: a free counterpoint (mm. 1-27), a fugue (mm. 28-71), a ciaccona (mm. 72-119), and a recitative (mm. 120-122). In performance, a covered, warm and velvety timbre is recommended, one capable of producing a sound with relatively few upper partials, so as to favor the close chordal spacing on which the piece relies.">
+    <a class="piece-card__link" href="/en/portfolio/music/prayer-of-saint-ephrem-of-syria-rugaciunea-sfantului-efrem-sirul.html">
+      <img class="piece-card__image" src="/assets/images/pieces/prayer-of-saint-ephrem-of-syria-rugaciunea-sfantului-efrem-sirul.jpg" alt="Mosaic of Saint Ephrem of Syria" loading="lazy" />
+      <div class="piece-card__body">
+        <h3 class="piece-card__title">The Prayer of Saint Ephrem the Syrian</h3>
+        <p class="piece-card__subtitle">Byzantine material in a predominantly polyphonic frame</p>
+        <div class="piece-card__tags" aria-label="Tags"><span class="piece-card__tag" data-tag="choir">choir</span><span class="piece-card__tag" data-tag="classical">classical</span><span class="piece-card__tag" data-tag="completed">completed</span><span class="piece-card__tag" data-tag="mild-dissonance">mild dissonance</span><span class="piece-card__tag" data-tag="with-audio">with audio</span><span class="piece-card__tag" data-tag="with-honors">with honors</span><span class="piece-card__tag" data-tag="with-score">with score</span></div>
+      </div>
+    </a>
+  </article>
+  <article class="piece-card"
+    data-slug="white-flowers-florile-dalbe"
+    data-tags="choir classical completed mild-dissonance with-audio with-score"
+    data-title="White Flowers"
+    data-subtitle="A pagan carol with a sad social undertone"
+    data-summary="<p>An arrangement of an old Romanian begging song later absorbed into the winter carol repertory, <em>White Flowers</em> surrounds a traditional tune with modal, mildly dissonant harmony. Rather than stressing the text's humor, the piece brings forward its sad social undercurrent, while the choral writing shifts from one stanza to another between monody, polyphony and homophony.</p>"
+    data-notes="Not exactly a composition, rather an arrangement of an ancient Romanian beggars’ song (or pagan carol, if you will, because this is what carols were, long before they were christened). The text, which was originally sung in the first weeks of spring by wandering bands of unsettled young men, takes a humoristic approach to begging for bread (or any form of food, actually) from the wealthy, settled members of the community. The white flowers , generously mentioned in the chorus are likely apple blossom, and the new year mentioned in the closing lyric must be the new agricultural year, also celebrated in this areal on the same date as the spring echinoctium. Starting with the fourth century, the 25th of December has been progressively adopted as the day to celebrate the birth of Jesus Christ, first by the West and then by (most of) the Eastern Christian countries. Christian carols begun to appear and be sung before, during and after the Nativity. As it usually happens, a number of pre-christian carols survived, and they get sung today during the Advent, despite the fact of being totally unrelated to it. This is also the case of the present traditional song, which is nowadays considered a Christmas or New Year’s carol in its own right. I chose a modal, mildly dissonant harmony to wrap the preexisting tune, as it was my intention to focus not on the funny narrative of the text, but rather on the sad (social) substrate it carries — on the fact of having to beg for one’s food. Each stanza makes use of a slightly different texture, going from monodic to polyphonic, homophonic and back.">
+    <a class="piece-card__link" href="/en/portfolio/music/white-flowers-florile-dalbe.html">
+      <img class="piece-card__image" src="/assets/images/pieces/white-flowers-florile-dalbe.jpg" alt="Apple Blossom (detail) — Mihai Sârbulescu" loading="lazy" />
+      <div class="piece-card__body">
+        <h3 class="piece-card__title">White Flowers</h3>
+        <p class="piece-card__subtitle">A pagan carol with a sad social undertone</p>
+        <div class="piece-card__tags" aria-label="Tags"><span class="piece-card__tag" data-tag="choir">choir</span><span class="piece-card__tag" data-tag="classical">classical</span><span class="piece-card__tag" data-tag="completed">completed</span><span class="piece-card__tag" data-tag="mild-dissonance">mild dissonance</span><span class="piece-card__tag" data-tag="with-audio">with audio</span><span class="piece-card__tag" data-tag="with-score">with score</span></div>
+      </div>
+    </a>
+  </article>
+  <article class="piece-card"
+    data-slug="dies-irae"
+    data-tags="classical completed contemporary mild-dissonance piano with-audio with-score"
+    data-title="Dies Irae"
+    data-subtitle="A mystical piano suite mixing atonality and Byzantine inflection"
+    data-summary="<p><em>Dies Irae</em> is an early, large-scale piano suite in three movements, fantasia, fugue and passacaglia, built around a dense religious and mystical expressive world. Drawing on free atonality, modal procedures, tonal residues and Byzantine as well as Gregorian melodic inflections, the piece already outlines several of the stylistic traits that would later define my compositional language.</p>"
+    data-notes="Dies Irae (&quot;Day of Wrath,&quot; an expression that in Abrahamic imagery signifies the Last Judgment ) is a student work, written at the age of nineteen or twenty, during my first semester at the Conservatory, and at the same time the first piece of art music in my catalogue that I still consider, strictly musically speaking, significant. The score is generally dense. At times the music is hardly representable in notation, let alone performable, to the point that no interpreter will most likely ever be able to realize every sign in this musical text. The influences are clearly recognizable: Bach, Liszt, Grieg, Reger, Ligeti, Messiaen, George Enescu, Sigismund Toduță, Aurel Stroe, and Romanian Byzantine music, since when I was composing this work I had only recently left the benches of the Orthodox Theological Seminary in Bucharest. Within the piece’s few hundred measures one finds crowded together almost every kind of unconventional writing I had managed to learn about in my first five months at the Conservatory, with the fervor, naivety and insecurity of the apprentice who is convinced he must quote from every book he has read in order to persuade others, and himself, of his erudition and worth. Needless to say, this is an approach I abandoned over time, as I found my own voice and musical expression. The work is organized as a suite and comprises three sections, each with its own formal design and expressive character, yet all of them relying on the same way of organizing pitch, an amalgam of modalism, tonalism and free atonality, and on the same melodic ground, predominantly Byzantine, here and there seasoned with Gregorian appearances. The first part has a free form, far too free for the label fantasia to redeem adequately, which later compelled me to adopt much stricter forms in the following sections, fugue and passacaglia. Its character is impetuous, chaotic and rhapsodic. There is no genuine thematic working-out or developmental procedure. The sigh motive, the descending minor second on a trochaic metric foot, is the subtext on which the entire material is built, in competition with the scale of the Byzantine echoi II and VI, known as chromatic modes because of the augmented second. These elements, together with the false harmonic relation of the ascending minor third, for instance C - E-flat - G progressing to E-flat - G-flat - B-flat instead of E-flat - G-natural - B-flat , give the music its dark, plaintive and mystical character and, together with the aggressive clusters, inspired its title: Memini tremendae diei ilius (&quot;I remember that fearful day,&quot; or, in a poetic but imprecise Romanian liturgical translation, &quot;I think upon the fearful day&quot;). The second part is a fugue, with certain liberties, in four voices on an original subject, an imagined Gregorian chorale incipit to the text &quot;Libera me, Domine, de morte eterna&quot; (&quot;Deliver me, O Lord, from eternal death&quot;), a text included in the Roman Catholic rite for the dead, within the final group of prayers spoken or sung before burial, hence the section’s title. This section forces what might be called a modal fugue, adapting a musical form par excellence tonal, the fugue, to a mode of pitch organization foreign to it, namely the modal one. Here the harmony is in principle the vertical result of the melodic material unfolded by the four voices, though there was also a certain degree of harmonic control, while that melodic material itself stems from an exhaustive exploitation of the initial subject and of Gregorian modal ethos. In spite of modulations and transpositions, chromaticism is not decisive here, so what one hears in the end, from a harmonic point of view, is a kind of pan-diatonic harmony, a succession of clusters on the white keys of the piano, of varying thickness and density. Alongside the unusual thematic material, the rhythm is also of interest, above all because stretto, the partial overlapping of a fugue subject with its answer, is the principal imitative procedure employed. In trying to imitate, or at least suggest, as faithfully as possible the natural prosody of the implicit text, I resorted to dissolving the metric frame through the complete rhythmic individualization of each voice. The piece is notated in 4/8 so that it may be performed, yet each voice freely alternates groups of two, three, four and five eighth notes, resulting, at least in theory, in an infrastructure of polyrhythms, a melody of rhythms. In practice, the far too frequent appearance of note-against-note situations threatens the whole polyphonic scaffold, and the section tends to sound mechanical and clattering, something the performer must counter with considerable inventiveness. The third part is a passacaglia entitled Ad Te Domine, clamavi , a title approximating the opening of Psalm 129/130, &quot;De profundis clamavi ad Te, Domine,&quot; a psalm present in the worship of all Christian confessions. My theme, an original one, is a rudiment of Byzantine monody, or rather a schematic Byzantine monody, that can be circumscribed to echoi I or V in various transpositions. The harmonic treatment follows both a pan-diatonic strand, corresponding to those two modes, and a chromatic one, approximating echoi II and VI. The theme’s variations are very free, in some of them barely suggested by their constituent melodic pillars. The end of the section abandons the passacaglia form without warning and takes up again the atmosphere, the writing and some elements of material from Part I, closing the work with a quotation from a Byzantine kalophonic chant, &quot;Doamne, femeia ceea ce căzuse,&quot; the corresponding text fragment being &quot;Vai, vai mie&quot; (&quot;Woe, woe is me&quot;). Dies Irae was therefore a piece on which I labored intensely. Yet despite the considerable effort this project required, when I look at the resulting music with my present eyes I notice many shortcomings and many aspects that leave me dissatisfied, my pianistic writing, still clearly in formation at the time, for instance, or my limited ability to exploit sonic material, something I compensated for, to a degree, through an abundance of melodic and harmonic inventiveness characteristic of youth and beginners. At the same time, however, it seems to me that Dies Irae synthesizes very well the principal stylistic traits from which I later developed my compositional language: the synthesis between free atonality and modalism, itself a synthesis between Messiaen and the old church modes, Byzantine and Gregorian, the mystical vein, the fascination for dense harmony and austere, naked chorales, the sigh motive, and so on. Probably thanks to this as well, despite the many revisions it underwent, in 2011, 2014, 2018 and 2020, the piece has preserved its original character almost intact.">
+    <a class="piece-card__link" href="/en/portfolio/music/dies-irae.html">
+      <img class="piece-card__image" src="/assets/images/pieces/dies-irae.jpg" alt="Viktor Vasnetsov, The last judgement, 1904" loading="lazy" />
+      <div class="piece-card__body">
+        <h3 class="piece-card__title">Dies Irae</h3>
+        <p class="piece-card__subtitle">A mystical piano suite mixing atonality and Byzantine inflection</p>
+        <div class="piece-card__tags" aria-label="Tags"><span class="piece-card__tag" data-tag="classical">classical</span><span class="piece-card__tag" data-tag="completed">completed</span><span class="piece-card__tag" data-tag="contemporary">contemporary</span><span class="piece-card__tag" data-tag="mild-dissonance">mild dissonance</span><span class="piece-card__tag" data-tag="piano">piano</span><span class="piece-card__tag" data-tag="with-audio">with audio</span><span class="piece-card__tag" data-tag="with-score">with score</span></div>
+      </div>
+    </a>
+  </article>
+  </section>
+
+</main>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="site-footer__inner">
+
+    <div class="footer__sections">
+  <section class="footer__section">
+    <h3 class="footer__section-heading">
+      <a class="footer__section-link" href="/en/">About this Website</a>
+    </h3>
+    <div class="footer__section-text">This is a curated list of works by Romanian composer Claudius Tiberiu Iacob.</div>
+  </section>
+  <section class="footer__section">
+    <h3 class="footer__section-heading">
+      <a class="footer__section-link" href="/en/undefined">Contact</a>
+    </h3>
+    <div class="footer__section-text"><ul><li class="footer__contact-item"><img class="contact-mean__icon" src="/assets/icons/email.svg" alt="" /> <a href="mailto:claudius.iacob@gmail.com" target="_blank" rel="noopener noreferrer">Gmail</a></li><li  class="footer__contact-item"><img class="contact-mean__icon" src="/assets/icons/linkedin.svg" alt="" /> <a href="https://www.linkedin.com/in/ciacob/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li></ul></div>
+  </section>
+  <section class="footer__section">
+    <h3 class="footer__section-heading">
+      <a class="footer__section-link" href="/en/">Copyright Waiver</a>
+    </h3>
+    <div class="footer__section-text">According to Romanian copyright rules, you can freely use copyrighted works for academic / didactic purposes, as well as for any activity that does not result in an income. For any other uses you must obtain written permission from the current copyright owner (see Imprint table).</div>
+  </section>
+    </div>
+
+    <p class="footer__copyright">
+      © Claudius Iacob. All rights reserved. —
+      <span class="footer__last-updated">Last updated 18 May 2026</span>
+    </p>
+
+  </div>
+</footer>
+
+<script>
+(function(){
+  function setCookie(n,v,days){var d=new Date();d.setTime(d.getTime()+days*864e5);document.cookie=n+'='+v+';expires='+d.toUTCString()+';path=/';}
+  var supported=["en","ro"];
+  var segs=window.location.pathname.split('/');
+  var langIdx=-1;
+  for(var i=0;i<segs.length;i++){if(supported.indexOf(segs[i])!==-1){langIdx=i;break;}}
+  document.querySelectorAll('[data-lang-switch]').forEach(function(el){
+    el.addEventListener('click',function(e){
+      e.preventDefault();
+      var target=el.getAttribute('data-lang-switch');
+      setCookie('lang',target,365);
+      if(langIdx!==-1){
+        var next=segs.slice();next[langIdx]=target;
+        window.location.href=next.join('/');
+      }
+    });
+  });
+})();
+</script>
+<script>
+(function () {
+  var btn = document.querySelector('.site-header__hamburger');
+  var nav = document.getElementById('primary-nav');
+  if (!btn || !nav) return;
+  btn.addEventListener('click', function () {
+    var expanded = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', String(!expanded));
+    nav.classList.toggle('site-nav--open', !expanded);
+  });
+  document.addEventListener('click', function (e) {
+    if (!nav.contains(e.target) && !btn.contains(e.target)) {
+      btn.setAttribute('aria-expanded', 'false');
+      nav.classList.remove('site-nav--open');
+    }
+  });
+})();
+</script>
+
+<script>
+(function () {
+  var panel = document.querySelector('.filter-panel');
+  if (!panel) return;
+
+  function update() {
+    var overflows  = panel.scrollHeight > panel.clientHeight;
+    var atTop      = panel.scrollTop <= 2;
+    var atBottom   = panel.scrollHeight - panel.scrollTop <= panel.clientHeight + 2;
+
+    panel.classList.toggle('filter-panel--fade-bottom', overflows && !atBottom);
+    panel.classList.toggle('filter-panel--fade-top',    overflows && !atTop);
+  }
+
+  update();
+  panel.addEventListener('scroll', update);
+  new ResizeObserver(update).observe(panel);
+})();
+</script>
+</body>
+</html>
+
+
+<script>
+(function () {
+  var list    = document.getElementById('piece-list');
+  var cards   = Array.from(list.querySelectorAll('.piece-card'));
+  var countEl = document.getElementById('filter-result-count');
+
+  function getActiveTags() {
+    var checked = Array.from(document.querySelectorAll('.filter-tags__checkbox:checked'));
+    var vals = checked.map(function (c) { return c.value; });
+    return vals.indexOf('__all__') !== -1 ? [] : vals;
+  }
+
+  function getPhrase() {
+    return (document.getElementById('filter-phrase-input').value || '').trim().toLowerCase();
+  }
+
+  function getSearchFields() {
+    return Array.from(document.querySelectorAll('[name="search-field"]:checked'))
+      .map(function (c) { return c.value; });
+  }
+
+  function applyFilters() {
+    var tags   = getActiveTags();
+    var phrase = getPhrase();
+    var fields = getSearchFields();
+    var visible = 0;
+
+    cards.forEach(function (card) {
+      var show = true;
+
+      if (tags.length > 0) {
+        var cardTags = (card.getAttribute('data-tags') || '').split(' ');
+        show = tags.every(function (t) { return cardTags.indexOf(t) !== -1; });
+      }
+
+      if (show && phrase) {
+        var haystack = fields.map(function (f) {
+          return (card.getAttribute('data-' + f) || '').toLowerCase();
+        }).join(' ');
+        show = haystack.indexOf(phrase) !== -1;
+      }
+
+      card.hidden = !show;
+      if (show) visible++;
+    });
+
+    if (countEl) countEl.textContent = visible + ' / ' + cards.length;
+  }
+
+  // Tag checkbox mutual exclusivity
+  document.querySelectorAll('.filter-tags__checkbox').forEach(function (cb) {
+    cb.addEventListener('change', function () {
+      if (cb.value === '__all__') {
+        if (cb.checked) {
+          document.querySelectorAll('.filter-tags__checkbox').forEach(function (other) {
+            if (other.value !== '__all__') other.checked = false;
+          });
+        }
+      } else {
+        if (cb.checked) {
+          var allCb = document.querySelector('.filter-tags__checkbox[value="__all__"]');
+          if (allCb) allCb.checked = false;
+        }
+        var anyChecked = Array.from(
+          document.querySelectorAll('.filter-tags__checkbox:not([value="__all__"]):checked')
+        ).length > 0;
+        if (!anyChecked) {
+          var allCb2 = document.querySelector('.filter-tags__checkbox[value="__all__"]');
+          if (allCb2) allCb2.checked = true;
+        }
+      }
+      applyFilters();
+    });
+  });
+
+  document.getElementById('filter-phrase-input')
+    .addEventListener('input', applyFilters);
+
+  document.querySelectorAll('[name="search-field"]').forEach(function (cb) {
+    cb.addEventListener('change', applyFilters);
+  });
+
+  applyFilters();
+})();
+</script>

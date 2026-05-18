@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Broken sounds</title>
+  <meta http-equiv="refresh" content="3;url=/en/home.html" />
+</head>
+<body>
+  <script>
+  (function () {
+    var supported = ["en","ro"];
+    var defaultLang = 'en';
+
+    function getCookie(n) {
+      var m = document.cookie.match(new RegExp('(^| )' + n + '=([^;]+)'));
+      return m ? decodeURIComponent(m[2]) : null;
+    }
+
+    function getBrowserLang() {
+      var raw = (navigator.language || navigator.userLanguage || '').toLowerCase();
+      // Try exact match first (e.g. "ro"), then prefix (e.g. "ro-RO" → "ro")
+      for (var i = 0; i < supported.length; i++) {
+        if (raw === supported[i]) return supported[i];
+      }
+      for (var j = 0; j < supported.length; j++) {
+        if (raw.indexOf(supported[j]) === 0) return supported[j];
+      }
+      return null;
+    }
+
+    var lang = getCookie('lang');
+    if (!lang || supported.indexOf(lang) === -1) {
+      lang = getBrowserLang() || defaultLang;
+    }
+
+    window.location.replace('/' + lang + '/home.html');
+  })();
+  </script>
+
+  <noscript>
+    <p>Please choose your language:</p>
+    <ul>
+      <li><a href="/en/home.html">English version</a></li>
+      <li><a href="/ro/home.html">Versiunea în limba română</a></li>
+    </ul>
+  </noscript>
+</body>
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ro" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Pentru comenzi, interpretări, licențiere și alte solicitări." />
+  <title>Luați Legătura — Broken sounds</title>
+  <link rel="stylesheet" href="/assets/css/site.css" />
+  <script>document.documentElement.classList.remove('no-js');</script>
+</head>
+<body class="page">
+
+<header class="site-header" role="banner">
+  <div class="site-header__inner">
+
+    <a class="site-header__brand" href="/ro/home.html">
+      <span class="site-header__site-title">Sunete frânte</span>
+      <span class="site-header__site-tagline">Muzică la marginea frumosului</span>
+    </a>
+
+    <button class="site-header__hamburger"
+            aria-controls="primary-nav"
+            aria-expanded="false"
+            aria-label="Meniu">
+      <span class="hamburger__bar"></span>
+      <span class="hamburger__bar"></span>
+      <span class="hamburger__bar"></span>
+    </button>
+
+    <nav class="site-nav" id="primary-nav" aria-label="Meniu">
+      <ul class="nav__list" role="list">
+    <li class="nav__item">
+      <a class="nav__link" href="/ro/home.html">Acasă</a>
+    </li>
+    <li class="nav__item">
+      <a class="nav__link" href="/ro/portfolio/music/directory.html">Portofoliu</a>
+    </li>
+    <li class="nav__item">
+      <a class="nav__link nav__link--active" href="/ro/contact.html" aria-current="page">Contact</a>
+    </li>
+      </ul>
+    </nav>
+
+    <ul class="lang-picker" role="list" aria-label="Limbă">
+    <li class="lang-picker__item">
+      <button class="lang-picker__btn"
+              data-lang-switch="en"
+              aria-pressed="false"
+              aria-label="Switch to EN">EN</button>
+    </li>
+    <li class="lang-picker__item lang-picker__item--active">
+      <button class="lang-picker__btn lang-picker__btn--active"
+              data-lang-switch="ro"
+              aria-pressed="true"
+              aria-label="Switch to RO">RO</button>
+    </li>
+    </ul>
+
+  </div>
+</header>
+
+
+<main class="page-content page--contact" id="main-content">
+
+  <header class="page-header">
+    <h1 class="page-header__heading">Luați Legătura</h1>
+    <p class="page-header__subheading">Pentru comenzi, interpretări, licențiere și alte solicitări.</p>
+  </header>
+
+  <section class="contact-means" aria-label="Luați Legătura">
+  <article class="contact-mean" id="contact-email">
+    <img class="contact-mean__icon" src="/assets/icons/email.svg" alt="" aria-hidden="true" />
+    <div class="contact-mean__body">
+      <h3 class="contact-mean__heading">Email</h3>
+      <p class="contact-mean__subheading">Preferat pentru toate solicitările formale — comenzi, drepturi de autor, interpretare. Răspund în termen de cinci zile lucrătoare.</p>
+      <a class="contact-mean__cta" href="mailto:claudius.iacob@gmail.com" target="_blank" rel="noopener noreferrer">claudius.iacob@gmail.com</a>
+    </div>
+  </article>
+  <article class="contact-mean" id="contact-linkedin">
+    <img class="contact-mean__icon" src="/assets/icons/linkedin.svg" alt="" aria-hidden="true" />
+    <div class="contact-mean__body">
+      <h3 class="contact-mean__heading">LinkedIn</h3>
+      <p class="contact-mean__subheading">Profil profesional — compoziție muzicală și dezvoltare software. Sunt binevenite contacte din ambele lumi.</p>
+      <a class="contact-mean__cta" href="https://www.linkedin.com/in/ciacob/" target="_blank" rel="noopener noreferrer">/in/ciacob</a>
+    </div>
+  </article>
+  </section>
+
+</main>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="site-footer__inner">
+
+    <div class="footer__sections">
+  <section class="footer__section">
+    <h3 class="footer__section-heading">
+      <a class="footer__section-link" href="/ro/">Despre acest portofoliu</a>
+    </h3>
+    <div class="footer__section-text">Aici găsiți selecțiuni din creația compozitorului român Claudius Tiberiu Iacob.</div>
+  </section>
+  <section class="footer__section">
+    <h3 class="footer__section-heading">
+      <a class="footer__section-link" href="/ro/undefined">Contact</a>
+    </h3>
+    <div class="footer__section-text"><ul><li class="footer__contact-item"><img class="contact-mean__icon" src="/assets/icons/email.svg" alt="" /> <a href="mailto:claudius.iacob@gmail.com" target="_blank" rel="noopener noreferrer">Gmail</a></li><li  class="footer__contact-item"><img class="contact-mean__icon" src="/assets/icons/linkedin.svg" alt="" /> <a href="https://www.linkedin.com/in/ciacob/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li></ul></div>
+  </section>
+  <section class="footer__section">
+    <h3 class="footer__section-heading">
+      <a class="footer__section-link" href="/ro/">Derogare de la drepturile de autor</a>
+    </h3>
+    <div class="footer__section-text">Conform regulilor de copyright din România, puteți utiliza gratuit lucrări protejate prin drepturi de autor în scopuri academice / didactice, precum și pentru orice activitate care nu are drept rezultat un venit. Pentru alte utilizări, trebuie să obțineți permisiunea scrisă de la proprietarul actual al drepturilor de autor (consultați tabelul Fișă Tehnică).</div>
+  </section>
+    </div>
+
+    <p class="footer__copyright">
+      © Claudius Iacob. Toate drepturile rezervate. —
+      <span class="footer__last-updated">Actualizat 18 mai 2026</span>
+    </p>
+
+  </div>
+</footer>
+
+<script>
+(function(){
+  function setCookie(n,v,days){var d=new Date();d.setTime(d.getTime()+days*864e5);document.cookie=n+'='+v+';expires='+d.toUTCString()+';path=/';}
+  var supported=["en","ro"];
+  var segs=window.location.pathname.split('/');
+  var langIdx=-1;
+  for(var i=0;i<segs.length;i++){if(supported.indexOf(segs[i])!==-1){langIdx=i;break;}}
+  document.querySelectorAll('[data-lang-switch]').forEach(function(el){
+    el.addEventListener('click',function(e){
+      e.preventDefault();
+      var target=el.getAttribute('data-lang-switch');
+      setCookie('lang',target,365);
+      if(langIdx!==-1){
+        var next=segs.slice();next[langIdx]=target;
+        window.location.href=next.join('/');
+      }
+    });
+  });
+})();
+</script>
+<script>
+(function () {
+  var btn = document.querySelector('.site-header__hamburger');
+  var nav = document.getElementById('primary-nav');
+  if (!btn || !nav) return;
+  btn.addEventListener('click', function () {
+    var expanded = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', String(!expanded));
+    nav.classList.toggle('site-nav--open', !expanded);
+  });
+  document.addEventListener('click', function (e) {
+    if (!nav.contains(e.target) && !btn.contains(e.target)) {
+      btn.setAttribute('aria-expanded', 'false');
+      nav.classList.remove('site-nav--open');
+    }
+  });
+})();
+</script>
+
+<script>
+(function () {
+  var panel = document.querySelector('.filter-panel');
+  if (!panel) return;
+
+  function update() {
+    var overflows  = panel.scrollHeight > panel.clientHeight;
+    var atTop      = panel.scrollTop <= 2;
+    var atBottom   = panel.scrollHeight - panel.scrollTop <= panel.clientHeight + 2;
+
+    panel.classList.toggle('filter-panel--fade-bottom', overflows && !atBottom);
+    panel.classList.toggle('filter-panel--fade-top',    overflows && !atTop);
+  }
+
+  update();
+  panel.addEventListener('scroll', update);
+  new ResizeObserver(update).observe(panel);
+})();
+</script>
+</body>
+</html>
+
