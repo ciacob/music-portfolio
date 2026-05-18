@@ -1,0 +1,11 @@
+{
+  "name": "music-portfolio",
+  "version": "1.0.0",
+  "description": "Claudius Iacob — composer portfolio",
+  "homepage": "https://ciacob.github.io/music-portfolio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ciacob/music-portfolio.git"
+  },
+  "private": true
+}
