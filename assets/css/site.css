@@ -363,7 +363,7 @@ h3 small, h4 small {
   display: block;
   width: 22px;
   height: 1.5px;
-  background-color: var(--ink);
+  background-color: var(--accent);
   transition: transform var(--transition), opacity var(--transition);
 }
 
