@@ -1066,6 +1066,12 @@ h3 small, h4 small {
 /* Mobile: flatten column wrappers so the article becomes a single flex column
    and we can reorder sections freely with `order` */
 @media (max-width: 1023px) {
+
+  /** Elements not showing on mobile */
+  .filter-panel, #score-heading {
+    display: none;
+  }
+
   .piece {
     display: flex;
     flex-direction: column;
