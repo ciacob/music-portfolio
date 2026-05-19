@@ -1,0 +1,7 @@
+{
+  "name": "site.relativize-links",
+  "trigger": {
+    "type": "step",
+    "stepType": "output"
+  }
+}
