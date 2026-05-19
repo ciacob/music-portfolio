@@ -1067,10 +1067,10 @@ h3 small, h4 small {
    and we can reorder sections freely with `order` */
 @media (max-width: 1023px) {
 
-  .filter-panel {
+  /** Elements not showing on mobile */
+  .filter-panel, #score-heading {
     display: none;
   }
-
 
   .piece {
     display: flex;
