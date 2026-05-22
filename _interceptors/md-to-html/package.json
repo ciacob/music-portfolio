@@ -1,7 +1,0 @@
-{
-  "name": "md-to-html",
-  "type": "commonjs",
-  "dependencies": {
-    "marked": "^18.0.4"
-  }
-}
