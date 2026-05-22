@@ -10,7 +10,7 @@ const {
   classify,
   processField,
   resolveSafePath,
-  isPieceObject,
+  isAssembledPiece,
   renderMd,
   transform,
   CATEGORY,
@@ -116,30 +116,30 @@ describe('resolveSafePath', () => {
 });
 
 // ---------------------------------------------------------------------------
-// isPieceObject
+// isAssembledPiece
 // ---------------------------------------------------------------------------
 
-describe('isPieceObject', () => {
-  it('returns true for object with slug, summary, programNotes', () => {
-    assert.ok(isPieceObject({ slug: 'x', summary: {}, programNotes: {} }));
+describe('isAssembledPiece', () => {
+  it('returns true for object with pieceNotes and pieceSummary', () => {
+    assert.ok(isAssembledPiece({ pieceNotes: '<p>Notes</p>', pieceSummary: '<p>Summary</p>' }));
   });
-  it('returns false for object missing slug', () => {
-    assert.equal(isPieceObject({ summary: {}, programNotes: {} }), false);
+  it('returns false for object missing pieceNotes', () => {
+    assert.equal(isAssembledPiece({ pieceSummary: '<p>Summary</p>' }), false);
   });
-  it('returns false for object missing summary', () => {
-    assert.equal(isPieceObject({ slug: 'x', programNotes: {} }), false);
-  });
-  it('returns false for object missing programNotes', () => {
-    assert.equal(isPieceObject({ slug: 'x', summary: {} }), false);
+  it('returns false for object missing pieceSummary', () => {
+    assert.equal(isAssembledPiece({ pieceNotes: '<p>Notes</p>' }), false);
   });
   it('returns false for null', () => {
-    assert.equal(isPieceObject(null), false);
+    assert.equal(isAssembledPiece(null), false);
   });
   it('returns false for array', () => {
-    assert.equal(isPieceObject([]), false);
+    assert.equal(isAssembledPiece([]), false);
   });
   it('returns false for string', () => {
-    assert.equal(isPieceObject('hello'), false);
+    assert.equal(isAssembledPiece('hello'), false);
+  });
+  it('returns false for a raw piece object (slug/summary/programNotes)', () => {
+    assert.equal(isAssembledPiece({ slug: 'x', summary: {}, programNotes: {} }), false);
   });
 });
 
@@ -257,79 +257,78 @@ describe('transform', () => {
     assert.equal(output.response, true);
   });
 
-  it('processes inline MD fields on a piece object', () => {
-    const piece = {
-      slug: 'test-piece',
-      title: { en: 'Test', ro: 'Test' },
-      summary: { en: '# Summary\n\nA paragraph.', ro: 'TBD' },
-      programNotes: { en: 'TBD', ro: 'TBD' },
+  it('processes inline MD fields on an assembled piece page object', () => {
+    const page = {
+      pieceTitle: 'Test',
+      pieceSummary: '# Summary\n\nA paragraph.',
+      pieceNotes: 'TBD',
     };
     const output = {};
-    transform({ 'template': 'piece.html', 'value': piece }, output, { log: () => {} });
+    transform({ 'template': 'piece.html', 'value': page }, output, { log: () => {} });
     assert.ok(typeof output.response === 'object');
-    assert.ok(output.response.summary.en.includes('<h1>Summary</h1>'), output.response.summary.en);
+    assert.ok(output.response.pieceSummary.includes('<h1>Summary</h1>'), output.response.pieceSummary);
   });
 
   it('leaves falsy fields untouched', () => {
-    const piece = {
-      slug: 'test-piece',
-      summary: { en: 'Some text.', ro: null },
-      programNotes: { en: 'TBD', ro: '' },
+    const page = {
+      pieceTitle: 'Test',
+      pieceSummary: null,
+      pieceNotes: '',
     };
     const output = {};
-    transform({ 'template': 'piece.html', 'value': piece }, output, { log: () => {} });
-    assert.equal(output.response.summary.ro, null);
-    assert.equal(output.response.programNotes.ro, '');
+    transform({ 'template': 'piece.html', 'value': page }, output, { log: () => {} });
+    assert.equal(output.response.pieceSummary, null);
+    assert.equal(output.response.pieceNotes, '');
   });
 
   it('leaves inline HTML fields untouched', () => {
     const html = '<p>Already <strong>HTML</strong>.</p>';
-    const piece = {
-      slug: 'test-piece',
-      summary: { en: html, ro: 'TBD' },
-      programNotes: { en: 'TBD', ro: 'TBD' },
+    const page = {
+      pieceTitle: 'Test',
+      pieceSummary: html,
+      pieceNotes: 'TBD',
     };
     const output = {};
-    transform({ 'template': 'piece.html', 'value': piece }, output, { log: () => {} });
-    assert.equal(output.response.summary.en, html);
+    transform({ 'template': 'piece.html', 'value': page }, output, { log: () => {} });
+    assert.equal(output.response.pieceSummary, html);
   });
 
   it('does not mutate the original value object', () => {
-    const piece = {
-      slug: 'test-piece',
-      summary: { en: '# Heading', ro: 'TBD' },
-      programNotes: { en: 'TBD', ro: 'TBD' },
+    const page = {
+      pieceTitle: 'Test',
+      pieceSummary: '# Heading',
+      pieceNotes: 'TBD',
     };
-    const original = JSON.stringify(piece);
+    const original = JSON.stringify(page);
     const output = {};
-    transform({ 'template': 'piece.html', 'value': piece }, output, { log: () => {} });
-    assert.equal(JSON.stringify(piece), original);
+    transform({ 'template': 'piece.html', 'value': page }, output, { log: () => {} });
+    assert.equal(JSON.stringify(page), original);
   });
 
   it('reads an MD file when field contains a .md path', () => {
     process.chdir(tmpDir);
-    const piece = {
-      slug: 'test-piece',
-      summary: { en: 'notes-en.md', ro: 'TBD' },
-      programNotes: { en: 'TBD', ro: 'TBD' },
+    const page = {
+      pieceTitle: 'Test',
+      pieceSummary: 'notes-en.md',
+      pieceNotes: 'TBD',
     };
     const output = {};
-    transform({ 'template': 'piece.html', 'value': piece }, output, { log: () => {} });
-    assert.ok(output.response.summary.en.includes('<h1>English notes</h1>'),
-      output.response.summary.en);
+    transform({ 'template': 'piece.html', 'value': page }, output, { log: () => {} });
+    assert.ok(output.response.pieceSummary.includes('<h1>English notes</h1>'),
+      output.response.pieceSummary);
   });
 
   it('throws a descriptive error for a missing file', () => {
     process.chdir(tmpDir);
-    const piece = {
-      slug: 'bad-piece',
-      summary: { en: 'nonexistent.md', ro: 'TBD' },
-      programNotes: { en: 'TBD', ro: 'TBD' },
+    const page = {
+      pieceTitle: 'Test',
+      pieceSummary: 'nonexistent.md',
+      pieceNotes: 'TBD',
     };
     const output = {};
     assert.throws(
-      () => transform({ 'template': 'piece.html', 'value': piece }, output, { log: () => {} }),
-      /bad-piece\.summary\.en/
+      () => transform({ 'template': 'piece.html', 'value': page }, output, { log: () => {} }),
+      /pieceSummary/
     );
   });
 });

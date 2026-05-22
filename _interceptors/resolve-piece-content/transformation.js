@@ -8,10 +8,10 @@
  * programNotes.ro) before they are stored in ctx.
  *
  * Fires on every resolve step. Only acts when the value about to be stored
- * in ctx is an object that looks like a piece — i.e., has all three of:
- * `slug`, `summary`, `programNotes`.
+ * in ctx is an assembled page object that looks like a piece page — i.e., has
+ * both `pieceNotes` and `pieceSummary` fields.
  *
- * For each of the four fields, content is classified and processed:
+ * For each of the two assembled fields, content is classified and processed:
  *
  *   inline HTML  — has at least one HTML tag other than <br> variants
  *                  → passed through unchanged
@@ -42,13 +42,8 @@ const { marked, Renderer } = require('marked');
 // Constants
 // ---------------------------------------------------------------------------
 
-// Fields within a piece object to process, as dot-paths
-const PIECE_FIELDS = [
-  ['summary',      'en'],
-  ['summary',      'ro'],
-  ['programNotes', 'en'],
-  ['programNotes', 'ro'],
-];
+// Top-level fields in the assembled piece page object to process
+const PIECE_FIELDS = ['pieceSummary', 'pieceNotes'];
 
 // Regex: matches any HTML tag whose tag name is NOT br (case-insensitive).
 // Used to detect inline HTML content.
@@ -199,20 +194,19 @@ function processField(content, siteRoot) {
 // ---------------------------------------------------------------------------
 
 /**
- * Determine whether a value looks like a piece object.
- * Requires all three of: slug, summary, programNotes.
+ * Determine whether a value looks like an assembled piece page object.
+ * Requires both `pieceNotes` and `pieceSummary` fields.
  *
  * @param {*} value
  * @returns {boolean}
  */
-function isPieceObject(value) {
+function isAssembledPiece(value) {
   return (
     value !== null &&
     typeof value === 'object' &&
     !Array.isArray(value) &&
-    'slug'         in value &&
-    'summary'      in value &&
-    'programNotes' in value
+    'pieceNotes'   in value &&
+    'pieceSummary' in value
   );
 }
 
@@ -232,34 +226,33 @@ function transform(args, output, tools) {
   const log   = (tools && tools.log) || (() => {});
   const value = args['value'];
 
-  if (!isPieceObject(value)) {
+  if (!isAssembledPiece(value)) {
     output.response = true;
     return;
   }
 
   const siteRoot = process.cwd();
 
-  // Deep-clone the piece object so we don't mutate the original
-  const piece = JSON.parse(JSON.stringify(value));
+  // Deep-clone the assembled object so we don't mutate the original
+  const page = JSON.parse(JSON.stringify(value));
 
-  for (const [field, lang] of PIECE_FIELDS) {
-    const content = piece[field] && piece[field][lang];
+  for (const field of PIECE_FIELDS) {
+    const content = page[field];
     if (!content) continue; // falsy — leave untouched
 
     const category = classify(content);
-    log(`  [resolve-piece-content] ${piece.slug}.${field}.${lang} → ${category}`);
+    log(`  [resolve-piece-content] ${field} → ${category}`);
 
     try {
-      piece[field][lang] = processField(content, siteRoot);
+      page[field] = processField(content, siteRoot);
     } catch (e) {
-      // Re-throw as a build failure with full context
       throw new Error(
-        `[resolve-piece-content] Failed processing "${piece.slug}.${field}.${lang}": ${e.message}`
+        `[resolve-piece-content] Failed processing "${field}": ${e.message}`
       );
     }
   }
 
-  output.response = piece;
+  output.response = page;
 }
 
 // ---------------------------------------------------------------------------
@@ -271,7 +264,7 @@ module.exports = {
   classify,
   processField,
   resolveSafePath,
-  isPieceObject,
+  isAssembledPiece,
   renderMd,
   CATEGORY,
 };
