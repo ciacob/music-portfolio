@@ -1,0 +1,55 @@
+{
+  "slug": "scala-paradisi",
+  "title": {
+    "en": "Scala Paradisi",
+    "ro": "Scala Paradisi"
+  },
+  "subtitle": {
+    "en": "Symphonic Meditation after St. John Climacus",
+    "ro": "Meditație simfonică după Sf. Ioan Scărarul"
+  },
+  "summary": {
+    "en": "TBD",
+    "ro": "TBD"
+  },
+  "programNotes": {
+    "en": "contents/text/scala-paradisi/notes-en.md",
+    "ro": "contents/text/scala-paradisi/notes-ro.md"
+  },
+  "picture": "assets/images/pieces/scala-paradisi.jpg",
+  "pictureAlt": {
+    "en": "TBD",
+    "ro": "TBD"
+  },
+  "imprint": {
+    "orchestration": {
+      "en": "TBD",
+      "ro": "TBD"
+    },
+    "lyrics": null,
+    "length": "TBD′",
+    "state": "finished",
+    "completedOn": "2026",
+    "premieredOn": null,
+    "premieredBy": null,
+    "honors": {
+      "en": "TBD",
+      "ro": "TBD"
+    },
+    "copyright": {
+      "en": "Claudius Iacob",
+      "ro": "Claudius Iacob"
+    }
+  },
+  "tags": [
+    "completed",
+    "contemporary",
+    "mild-dissonance",
+    "orchestra",
+    "piano",
+    "with-audio",
+    "with-score"
+  ],
+  "score": "assets/scores/scala-paradisi.pdf",
+  "recording": "assets/audio/scala-paradisi.mp3"
+}
