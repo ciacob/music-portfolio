@@ -9,8 +9,8 @@
     "ro": "Meditație simfonică după Sf. Ioan Scărarul"
   },
   "summary": {
-    "en": "TBD",
-    "ro": "TBD"
+    "en": "<p><em>Scala Paradisi</em> is a discourse on ascent repeatedly broken and painfully resumed. From a massive, heavily divided string body struggling upward toward light to the emergence of a psalm-like, Byzantine-inflected melodic idiom capable of dialogue and transformation, the work turns Saint John Climacus's ladder into a structural source for rupture, reiteration, and hard-won fulfilment rather than into explicit programme music.</p>",
+    "ro": "<p><em>Scala Paradisi</em> este un discurs despre urcușul mereu frânt și cu multă dificultate reluat. Pornind de la masa sonoră compactă a corzilor excesiv divizate — care înaintează dureros și fragmentar spre lumină — și urmărind apariția unui idiom melodic de filiație bizantină, psalmodică, capabil de dialog și transfigurare, lucrarea transformă Scara Sfântului Ioan Climacus într-o sursă organică de sciziuni, reiterări și împliniri greu câștigate, fără a deveni prin aceasta muzică cu program.</p>"
   },
   "programNotes": {
     "en": "contents/text/scala-paradisi/notes-en.md",
@@ -18,23 +18,23 @@
   },
   "picture": "assets/images/pieces/scala-paradisi.jpg",
   "pictureAlt": {
-    "en": "TBD",
-    "ro": "TBD"
+    "en": "Icon of the Ladder of Divine Ascent",
+    "ro": "Icoană a Scării dumnezeiescului urcuș"
   },
   "imprint": {
     "orchestration": {
-      "en": "TBD",
-      "ro": "TBD"
+      "en": "orchestra with piano",
+      "ro": "orchestră cu pian"
     },
     "lyrics": null,
-    "length": "TBD′",
+    "length": "19:33′",
     "state": "finished",
     "completedOn": "2026",
     "premieredOn": null,
     "premieredBy": null,
     "honors": {
-      "en": "TBD",
-      "ro": "TBD"
+      "en": null,
+      "ro": null
     },
     "copyright": {
       "en": "Claudius Iacob",
@@ -42,11 +42,13 @@
     }
   },
   "tags": [
+    "classical",
     "completed",
     "contemporary",
     "mild-dissonance",
     "orchestra",
     "piano",
+    "strings",
     "with-audio",
     "with-score"
   ],
