@@ -479,6 +479,21 @@ function prepareIndex() {
   };
 }
 
+/**
+ * Provisions 404 page data.
+ *
+ * @returns {object} Object with keys pageTitle, heading, subheading, fallbackLabel.
+ */
+function prepare404() {
+  const commons = JSON.parse(fs.readFileSync('contents/commons.json', 'utf8'));
+  return {
+    pageTitle:     t(commons.site.title, commons.site.defaultLanguage) + ' — Page not found',
+    heading:       'Page not found',
+    subheading:    'Redirecting you to the home page…',
+    fallbackLabel: 'Go to home page',
+  };
+}
+
 module.exports = {
   utils: {
     t,
@@ -816,4 +831,5 @@ Object.assign(module.exports.utils, {
   loadTags,
   loadPieceBySlug,
   prepareIndex,
+  prepare404,
 });

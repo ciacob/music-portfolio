@@ -24,6 +24,23 @@
       "override": true
     },
     {
+      "_comment": "404 PAGE \u2014 redirect for unknown URLs",
+      "type": "resolve",
+      "template": "partials/prepare-404.html",
+      "target": "current"
+    },
+    {
+      "type": "resolve",
+      "template": "404.html",
+      "target": "pages.404"
+    },
+    {
+      "type": "output",
+      "source": "pages.404",
+      "target": "404.html",
+      "override": true
+    },
+    {
       "type": "loop",
       "collection": [
         {
