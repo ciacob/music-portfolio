@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Broken Sounds — Page not found</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Jost', 'Helvetica Neue', sans-serif;
+      background-color: #f7f4ef;
+      color: #1a1814;
+    }
+    .message {
+      text-align: center;
+      padding: 2rem;
+    }
+    .message h1 {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-weight: 300;
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    .message p {
+      color: #4a4640;
+      margin-bottom: 1.5rem;
+    }
+    .message a {
+      color: #8b2020;
+    }
+  </style>
+</head>
+<body>
+  <div class="message">
+    <h1>Page not found</h1>
+    <p>Redirecting you to the home page…</p>
+    <noscript>
+      <p><a href="index.html">Go to home page</a></p>
+    </noscript>
+  </div>
+  <script>
+    window.location.replace('index.html');
+  </script>
+</body>
+</html>
