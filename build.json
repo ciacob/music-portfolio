@@ -1,6 +1,13 @@
 {
   "buildSteps": [
     {
+      "_comment": "Copy CNAME file",
+      "type": "copy",
+      "source": "CNAME",
+      "target": "CNAME",
+      "override": true
+    },
+    {
       "type": "copy",
       "source": "assets",
       "target": "assets",
